@@ -1,5 +1,5 @@
 ---
-# It holds that 100000000 e8s = 1 SNS token.
+# It holds that 100000000 e8s = 1 SNS-token.
 #
 #
 # SNS LEDGER
@@ -7,7 +7,7 @@
 # Fee of a ledger transaction.
 # Default value = 10000
 #
-# 0.001 Tokens
+# Current Configuration = 0.001 SNS-Tokens
 transaction_fee_e8s: 100000
 #
 # The name of the token issued by the SNS ledger.
@@ -16,7 +16,7 @@ transaction_fee_e8s: 100000
 #
 # Example: InternetComputerProtocol
 #
-token_name: CHAT
+token_name: HOT
 #
 # The symbol of the token issued by the SNS Ledger.
 # This field has no default, a value must be provided by the user.
@@ -24,7 +24,7 @@ token_name: CHAT
 #
 # Example: ICP
 #
-token_symbol: CHAT
+token_symbol: HOT
 #
 #
 # SNS GOVERNANCE
@@ -32,41 +32,42 @@ token_symbol: CHAT
 # The cost of making a proposal that is not adopted in e8s.
 # Default value = 100000000
 #
-# 10 Tokens
+# Current Configuration = 10 SNS-Tokens
 proposal_reject_cost_e8s: 1000000000
 #
 # The minimum amount of SNS Token e8s an SNS Ledger account must have to stake a neuron.
 # Default value = 100000000
 #
-# 4 Tokens
-neuron_minimum_stake_e8s: 400000000
+# Current Configuration = 5 SNS-Tokens
+neuron_minimum_stake_e8s: 500000000
 #
 # The minimum dissolve_delay in seconds a neuron must have to be able to cast votes on proposals.
 # Default value = 15768000
 #
-# 1 month = (365 / 12) days
-neuron_minimum_dissolve_delay_to_vote_seconds: 2628000
+# Current Configuration = 3 months = (3 * 365 / 12) days
+neuron_minimum_dissolve_delay_to_vote_seconds: 7889400
 #
 # Path to the SNS Project logo on the local filesystem. The path is relative
 # to the running sns binary, so an absolute path to the logo file is recommended.
 # Must have less than 341334 characters, roughly 256Kb.
 #
+# Current Configuration = This needs to be set; Need Saikat's input on the same
 logo: ./apple-touch-icon.png
 #
 # Url to the dapp controlled by the SNS project.
 # Must be a string of max length = 512.
 #
-url: https://oc.app
+url: https://hotornot.wtf
 #
 # Name of the SNS project. This may differ from the name of the associated token name.
 # Must be a string of max length = 255.
 #
-name: "OpenChat"
+name: "HotorNot"
 #
 # Description of the SNS project.
 # Must be a string of max length = 2000.
 #
-description: "A decentralized chat app governed by the people for the people"
+description: "A decentralized short-video social media platform governed by the people for the people"
 #
 # The voting reward rate falls quadratically from
 # `initial_reward_rate_basis_points` to `final_reward_rate_basis_points` over
@@ -76,8 +77,8 @@ description: "A decentralized chat app governed by the people for the people"
 # `final_reward_rate_basis_points`. The value used by the NNS is 8 years, or
 # 252460800 seconds. (The value cannot be set to 0.)
 #
-#
-reward_rate_transition_duration_seconds: 0
+# Current Configuration = 10 years
+reward_rate_transition_duration_seconds: 315576000
 #
 # The voting reward rate controls how quickly the supply of the SNS token
 # increases. For example, a reward rate of 2% will cause the supply to increase
@@ -97,15 +98,15 @@ reward_rate_transition_duration_seconds: 0
 # The default value for final_reward_rate_percentage is 0. The value used by
 # the NNS is 5%.
 #
-initial_reward_rate_percentage: 2.5
-final_reward_rate_percentage: 2.5
+initial_reward_rate_percentage: 10
+final_reward_rate_percentage: 5
 #
 # The maximum dissolve delay that a neuron can have.
 #
 # The default value is 252460800 seconds (96 months).
 #
-# 1 year = 365 days
-max_dissolve_delay_seconds: 31536000
+# Current Configuration = 4 year = 4 * 365 days
+max_dissolve_delay_seconds: 126230400
 #
 # It is possible to give a higher voting weight to older neurons by setting
 # `max_age_bonus_percentage` to a value other than zero. This parameter,
@@ -115,8 +116,8 @@ max_dissolve_delay_seconds: 31536000
 #
 # The default value is 126144000 seconds (48 months).
 #
-# 6 months = (365 / 2) days
-max_neuron_age_seconds_for_age_bonus: 15768000
+# Current Configuration = 2 years = 2 * 365 days
+max_neuron_age_seconds_for_age_bonus: 63115200
 #
 # Users with a higher dissolve delay are incentivized to take the long-term
 # interests of the SNS into consideration when voting. To reward this long time
