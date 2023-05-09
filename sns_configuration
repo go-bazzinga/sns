@@ -150,6 +150,7 @@ max_age_bonus_multiplier: 1.25
 # principal IDs. In most use cases, this is set to the original set of controller(s) of the dapp.
 # This field has no default, a value must be provided by the user.
 #
+# Current Configuration = Need Saikat's Input for this
 fallback_controller_principal_ids: ["tu45y-p4p3d-b4gg4-gmyy3-rgweo-whsrq-fephi-vshrn-cipca-xdkri-pae"]
 #
 # The initial voting period in seconds of a newly created proposal.
