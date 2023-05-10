@@ -254,7 +254,7 @@ initial_token_distribution:
        #    
          - controller: # Rishi Chadha's Month 1 neurons
            stake_e8s: 104166700000000 # Month 1 Vesting
-            memo: 0
+           memo: 0
            dissolve_delay_seconds: 7889400 # 3 months
            vesting_period_seconds: 2629800 # 1 month
          - controller: # Rishi Chadha's Month 2 neurons
