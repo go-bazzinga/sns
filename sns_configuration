@@ -1,4 +1,6 @@
 ---
+# To be discussed with Saikat - Line 56, 155, 206
+#
 # It holds that 100000000 e8s = 1 SNS-token.
 #
 #
@@ -233,130 +235,2166 @@ initial_token_distribution:
    FractionalDeveloperVotingPower:
      developer_distribution:
        developer_neurons:
-         - controller: tu45y-p4p3d-b4gg4-gmyy3-rgweo-whsrq-fephi-vshrn-cipca-xdkri-pae # DEV team neuron for making proposals
-           stake_e8s: 20000000000 # 200 CHAT which allows 20 in-flight proposals
-           memo: 0
-           dissolve_delay_seconds: 31536000 # 1 year
-           vesting_period_seconds: 0
-         - controller: npqv2-jqaaa-aaaar-qaaha-cai # DEV team beacon neuron for communtity to follow. It will follow the 3 personal dev beacon neurons.
-           stake_e8s: 400000000 # 4 CHAT which is the mimimum stake
-           memo: 0
-           dissolve_delay_seconds: 31536000 # 1 year
-           vesting_period_seconds: 0
-         - controller: liskq-yvpvq-eo6av-3gaz6-izybe-x74ku-t42w5-si5dq-eitcy-sih4g-lqe # Personal beacon neuron for Matt. All Matt's bigger neurons will follow this one.
-           stake_e8s: 400000000 # 4 CHAT which is the mimimum stake
-           memo: 0
-           dissolve_delay_seconds: 31536000 # 1 year
-           vesting_period_seconds: 0
-         - controller: liskq-yvpvq-eo6av-3gaz6-izybe-x74ku-t42w5-si5dq-eitcy-sih4g-lqe # Matt
-           stake_e8s: 100000000000000 # 1%
+       #
+       #  - controller: tu45y-p4p3d-b4gg4-gmyy3-rgweo-whsrq-fephi-vshrn-cipca-xdkri-pae # DEV team neuron for making proposals
+       #    stake_e8s: 20000000000 # 200 CHAT which allows 20 in-flight proposals
+       #    memo: 0
+       #    dissolve_delay_seconds: 31536000 # 1 year
+       #    vesting_period_seconds: 0
+       #  - controller: npqv2-jqaaa-aaaar-qaaha-cai # DEV team beacon neuron for communtity to follow. It will follow the 3 personal dev beacon neurons.
+       #    stake_e8s: 400000000 # 4 CHAT which is the mimimum stake
+       #    memo: 0
+       #    dissolve_delay_seconds: 31536000 # 1 year
+       #    vesting_period_seconds: 0
+       #  - controller: liskq-yvpvq-eo6av-3gaz6-izybe-x74ku-t42w5-si5dq-eitcy-sih4g-lqe # Personal beacon neuron for Matt. All Matt's bigger neurons will follow this one.
+       #    stake_e8s: 400000000 # 4 CHAT which is the mimimum stake
+       #    memo: 0
+       #    dissolve_delay_seconds: 31536000 # 1 year
+       #    vesting_period_seconds: 0
+       #    
+         - controller: # Rishi Chadha's Month 1 neurons
+           stake_e8s: 104166700000000 # Month 1 Vesting
+            memo: 0
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 2629800 # 1 month
+         - controller: # Rishi Chadha's Month 2 neurons
+           stake_e8s: 104166700000000 # Month 2 Vesting
            memo: 1
-           dissolve_delay_seconds: 2628000 # 1 month
-           vesting_period_seconds: 0
-         - controller: liskq-yvpvq-eo6av-3gaz6-izybe-x74ku-t42w5-si5dq-eitcy-sih4g-lqe # Matt
-           stake_e8s: 100000000000000 # 1%
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 5259600 # 2 month
+         - controller: # Rishi Chadha's Month 3 neurons
+           stake_e8s: 104166700000000 # Month 3 Vesting
            memo: 2
-           dissolve_delay_seconds: 2628000 # 1 month
-           vesting_period_seconds: 31536000 # 1 year
-         - controller: liskq-yvpvq-eo6av-3gaz6-izybe-x74ku-t42w5-si5dq-eitcy-sih4g-lqe # Matt
-           stake_e8s: 100000000000000 # 1%
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 7889400 # 3 month
+         - controller: # Rishi Chadha's Month 4 neurons
+           stake_e8s: 104166700000000 # Month 4 Vesting
            memo: 3
-           dissolve_delay_seconds: 2628000 # 1 month
-           vesting_period_seconds: 63072000 # 2 years
-         - controller: liskq-yvpvq-eo6av-3gaz6-izybe-x74ku-t42w5-si5dq-eitcy-sih4g-lqe # Matt
-           stake_e8s: 100000000000000 # 1%
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 10519200 # 4 month
+         - controller: # Rishi Chadha's Month 5 neurons
+           stake_e8s: 104166700000000 # Month 5 Vesting
            memo: 4
-           dissolve_delay_seconds: 2628000 # 1 month
-           vesting_period_seconds: 94608000 # 3 years
-         - controller: liskq-yvpvq-eo6av-3gaz6-izybe-x74ku-t42w5-si5dq-eitcy-sih4g-lqe # Matt
-           stake_e8s: 100000000000000 # 1%
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 13149000 # 5 month
+         - controller: # Rishi Chadha's Month 6 neurons
+           stake_e8s: 104166700000000 # Month 6 Vesting
            memo: 5
-           dissolve_delay_seconds: 2628000 # 1 month
-           vesting_period_seconds: 126144000 # 4 years
-         - controller: zeu5w-lsfxj-o4f5b-xl4sg-enqva-ez4wa-2nlbb-ufigi-fwnmv-zrfok-uae # Personal beacon neuron for Hamnish. All Hamish's bigger neurons will follow this one.
-           stake_e8s: 400000000 # 4 CHAT which is the mimimum stake
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 15778800 # 6 month
+         - controller: # Rishi Chadha's Month 7 neurons
+           stake_e8s: 104166700000000 # Month 7 Vesting
+           memo: 6
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 18408600 # 7 month
+         - controller: # Rishi Chadha's Month 8 neurons
+           stake_e8s: 104166700000000 # Month 8 Vesting
+           memo: 7
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 21038400 # 8 month
+         - controller: # Rishi Chadha's Month 9 neurons
+           stake_e8s: 104166700000000 # Month 9 Vesting
+           memo: 8
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 23668200 # 9 month
+         - controller: # Rishi Chadha's Month 10 neurons
+           stake_e8s: 104166700000000 # Month 10 Vesting
+           memo: 9
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 26298000 # 10 month
+         - controller: # Rishi Chadha's Month 11 neurons
+           stake_e8s: 104166700000000 # Month 11 Vesting
+           memo: 10
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 28927800 # 11 month
+         - controller: # Rishi Chadha's Month 12 neurons
+           stake_e8s: 104166700000000 # Month 12 Vesting
+           memo: 11
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 31557600 # 12 month
+         - controller: # Rishi Chadha's Month 13 neurons
+           stake_e8s: 104166700000000 # Month 13 Vesting
+           memo: 12
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 34187400 # 13 month
+         - controller: # Rishi Chadha's Month 14 neurons
+           stake_e8s: 104166700000000 # Month 14 Vesting
+           memo: 13
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 36817200 # 14 month
+         - controller: # Rishi Chadha's Month 15 neurons
+           stake_e8s: 104166700000000 # Month 15 Vesting
+           memo: 14
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 39447000 # 15 month
+         - controller: # Rishi Chadha's Month 16 neurons
+           stake_e8s: 104166700000000 # Month 16 Vesting
+           memo: 15
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 42076800 # 16 month
+         - controller: # Rishi Chadha's Month 17 neurons
+           stake_e8s: 104166700000000 # Month 17 Vesting
+           memo: 16
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 44706600 # 17 month
+         - controller: # Rishi Chadha's Month 18 neurons
+           stake_e8s: 104166700000000 # Month 18 Vesting
+           memo: 17
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 47336400 # 18 month
+         - controller: # Rishi Chadha's Month 19 neurons
+           stake_e8s: 104166700000000 # Month 19 Vesting
+           memo: 18
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 49966200 # 19 month
+         - controller: # Rishi Chadha's Month 20 neurons
+           stake_e8s: 104166700000000 # Month 20 Vesting
+           memo: 19
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 52596000 # 20 month
+         - controller: # Rishi Chadha's Month 21 neurons
+           stake_e8s: 104166700000000 # Month 21 Vesting
+           memo: 20
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 55225800 # 21 month
+         - controller: # Rishi Chadha's Month 22 neurons
+           stake_e8s: 104166700000000 # Month 22 Vesting
+           memo: 21
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 57855600 # 22 month
+         - controller: # Rishi Chadha's Month 23 neurons
+           stake_e8s: 104166700000000 # Month 23 Vesting
+           memo: 22
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 60485400 # 23 month
+         - controller: # Rishi Chadha's Month 24 neurons
+           stake_e8s: 104166700000000 # Month 24 Vesting
+           memo: 23
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 63115200 # 24 month
+         - controller: # Rishi Chadha's Month 25 neurons
+           stake_e8s: 104166700000000 # Month 25 Vesting
+           memo: 24
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 65745000 # 25 month
+         - controller: # Rishi Chadha's Month 26 neurons
+           stake_e8s: 104166700000000 # Month 26 Vesting
+           memo: 25
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 68374800 # 26 month
+         - controller: # Rishi Chadha's Month 27 neurons
+           stake_e8s: 104166700000000 # Month 27 Vesting
+           memo: 26
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 71004600 # 27 month
+         - controller: # Rishi Chadha's Month 28 neurons
+           stake_e8s: 104166700000000 # Month 28 Vesting
+           memo: 27
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 73634400 # 28 month
+         - controller: # Rishi Chadha's Month 29 neurons
+           stake_e8s: 104166700000000 # Month 29 Vesting
+           memo: 28
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 76264200 # 29 month
+         - controller: # Rishi Chadha's Month 30 neurons
+           stake_e8s: 104166700000000 # Month 30 Vesting
+           memo: 29
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 78894000 # 30 month
+         - controller: # Rishi Chadha's Month 31 neurons
+           stake_e8s: 104166700000000 # Month 31 Vesting
+           memo: 30
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 81523800 # 31 month
+         - controller: # Rishi Chadha's Month 32 neurons
+           stake_e8s: 104166700000000 # Month 32 Vesting
+           memo: 31
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 84153600 # 32 month
+         - controller: # Rishi Chadha's Month 33 neurons
+           stake_e8s: 104166700000000 # Month 33 Vesting
+           memo: 32
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 86783400 # 33 month
+         - controller: # Rishi Chadha's Month 34 neurons
+           stake_e8s: 104166700000000 # Month 34 Vesting
+           memo: 33
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 89413200 # 34 month
+         - controller: # Rishi Chadha's Month 35 neurons
+           stake_e8s: 104166700000000 # Month 35 Vesting
+           memo: 34
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 92043000 # 35 month
+         - controller: # Rishi Chadha's Month 36 neurons
+           stake_e8s: 104166700000000 # Month 36 Vesting
+           memo: 35
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 94672800 # 36 month
+         - controller: # Rishi Chadha's Month 37 neurons
+           stake_e8s: 104166700000000 # Month 37 Vesting
+           memo: 36
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 97302600 # 37 month
+         - controller: # Rishi Chadha's Month 38 neurons
+           stake_e8s: 104166700000000 # Month 38 Vesting
+           memo: 37
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 99932400 # 38 month
+         - controller: # Rishi Chadha's Month 39 neurons
+           stake_e8s: 104166700000000 # Month 39 Vesting
+           memo: 38
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 102562200 # 39 month
+         - controller: # Rishi Chadha's Month 40 neurons
+           stake_e8s: 104166700000000 # Month 40 Vesting
+           memo: 39
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 105192000 # 40 month
+         - controller: # Rishi Chadha's Month 41 neurons
+           stake_e8s: 104166700000000 # Month 41 Vesting
+           memo: 40
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 107821800 # 41 month
+         - controller: # Rishi Chadha's Month 42 neurons
+           stake_e8s: 104166700000000 # Month 42 Vesting
+           memo: 41
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 110451600 # 42 month
+         - controller: # Rishi Chadha's Month 43 neurons
+           stake_e8s: 104166700000000 # Month 43 Vesting
+           memo: 42
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 113081400 # 43 month
+         - controller: # Rishi Chadha's Month 44 neurons
+           stake_e8s: 104166700000000 # Month 44 Vesting
+           memo: 43
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 115711200 # 44 month
+         - controller: # Rishi Chadha's Month 45 neurons
+           stake_e8s: 104166700000000 # Month 45 Vesting
+           memo: 44
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 118341000 # 45 month
+         - controller: # Rishi Chadha's Month 46 neurons
+           stake_e8s: 104166700000000 # Month 46 Vesting
+           memo: 45
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 120970800 # 46 month
+         - controller: # Rishi Chadha's Month 47 neurons
+           stake_e8s: 104166700000000 # Month 47 Vesting
+           memo: 46
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 123600600 # 47 month
+         - controller: # Rishi Chadha's Month 48 neurons
+           stake_e8s: 104165100000000 # Month 48 Vesting
+           memo: 47
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 126230400 # 48 month
+           
+         - controller: # Saikat Das's Month 1 neurons
+           stake_e8s: 104166700000000 # Month 1 Vesting
            memo: 0
-           dissolve_delay_seconds: 31536000 # 1 year
-           vesting_period_seconds: 0
-         - controller: zeu5w-lsfxj-o4f5b-xl4sg-enqva-ez4wa-2nlbb-ufigi-fwnmv-zrfok-uae # Hamish
-           stake_e8s: 100000000000000 # 1%
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 2629800 # 1 month
+         - controller: # Saikat Das's Month 2 neurons
+           stake_e8s: 104166700000000 # Month 2 Vesting
            memo: 1
-           dissolve_delay_seconds: 2628000 # 1 month
-           vesting_period_seconds: 0
-         - controller: zeu5w-lsfxj-o4f5b-xl4sg-enqva-ez4wa-2nlbb-ufigi-fwnmv-zrfok-uae # Hamish
-           stake_e8s: 100000000000000 # 1%
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 5259600 # 2 month
+         - controller: # Saikat Das's Month 3 neurons
+           stake_e8s: 104166700000000 # Month 3 Vesting
            memo: 2
-           dissolve_delay_seconds: 2628000 # 1 month
-           vesting_period_seconds: 31536000 # 1 year
-         - controller: zeu5w-lsfxj-o4f5b-xl4sg-enqva-ez4wa-2nlbb-ufigi-fwnmv-zrfok-uae # Hamish
-           stake_e8s: 100000000000000 # 1%
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 7889400 # 3 month
+         - controller: # Saikat Das's Month 4 neurons
+           stake_e8s: 104166700000000 # Month 4 Vesting
            memo: 3
-           dissolve_delay_seconds: 2628000 # 1 month
-           vesting_period_seconds: 63072000 # 2 years
-         - controller: zeu5w-lsfxj-o4f5b-xl4sg-enqva-ez4wa-2nlbb-ufigi-fwnmv-zrfok-uae # Hamish
-           stake_e8s: 100000000000000 # 1%
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 10519200 # 4 month
+         - controller: # Saikat Das's Month 5 neurons
+           stake_e8s: 104166700000000 # Month 5 Vesting
            memo: 4
-           dissolve_delay_seconds: 2628000 # 1 month
-           vesting_period_seconds: 94608000 # 3 years
-         - controller: zeu5w-lsfxj-o4f5b-xl4sg-enqva-ez4wa-2nlbb-ufigi-fwnmv-zrfok-uae # Hamish
-           stake_e8s: 100000000000000 # 1%
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 13149000 # 5 month
+         - controller: # Saikat Das's Month 6 neurons
+           stake_e8s: 104166700000000 # Month 6 Vesting
            memo: 5
-           dissolve_delay_seconds: 2628000 # 1 month
-           vesting_period_seconds: 126144000 # 4 years
-         - controller: 4s36z-lcydz-e4ts5-nuzlo-h3ksp-uu4fe-xndls-pq6ah-mmv5k-x5rjw-hqe # Personal beacon neuron for Julian. All Julian's bigger neurons will follow this one.
-           stake_e8s: 400000000 # 4 CHAT which is the mimimum stake
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 15778800 # 6 month
+         - controller: # Saikat Das's Month 7 neurons
+           stake_e8s: 104166700000000 # Month 7 Vesting
+           memo: 6
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 18408600 # 7 month
+         - controller: # Saikat Das's Month 8 neurons
+           stake_e8s: 104166700000000 # Month 8 Vesting
+           memo: 7
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 21038400 # 8 month
+         - controller: # Saikat Das's Month 9 neurons
+           stake_e8s: 104166700000000 # Month 9 Vesting
+           memo: 8
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 23668200 # 9 month
+         - controller: # Saikat Das's Month 10 neurons
+           stake_e8s: 104166700000000 # Month 10 Vesting
+           memo: 9
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 26298000 # 10 month
+         - controller: # Saikat Das's Month 11 neurons
+           stake_e8s: 104166700000000 # Month 11 Vesting
+           memo: 10
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 28927800 # 11 month
+         - controller: # Saikat Das's Month 12 neurons
+           stake_e8s: 104166700000000 # Month 12 Vesting
+           memo: 11
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 31557600 # 12 month
+         - controller: # Saikat Das's Month 13 neurons
+           stake_e8s: 104166700000000 # Month 13 Vesting
+           memo: 12
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 34187400 # 13 month
+         - controller: # Saikat Das's Month 14 neurons
+           stake_e8s: 104166700000000 # Month 14 Vesting
+           memo: 13
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 36817200 # 14 month
+         - controller: # Saikat Das's Month 15 neurons
+           stake_e8s: 104166700000000 # Month 15 Vesting
+           memo: 14
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 39447000 # 15 month
+         - controller: # Saikat Das's Month 16 neurons
+           stake_e8s: 104166700000000 # Month 16 Vesting
+           memo: 15
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 42076800 # 16 month
+         - controller: # Saikat Das's Month 17 neurons
+           stake_e8s: 104166700000000 # Month 17 Vesting
+           memo: 16
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 44706600 # 17 month
+         - controller: # Saikat Das's Month 18 neurons
+           stake_e8s: 104166700000000 # Month 18 Vesting
+           memo: 17
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 47336400 # 18 month
+         - controller: # Saikat Das's Month 19 neurons
+           stake_e8s: 104166700000000 # Month 19 Vesting
+           memo: 18
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 49966200 # 19 month
+         - controller: # Saikat Das's Month 20 neurons
+           stake_e8s: 104166700000000 # Month 20 Vesting
+           memo: 19
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 52596000 # 20 month
+         - controller: # Saikat Das's Month 21 neurons
+           stake_e8s: 104166700000000 # Month 21 Vesting
+           memo: 20
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 55225800 # 21 month
+         - controller: # Saikat Das's Month 22 neurons
+           stake_e8s: 104166700000000 # Month 22 Vesting
+           memo: 21
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 57855600 # 22 month
+         - controller: # Saikat Das's Month 23 neurons
+           stake_e8s: 104166700000000 # Month 23 Vesting
+           memo: 22
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 60485400 # 23 month
+         - controller: # Saikat Das's Month 24 neurons
+           stake_e8s: 104166700000000 # Month 24 Vesting
+           memo: 23
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 63115200 # 24 month
+         - controller: # Saikat Das's Month 25 neurons
+           stake_e8s: 104166700000000 # Month 25 Vesting
+           memo: 24
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 65745000 # 25 month
+         - controller: # Saikat Das's Month 26 neurons
+           stake_e8s: 104166700000000 # Month 26 Vesting
+           memo: 25
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 68374800 # 26 month
+         - controller: # Saikat Das's Month 27 neurons
+           stake_e8s: 104166700000000 # Month 27 Vesting
+           memo: 26
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 71004600 # 27 month
+         - controller: # Saikat Das's Month 28 neurons
+           stake_e8s: 104166700000000 # Month 28 Vesting
+           memo: 27
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 73634400 # 28 month
+         - controller: # Saikat Das's Month 29 neurons
+           stake_e8s: 104166700000000 # Month 29 Vesting
+           memo: 28
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 76264200 # 29 month
+         - controller: # Saikat Das's Month 30 neurons
+           stake_e8s: 104166700000000 # Month 30 Vesting
+           memo: 29
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 78894000 # 30 month
+         - controller: # Saikat Das's Month 31 neurons
+           stake_e8s: 104166700000000 # Month 31 Vesting
+           memo: 30
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 81523800 # 31 month
+         - controller: # Saikat Das's Month 32 neurons
+           stake_e8s: 104166700000000 # Month 32 Vesting
+           memo: 31
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 84153600 # 32 month
+         - controller: # Saikat Das's Month 33 neurons
+           stake_e8s: 104166700000000 # Month 33 Vesting
+           memo: 32
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 86783400 # 33 month
+         - controller: # Saikat Das's Month 34 neurons
+           stake_e8s: 104166700000000 # Month 34 Vesting
+           memo: 33
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 89413200 # 34 month
+         - controller: # Saikat Das's Month 35 neurons
+           stake_e8s: 104166700000000 # Month 35 Vesting
+           memo: 34
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 92043000 # 35 month
+         - controller: # Saikat Das's Month 36 neurons
+           stake_e8s: 104166700000000 # Month 36 Vesting
+           memo: 35
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 94672800 # 36 month
+         - controller: # Saikat Das's Month 37 neurons
+           stake_e8s: 104166700000000 # Month 37 Vesting
+           memo: 36
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 97302600 # 37 month
+         - controller: # Saikat Das's Month 38 neurons
+           stake_e8s: 104166700000000 # Month 38 Vesting
+           memo: 37
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 99932400 # 38 month
+         - controller: # Saikat Das's Month 39 neurons
+           stake_e8s: 104166700000000 # Month 39 Vesting
+           memo: 38
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 102562200 # 39 month
+         - controller: # Saikat Das's Month 40 neurons
+           stake_e8s: 104166700000000 # Month 40 Vesting
+           memo: 39
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 105192000 # 40 month
+         - controller: # Saikat Das's Month 41 neurons
+           stake_e8s: 104166700000000 # Month 41 Vesting
+           memo: 40
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 107821800 # 41 month
+         - controller: # Saikat Das's Month 42 neurons
+           stake_e8s: 104166700000000 # Month 42 Vesting
+           memo: 41
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 110451600 # 42 month
+         - controller: # Saikat Das's Month 43 neurons
+           stake_e8s: 104166700000000 # Month 43 Vesting
+           memo: 42
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 113081400 # 43 month
+         - controller: # Saikat Das's Month 44 neurons
+           stake_e8s: 104166700000000 # Month 44 Vesting
+           memo: 43
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 115711200 # 44 month
+         - controller: # Saikat Das's Month 45 neurons
+           stake_e8s: 104166700000000 # Month 45 Vesting
+           memo: 44
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 118341000 # 45 month
+         - controller: # Saikat Das's Month 46 neurons
+           stake_e8s: 104166700000000 # Month 46 Vesting
+           memo: 45
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 120970800 # 46 month
+         - controller: # Saikat Das's Month 47 neurons
+           stake_e8s: 104166700000000 # Month 47 Vesting
+           memo: 46
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 123600600 # 47 month
+         - controller: # Saikat Das's Month 48 neurons
+           stake_e8s: 104165100000000 # Month 48 Vesting
+           memo: 47
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 126230400 # 48 month
+           
+         - controller: # Utkarsh Goyal's Month 1 neurons
+           stake_e8s: 104166700000000 # Month 1 Vesting
            memo: 0
-           dissolve_delay_seconds: 31536000 # 1 year
-           vesting_period_seconds: 0
-         - controller: 4s36z-lcydz-e4ts5-nuzlo-h3ksp-uu4fe-xndls-pq6ah-mmv5k-x5rjw-hqe # Julian
-           stake_e8s: 100000000000000 # 1%
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 2629800 # 1 month
+         - controller: # Utkarsh Goyal's Month 2 neurons
+           stake_e8s: 104166700000000 # Month 2 Vesting
            memo: 1
-           dissolve_delay_seconds: 2628000 # 1 month
-           vesting_period_seconds: 0
-         - controller: 4s36z-lcydz-e4ts5-nuzlo-h3ksp-uu4fe-xndls-pq6ah-mmv5k-x5rjw-hqe # Julian
-           stake_e8s: 100000000000000 # 1%
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 5259600 # 2 month
+         - controller: # Utkarsh Goyal's Month 3 neurons
+           stake_e8s: 104166700000000 # Month 3 Vesting
            memo: 2
-           dissolve_delay_seconds: 2628000 # 1 month
-           vesting_period_seconds: 31536000 # 1 year
-         - controller: 4s36z-lcydz-e4ts5-nuzlo-h3ksp-uu4fe-xndls-pq6ah-mmv5k-x5rjw-hqe # Julian
-           stake_e8s: 100000000000000 # 1%
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 7889400 # 3 month
+         - controller: # Utkarsh Goyal's Month 4 neurons
+           stake_e8s: 104166700000000 # Month 4 Vesting
            memo: 3
-           dissolve_delay_seconds: 2628000 # 1 month
-           vesting_period_seconds: 63072000 # 2 years
-         - controller: 4s36z-lcydz-e4ts5-nuzlo-h3ksp-uu4fe-xndls-pq6ah-mmv5k-x5rjw-hqe # Julian
-           stake_e8s: 100000000000000 # 1%
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 10519200 # 4 month
+         - controller: # Utkarsh Goyal's Month 5 neurons
+           stake_e8s: 104166700000000 # Month 5 Vesting
            memo: 4
-           dissolve_delay_seconds: 2628000 # 1 month
-           vesting_period_seconds: 94608000 # 3 years
-         - controller: 4s36z-lcydz-e4ts5-nuzlo-h3ksp-uu4fe-xndls-pq6ah-mmv5k-x5rjw-hqe # Julian
-           stake_e8s: 100000000000000 # 1%
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 13149000 # 5 month
+         - controller: # Utkarsh Goyal's Month 6 neurons
+           stake_e8s: 104166700000000 # Month 6 Vesting
            memo: 5
-           dissolve_delay_seconds: 2628000 # 1 month
-           vesting_period_seconds: 126144000 # 4 years
-         - controller: n2xex-iyaaa-aaaar-qaaeq-cai # DFINITY
-           stake_e8s: 200000000000000 # 2%
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 15778800 # 6 month
+         - controller: # Utkarsh Goyal's Month 7 neurons
+           stake_e8s: 104166700000000 # Month 7 Vesting
+           memo: 6
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 18408600 # 7 month
+         - controller: # Utkarsh Goyal's Month 8 neurons
+           stake_e8s: 104166700000000 # Month 8 Vesting
+           memo: 7
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 21038400 # 8 month
+         - controller: # Utkarsh Goyal's Month 9 neurons
+           stake_e8s: 104166700000000 # Month 9 Vesting
+           memo: 8
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 23668200 # 9 month
+         - controller: # Utkarsh Goyal's Month 10 neurons
+           stake_e8s: 104166700000000 # Month 10 Vesting
+           memo: 9
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 26298000 # 10 month
+         - controller: # Utkarsh Goyal's Month 11 neurons
+           stake_e8s: 104166700000000 # Month 11 Vesting
+           memo: 10
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 28927800 # 11 month
+         - controller: # Utkarsh Goyal's Month 12 neurons
+           stake_e8s: 104166700000000 # Month 12 Vesting
+           memo: 11
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 31557600 # 12 month
+         - controller: # Utkarsh Goyal's Month 13 neurons
+           stake_e8s: 104166700000000 # Month 13 Vesting
+           memo: 12
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 34187400 # 13 month
+         - controller: # Utkarsh Goyal's Month 14 neurons
+           stake_e8s: 104166700000000 # Month 14 Vesting
+           memo: 13
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 36817200 # 14 month
+         - controller: # Utkarsh Goyal's Month 15 neurons
+           stake_e8s: 104166700000000 # Month 15 Vesting
+           memo: 14
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 39447000 # 15 month
+         - controller: # Utkarsh Goyal's Month 16 neurons
+           stake_e8s: 104166700000000 # Month 16 Vesting
+           memo: 15
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 42076800 # 16 month
+         - controller: # Utkarsh Goyal's Month 17 neurons
+           stake_e8s: 104166700000000 # Month 17 Vesting
+           memo: 16
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 44706600 # 17 month
+         - controller: # Utkarsh Goyal's Month 18 neurons
+           stake_e8s: 104166700000000 # Month 18 Vesting
+           memo: 17
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 47336400 # 18 month
+         - controller: # Utkarsh Goyal's Month 19 neurons
+           stake_e8s: 104166700000000 # Month 19 Vesting
+           memo: 18
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 49966200 # 19 month
+         - controller: # Utkarsh Goyal's Month 20 neurons
+           stake_e8s: 104166700000000 # Month 20 Vesting
+           memo: 19
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 52596000 # 20 month
+         - controller: # Utkarsh Goyal's Month 21 neurons
+           stake_e8s: 104166700000000 # Month 21 Vesting
+           memo: 20
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 55225800 # 21 month
+         - controller: # Utkarsh Goyal's Month 22 neurons
+           stake_e8s: 104166700000000 # Month 22 Vesting
+           memo: 21
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 57855600 # 22 month
+         - controller: # Utkarsh Goyal's Month 23 neurons
+           stake_e8s: 104166700000000 # Month 23 Vesting
+           memo: 22
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 60485400 # 23 month
+         - controller: # Utkarsh Goyal's Month 24 neurons
+           stake_e8s: 104166700000000 # Month 24 Vesting
+           memo: 23
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 63115200 # 24 month
+         - controller: # Utkarsh Goyal's Month 25 neurons
+           stake_e8s: 104166700000000 # Month 25 Vesting
+           memo: 24
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 65745000 # 25 month
+         - controller: # Utkarsh Goyal's Month 26 neurons
+           stake_e8s: 104166700000000 # Month 26 Vesting
+           memo: 25
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 68374800 # 26 month
+         - controller: # Utkarsh Goyal's Month 27 neurons
+           stake_e8s: 104166700000000 # Month 27 Vesting
+           memo: 26
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 71004600 # 27 month
+         - controller: # Utkarsh Goyal's Month 28 neurons
+           stake_e8s: 104166700000000 # Month 28 Vesting
+           memo: 27
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 73634400 # 28 month
+         - controller: # Utkarsh Goyal's Month 29 neurons
+           stake_e8s: 104166700000000 # Month 29 Vesting
+           memo: 28
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 76264200 # 29 month
+         - controller: # Utkarsh Goyal's Month 30 neurons
+           stake_e8s: 104166700000000 # Month 30 Vesting
+           memo: 29
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 78894000 # 30 month
+         - controller: # Utkarsh Goyal's Month 31 neurons
+           stake_e8s: 104166700000000 # Month 31 Vesting
+           memo: 30
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 81523800 # 31 month
+         - controller: # Utkarsh Goyal's Month 32 neurons
+           stake_e8s: 104166700000000 # Month 32 Vesting
+           memo: 31
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 84153600 # 32 month
+         - controller: # Utkarsh Goyal's Month 33 neurons
+           stake_e8s: 104166700000000 # Month 33 Vesting
+           memo: 32
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 86783400 # 33 month
+         - controller: # Utkarsh Goyal's Month 34 neurons
+           stake_e8s: 104166700000000 # Month 34 Vesting
+           memo: 33
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 89413200 # 34 month
+         - controller: # Utkarsh Goyal's Month 35 neurons
+           stake_e8s: 104166700000000 # Month 35 Vesting
+           memo: 34
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 92043000 # 35 month
+         - controller: # Utkarsh Goyal's Month 36 neurons
+           stake_e8s: 104166700000000 # Month 36 Vesting
+           memo: 35
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 94672800 # 36 month
+         - controller: # Utkarsh Goyal's Month 37 neurons
+           stake_e8s: 104166700000000 # Month 37 Vesting
+           memo: 36
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 97302600 # 37 month
+         - controller: # Utkarsh Goyal's Month 38 neurons
+           stake_e8s: 104166700000000 # Month 38 Vesting
+           memo: 37
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 99932400 # 38 month
+         - controller: # Utkarsh Goyal's Month 39 neurons
+           stake_e8s: 104166700000000 # Month 39 Vesting
+           memo: 38
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 102562200 # 39 month
+         - controller: # Utkarsh Goyal's Month 40 neurons
+           stake_e8s: 104166700000000 # Month 40 Vesting
+           memo: 39
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 105192000 # 40 month
+         - controller: # Utkarsh Goyal's Month 41 neurons
+           stake_e8s: 104166700000000 # Month 41 Vesting
+           memo: 40
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 107821800 # 41 month
+         - controller: # Utkarsh Goyal's Month 42 neurons
+           stake_e8s: 104166700000000 # Month 42 Vesting
+           memo: 41
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 110451600 # 42 month
+         - controller: # Utkarsh Goyal's Month 43 neurons
+           stake_e8s: 104166700000000 # Month 43 Vesting
+           memo: 42
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 113081400 # 43 month
+         - controller: # Utkarsh Goyal's Month 44 neurons
+           stake_e8s: 104166700000000 # Month 44 Vesting
+           memo: 43
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 115711200 # 44 month
+         - controller: # Utkarsh Goyal's Month 45 neurons
+           stake_e8s: 104166700000000 # Month 45 Vesting
+           memo: 44
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 118341000 # 45 month
+         - controller: # Utkarsh Goyal's Month 46 neurons
+           stake_e8s: 104166700000000 # Month 46 Vesting
+           memo: 45
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 120970800 # 46 month
+         - controller: # Utkarsh Goyal's Month 47 neurons
+           stake_e8s: 104166700000000 # Month 47 Vesting
+           memo: 46
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 123600600 # 47 month
+         - controller: # Utkarsh Goyal's Month 48 neurons
+           stake_e8s: 104165100000000 # Month 48 Vesting
+           memo: 47
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 126230400 # 48 month
+
+         - controller: # Advisor 1's Month 1 neurons
+           stake_e8s: 18055500000000 # Month 1 Vesting
            memo: 0
-           dissolve_delay_seconds: 2628000 # 1 month
-           vesting_period_seconds: 15768000 # 6 months
-         - controller: n2xex-iyaaa-aaaar-qaaeq-cai # DFINITY
-           stake_e8s: 200000000000000 # 2%
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 2629800 # 1 month
+         - controller: # Advisor 1's Month 2 neurons
+           stake_e8s: 18055500000000 # Month 2 Vesting
            memo: 1
-           dissolve_delay_seconds: 2628000 # 1 month
-           vesting_period_seconds: 31536000 # 12 months
-         - controller: n2xex-iyaaa-aaaar-qaaeq-cai # DFINITY
-           stake_e8s: 200000000000000 # 2%
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 5259600 # 2 month
+         - controller: # Advisor 1's Month 3 neurons
+           stake_e8s: 18055500000000 # Month 3 Vesting
            memo: 2
-           dissolve_delay_seconds: 2628000 # 1 month
-           vesting_period_seconds: 47304000 # 18 months
-         - controller: n2xex-iyaaa-aaaar-qaaeq-cai # DFINITY
-           stake_e8s: 200000000000000 # 2%
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 7889400 # 3 month
+         - controller: # Advisor 1's Month 4 neurons
+           stake_e8s: 18055500000000 # Month 4 Vesting
            memo: 3
-           dissolve_delay_seconds: 2628000 # 1 month
-           vesting_period_seconds: 63072000 # 24 months
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 10519200 # 4 month
+         - controller: # Advisor 1's Month 5 neurons
+           stake_e8s: 18055500000000 # Month 5 Vesting
+           memo: 4
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 13149000 # 5 month
+         - controller: # Advisor 1's Month 6 neurons
+           stake_e8s: 18055500000000 # Month 6 Vesting
+           memo: 5
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 15778800 # 6 month
+         - controller: # Advisor 1's Month 7 neurons
+           stake_e8s: 18055500000000 # Month 7 Vesting
+           memo: 6
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 18408600 # 7 month
+         - controller: # Advisor 1's Month 8 neurons
+           stake_e8s: 18055500000000 # Month 8 Vesting
+           memo: 7
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 21038400 # 8 month
+         - controller: # Advisor 1's Month 9 neurons
+           stake_e8s: 18055500000000 # Month 9 Vesting
+           memo: 8
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 23668200 # 9 month
+         - controller: # Advisor 1's Month 10 neurons
+           stake_e8s: 18055500000000 # Month 10 Vesting
+           memo: 9
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 26298000 # 10 month
+         - controller: # Advisor 1's Month 11 neurons
+           stake_e8s: 18055500000000 # Month 11 Vesting
+           memo: 10
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 28927800 # 11 month
+         - controller: # Advisor 1's Month 12 neurons
+           stake_e8s: 18055500000000 # Month 12 Vesting
+           memo: 11
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 31557600 # 12 month
+         - controller: # Advisor 1's Month 13 neurons
+           stake_e8s: 18055500000000 # Month 13 Vesting
+           memo: 12
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 34187400 # 13 month
+         - controller: # Advisor 1's Month 14 neurons
+           stake_e8s: 18055500000000 # Month 14 Vesting
+           memo: 13
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 36817200 # 14 month
+         - controller: # Advisor 1's Month 15 neurons
+           stake_e8s: 18055500000000 # Month 15 Vesting
+           memo: 14
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 39447000 # 15 month
+         - controller: # Advisor 1's Month 16 neurons
+           stake_e8s: 18055500000000 # Month 16 Vesting
+           memo: 15
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 42076800 # 16 month
+         - controller: # Advisor 1's Month 17 neurons
+           stake_e8s: 18055500000000 # Month 17 Vesting
+           memo: 16
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 44706600 # 17 month
+         - controller: # Advisor 1's Month 18 neurons
+           stake_e8s: 18055500000000 # Month 18 Vesting
+           memo: 17
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 47336400 # 18 month
+         - controller: # Advisor 1's Month 19 neurons
+           stake_e8s: 18055500000000 # Month 19 Vesting
+           memo: 18
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 49966200 # 19 month
+         - controller: # Advisor 1's Month 20 neurons
+           stake_e8s: 18055500000000 # Month 20 Vesting
+           memo: 19
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 52596000 # 20 month
+         - controller: # Advisor 1's Month 21 neurons
+           stake_e8s: 18055500000000 # Month 21 Vesting
+           memo: 20
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 55225800 # 21 month
+         - controller: # Advisor 1's Month 22 neurons
+           stake_e8s: 18055500000000 # Month 22 Vesting
+           memo: 21
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 57855600 # 22 month
+         - controller: # Advisor 1's Month 23 neurons
+           stake_e8s: 18055500000000 # Month 23 Vesting
+           memo: 22
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 60485400 # 23 month
+         - controller: # Advisor 1's Month 24 neurons
+           stake_e8s: 18056800000000 # Month 24 Vesting
+           memo: 23
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 63115200 # 24 month
+           
+         - controller: # Advisor 2's Month 1 neurons
+           stake_e8s: 23333300000000 # Month 1 Vesting
+           memo: 0
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 2629800 # 1 month
+         - controller: # Advisor 2's Month 2 neurons
+           stake_e8s: 23333300000000 # Month 2 Vesting
+           memo: 1
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 5259600 # 2 month
+         - controller: # Advisor 2's Month 3 neurons
+           stake_e8s: 23333300000000 # Month 3 Vesting
+           memo: 2
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 7889400 # 3 month
+         - controller: # Advisor 2's Month 4 neurons
+           stake_e8s: 23333300000000 # Month 4 Vesting
+           memo: 3
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 10519200 # 4 month
+         - controller: # Advisor 2's Month 5 neurons
+           stake_e8s: 23333300000000 # Month 5 Vesting
+           memo: 4
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 13149000 # 5 month
+         - controller: # Advisor 2's Month 6 neurons
+           stake_e8s: 23333300000000 # Month 6 Vesting
+           memo: 5
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 15778800 # 6 month
+         - controller: # Advisor 2's Month 7 neurons
+           stake_e8s: 23333300000000 # Month 7 Vesting
+           memo: 6
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 18408600 # 7 month
+         - controller: # Advisor 2's Month 8 neurons
+           stake_e8s: 23333300000000 # Month 8 Vesting
+           memo: 7
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 21038400 # 8 month
+         - controller: # Advisor 2's Month 9 neurons
+           stake_e8s: 23333300000000 # Month 9 Vesting
+           memo: 8
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 23668200 # 9 month
+         - controller: # Advisor 2's Month 10 neurons
+           stake_e8s: 23333300000000 # Month 10 Vesting
+           memo: 9
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 26298000 # 10 month
+         - controller: # Advisor 2's Month 11 neurons
+           stake_e8s: 23333300000000 # Month 11 Vesting
+           memo: 10
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 28927800 # 11 month
+         - controller: # Advisor 2's Month 12 neurons
+           stake_e8s: 23333300000000 # Month 12 Vesting
+           memo: 11
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 31557600 # 12 month
+         - controller: # Advisor 2's Month 13 neurons
+           stake_e8s: 23333300000000 # Month 13 Vesting
+           memo: 12
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 34187400 # 13 month
+         - controller: # Advisor 2's Month 14 neurons
+           stake_e8s: 23333300000000 # Month 14 Vesting
+           memo: 13
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 36817200 # 14 month
+         - controller: # Advisor 2's Month 15 neurons
+           stake_e8s: 23333300000000 # Month 15 Vesting
+           memo: 14
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 39447000 # 15 month
+         - controller: # Advisor 2's Month 16 neurons
+           stake_e8s: 23333300000000 # Month 16 Vesting
+           memo: 15
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 42076800 # 16 month
+         - controller: # Advisor 2's Month 17 neurons
+           stake_e8s: 23333300000000 # Month 17 Vesting
+           memo: 16
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 44706600 # 17 month
+         - controller: # Advisor 2's Month 18 neurons
+           stake_e8s: 23333300000000 # Month 18 Vesting
+           memo: 17
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 47336400 # 18 month
+         - controller: # Advisor 2's Month 19 neurons
+           stake_e8s: 23333300000000 # Month 19 Vesting
+           memo: 18
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 49966200 # 19 month
+         - controller: # Advisor 2's Month 20 neurons
+           stake_e8s: 23333300000000 # Month 20 Vesting
+           memo: 19
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 52596000 # 20 month
+         - controller: # Advisor 2's Month 21 neurons
+           stake_e8s: 23333300000000 # Month 21 Vesting
+           memo: 20
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 55225800 # 21 month
+         - controller: # Advisor 2's Month 22 neurons
+           stake_e8s: 23333300000000 # Month 22 Vesting
+           memo: 21
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 57855600 # 22 month
+         - controller: # Advisor 2's Month 23 neurons
+           stake_e8s: 23333300000000 # Month 23 Vesting
+           memo: 22
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 60485400 # 23 month
+         - controller: # Advisor 2's Month 24 neurons
+           stake_e8s: 23334100000000 # Month 24 Vesting
+           memo: 23
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 63115200 # 24 month
+           
+         - controller: # Neurons for Future Advisors
+           stake_e8s: 1006666700000000 # Neurons reserved for Future Advisors
+           memo: 0
+           dissolve_delay_seconds: 0 # No dissolve delay
+           vesting_period_seconds: 0 # No vesting
+
+         - controller: # Investor 1's Month 1 neurons
+           stake_e8s: 41666600000000 # Month 1 Vesting
+           memo: 0
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 2629800 # 1 month
+         - controller: # Investor 1's Month 2 neurons
+           stake_e8s: 41666600000000 # Month 2 Vesting
+           memo: 1
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 5259600 # 2 month
+         - controller: # Investor 1's Month 3 neurons
+           stake_e8s: 41666600000000 # Month 3 Vesting
+           memo: 2
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 7889400 # 3 month
+         - controller: # Investor 1's Month 4 neurons
+           stake_e8s: 41666600000000 # Month 4 Vesting
+           memo: 3
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 10519200 # 4 month
+         - controller: # Investor 1's Month 5 neurons
+           stake_e8s: 41666600000000 # Month 5 Vesting
+           memo: 4
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 13149000 # 5 month
+         - controller: # Investor 1's Month 6 neurons
+           stake_e8s: 41666600000000 # Month 6 Vesting
+           memo: 5
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 15778800 # 6 month
+         - controller: # Investor 1's Month 7 neurons
+           stake_e8s: 41666600000000 # Month 7 Vesting
+           memo: 6
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 18408600 # 7 month
+         - controller: # Investor 1's Month 8 neurons
+           stake_e8s: 41666600000000 # Month 8 Vesting
+           memo: 7
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 21038400 # 8 month
+         - controller: # Investor 1's Month 9 neurons
+           stake_e8s: 41666600000000 # Month 9 Vesting
+           memo: 8
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 23668200 # 9 month
+         - controller: # Investor 1's Month 10 neurons
+           stake_e8s: 41666600000000 # Month 10 Vesting
+           memo: 9
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 26298000 # 10 month
+         - controller: # Investor 1's Month 11 neurons
+           stake_e8s: 41666600000000 # Month 11 Vesting
+           memo: 10
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 28927800 # 11 month
+         - controller: # Investor 1's Month 12 neurons
+           stake_e8s: 41666600000000 # Month 12 Vesting
+           memo: 11
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 31557600 # 12 month
+         - controller: # Investor 1's Month 13 neurons
+           stake_e8s: 41666600000000 # Month 13 Vesting
+           memo: 12
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 34187400 # 13 month
+         - controller: # Investor 1's Month 14 neurons
+           stake_e8s: 41666600000000 # Month 14 Vesting
+           memo: 13
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 36817200 # 14 month
+         - controller: # Investor 1's Month 15 neurons
+           stake_e8s: 41666600000000 # Month 15 Vesting
+           memo: 14
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 39447000 # 15 month
+         - controller: # Investor 1's Month 16 neurons
+           stake_e8s: 41666600000000 # Month 16 Vesting
+           memo: 15
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 42076800 # 16 month
+         - controller: # Investor 1's Month 17 neurons
+           stake_e8s: 41666600000000 # Month 17 Vesting
+           memo: 16
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 44706600 # 17 month
+         - controller: # Investor 1's Month 18 neurons
+           stake_e8s: 41666600000000 # Month 18 Vesting
+           memo: 17
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 47336400 # 18 month
+         - controller: # Investor 1's Month 19 neurons
+           stake_e8s: 41666600000000 # Month 19 Vesting
+           memo: 18
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 49966200 # 19 month
+         - controller: # Investor 1's Month 20 neurons
+           stake_e8s: 41666600000000 # Month 20 Vesting
+           memo: 19
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 52596000 # 20 month
+         - controller: # Investor 1's Month 21 neurons
+           stake_e8s: 41666600000000 # Month 21 Vesting
+           memo: 20
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 55225800 # 21 month
+         - controller: # Investor 1's Month 22 neurons
+           stake_e8s: 41666600000000 # Month 22 Vesting
+           memo: 21
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 57855600 # 22 month
+         - controller: # Investor 1's Month 23 neurons
+           stake_e8s: 41666600000000 # Month 23 Vesting
+           memo: 22
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 60485400 # 23 month
+         - controller: # Investor 1's Month 24 neurons
+           stake_e8s: 41668200000000 # Month 24 Vesting
+           memo: 23
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 63115200 # 24 month
+           
+         - controller: # Investor 2's Month 1 neurons
+           stake_e8s: 52083300000000 # Month 1 Vesting
+           memo: 0
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 2629800 # 1 month
+         - controller: # Investor 2's Month 2 neurons
+           stake_e8s: 52083300000000 # Month 2 Vesting
+           memo: 1
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 5259600 # 2 month
+         - controller: # Investor 2's Month 3 neurons
+           stake_e8s: 52083300000000 # Month 3 Vesting
+           memo: 2
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 7889400 # 3 month
+         - controller: # Investor 2's Month 4 neurons
+           stake_e8s: 52083300000000 # Month 4 Vesting
+           memo: 3
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 10519200 # 4 month
+         - controller: # Investor 2's Month 5 neurons
+           stake_e8s: 52083300000000 # Month 5 Vesting
+           memo: 4
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 13149000 # 5 month
+         - controller: # Investor 2's Month 6 neurons
+           stake_e8s: 52083300000000 # Month 6 Vesting
+           memo: 5
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 15778800 # 6 month
+         - controller: # Investor 2's Month 7 neurons
+           stake_e8s: 52083300000000 # Month 7 Vesting
+           memo: 6
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 18408600 # 7 month
+         - controller: # Investor 2's Month 8 neurons
+           stake_e8s: 52083300000000 # Month 8 Vesting
+           memo: 7
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 21038400 # 8 month
+         - controller: # Investor 2's Month 9 neurons
+           stake_e8s: 52083300000000 # Month 9 Vesting
+           memo: 8
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 23668200 # 9 month
+         - controller: # Investor 2's Month 10 neurons
+           stake_e8s: 52083300000000 # Month 10 Vesting
+           memo: 9
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 26298000 # 10 month
+         - controller: # Investor 2's Month 11 neurons
+           stake_e8s: 52083300000000 # Month 11 Vesting
+           memo: 10
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 28927800 # 11 month
+         - controller: # Investor 2's Month 12 neurons
+           stake_e8s: 52083300000000 # Month 12 Vesting
+           memo: 11
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 31557600 # 12 month
+         - controller: # Investor 2's Month 13 neurons
+           stake_e8s: 52083300000000 # Month 13 Vesting
+           memo: 12
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 34187400 # 13 month
+         - controller: # Investor 2's Month 14 neurons
+           stake_e8s: 52083300000000 # Month 14 Vesting
+           memo: 13
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 36817200 # 14 month
+         - controller: # Investor 2's Month 15 neurons
+           stake_e8s: 52083300000000 # Month 15 Vesting
+           memo: 14
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 39447000 # 15 month
+         - controller: # Investor 2's Month 16 neurons
+           stake_e8s: 52083300000000 # Month 16 Vesting
+           memo: 15
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 42076800 # 16 month
+         - controller: # Investor 2's Month 17 neurons
+           stake_e8s: 52083300000000 # Month 17 Vesting
+           memo: 16
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 44706600 # 17 month
+         - controller: # Investor 2's Month 18 neurons
+           stake_e8s: 52083300000000 # Month 18 Vesting
+           memo: 17
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 47336400 # 18 month
+         - controller: # Investor 2's Month 19 neurons
+           stake_e8s: 52083300000000 # Month 19 Vesting
+           memo: 18
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 49966200 # 19 month
+         - controller: # Investor 2's Month 20 neurons
+           stake_e8s: 52083300000000 # Month 20 Vesting
+           memo: 19
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 52596000 # 20 month
+         - controller: # Investor 2's Month 21 neurons
+           stake_e8s: 52083300000000 # Month 21 Vesting
+           memo: 20
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 55225800 # 21 month
+         - controller: # Investor 2's Month 22 neurons
+           stake_e8s: 52083300000000 # Month 22 Vesting
+           memo: 21
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 57855600 # 22 month
+         - controller: # Investor 2's Month 23 neurons
+           stake_e8s: 52083300000000 # Month 23 Vesting
+           memo: 22
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 60485400 # 23 month
+         - controller: # Investor 2's Month 24 neurons
+           stake_e8s: 52084100000000 # Month 24 Vesting
+           memo: 23
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 63115200 # 24 month
+           
+         - controller: # Investor 3's neurons
+           stake_e8s: 58804200000000 # Reserved for allocatoin to Tier 1 Funded NFT holders
+           memo: 0
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 0 # 0 month
+           
+         - controller: # Investor 4's neurons
+           stake_e8s: 127571500000000 # Reserved for allocation to Tier 2 Funded NFT holders
+           memo: 1
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 0 # 0 month
+           
+         - controller: # Investor 5's neurons
+           stake_e8s: 124457600000000 # Reserved for allocation to Tier 3 Funded NFT holders
+           memo: 2
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 0 # 0 month
+           
+         - controller: # Investor 6's Month 1 neurons
+           stake_e8s: 138888800000000 # Month 1 Vesting
+           memo: 0
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 2629800 # 1 month
+         - controller: # Investor 6's Month 2 neurons
+           stake_e8s: 138888800000000 # Month 2 Vesting
+           memo: 1
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 5259600 # 2 month
+         - controller: # Investor 6's Month 3 neurons
+           stake_e8s: 138888800000000 # Month 3 Vesting
+           memo: 2
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 7889400 # 3 month
+         - controller: # Investor 6's Month 4 neurons
+           stake_e8s: 138888800000000 # Month 4 Vesting
+           memo: 3
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 10519200 # 4 month
+         - controller: # Investor 6's Month 5 neurons
+           stake_e8s: 138888800000000 # Month 5 Vesting
+           memo: 4
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 13149000 # 5 month
+         - controller: # Investor 6's Month 6 neurons
+           stake_e8s: 138888800000000 # Month 6 Vesting
+           memo: 5
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 15778800 # 6 month
+         - controller: # Investor 6's Month 7 neurons
+           stake_e8s: 138888800000000 # Month 7 Vesting
+           memo: 6
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 18408600 # 7 month
+         - controller: # Investor 6's Month 8 neurons
+           stake_e8s: 138888800000000 # Month 8 Vesting
+           memo: 7
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 21038400 # 8 month
+         - controller: # Investor 6's Month 9 neurons
+           stake_e8s: 138888800000000 # Month 9 Vesting
+           memo: 8
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 23668200 # 9 month
+         - controller: # Investor 6's Month 10 neurons
+           stake_e8s: 138888800000000 # Month 10 Vesting
+           memo: 9
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 26298000 # 10 month
+         - controller: # Investor 6's Month 11 neurons
+           stake_e8s: 138888800000000 # Month 11 Vesting
+           memo: 10
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 28927800 # 11 month
+         - controller: # Investor 6's Month 12 neurons
+           stake_e8s: 138888800000000 # Month 12 Vesting
+           memo: 11
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 31557600 # 12 month
+         - controller: # Investor 6's Month 13 neurons
+           stake_e8s: 138888800000000 # Month 13 Vesting
+           memo: 12
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 34187400 # 13 month
+         - controller: # Investor 6's Month 14 neurons
+           stake_e8s: 138888800000000 # Month 14 Vesting
+           memo: 13
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 36817200 # 14 month
+         - controller: # Investor 6's Month 15 neurons
+           stake_e8s: 138888800000000 # Month 15 Vesting
+           memo: 14
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 39447000 # 15 month
+         - controller: # Investor 6's Month 16 neurons
+           stake_e8s: 138888800000000 # Month 16 Vesting
+           memo: 15
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 42076800 # 16 month
+         - controller: # Investor 6's Month 17 neurons
+           stake_e8s: 138888800000000 # Month 17 Vesting
+           memo: 16
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 44706600 # 17 month
+         - controller: # Investor 6's Month 18 neurons
+           stake_e8s: 138888800000000 # Month 18 Vesting
+           memo: 17
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 47336400 # 18 month
+         - controller: # Investor 6's Month 19 neurons
+           stake_e8s: 138888800000000 # Month 19 Vesting
+           memo: 18
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 49966200 # 19 month
+         - controller: # Investor 6's Month 20 neurons
+           stake_e8s: 138888800000000 # Month 20 Vesting
+           memo: 19
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 52596000 # 20 month
+         - controller: # Investor 6's Month 21 neurons
+           stake_e8s: 138888800000000 # Month 21 Vesting
+           memo: 20
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 55225800 # 21 month
+         - controller: # Investor 6's Month 22 neurons
+           stake_e8s: 138888800000000 # Month 22 Vesting
+           memo: 21
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 57855600 # 22 month
+         - controller: # Investor 6's Month 23 neurons
+           stake_e8s: 138888800000000 # Month 23 Vesting
+           memo: 22
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 60485400 # 23 month
+         - controller: # Investor 6's Month 24 neurons
+           stake_e8s: 138890900000000 # Month 24 Vesting
+           memo: 23
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 63115200 # 24 month
+           
+         - controller: # Investor 7's Month 1 neurons
+           stake_e8s: 40000000000000 # Month 1 Vesting
+           memo: 0
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 2629800 # 1 month
+         - controller: # Investor 7's Month 2 neurons
+           stake_e8s: 40000000000000 # Month 2 Vesting
+           memo: 1
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 5259600 # 2 month
+         - controller: # Investor 7's Month 3 neurons
+           stake_e8s: 40000000000000 # Month 3 Vesting
+           memo: 2
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 7889400 # 3 month
+         - controller: # Investor 7's Month 4 neurons
+           stake_e8s: 40000000000000 # Month 4 Vesting
+           memo: 3
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 10519200 # 4 month
+         - controller: # Investor 7's Month 5 neurons
+           stake_e8s: 40000000000000 # Month 5 Vesting
+           memo: 4
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 13149000 # 5 month
+         - controller: # Investor 7's Month 6 neurons
+           stake_e8s: 40000000000000 # Month 6 Vesting
+           memo: 5
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 15778800 # 6 month
+         - controller: # Investor 7's Month 7 neurons
+           stake_e8s: 40000000000000 # Month 7 Vesting
+           memo: 6
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 18408600 # 7 month
+         - controller: # Investor 7's Month 8 neurons
+           stake_e8s: 40000000000000 # Month 8 Vesting
+           memo: 7
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 21038400 # 8 month
+         - controller: # Investor 7's Month 9 neurons
+           stake_e8s: 40000000000000 # Month 9 Vesting
+           memo: 8
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 23668200 # 9 month
+         - controller: # Investor 7's Month 10 neurons
+           stake_e8s: 40000000000000 # Month 10 Vesting
+           memo: 9
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 26298000 # 10 month
+         - controller: # Investor 7's Month 11 neurons
+           stake_e8s: 40000000000000 # Month 11 Vesting
+           memo: 10
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 28927800 # 11 month
+         - controller: # Investor 7's Month 12 neurons
+           stake_e8s: 40000000000000 # Month 12 Vesting
+           memo: 11
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 31557600 # 12 month
+         - controller: # Investor 7's Month 13 neurons
+           stake_e8s: 40000000000000 # Month 13 Vesting
+           memo: 12
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 34187400 # 13 month
+         - controller: # Investor 7's Month 14 neurons
+           stake_e8s: 40000000000000 # Month 14 Vesting
+           memo: 13
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 36817200 # 14 month
+         - controller: # Investor 7's Month 15 neurons
+           stake_e8s: 40000000000000 # Month 15 Vesting
+           memo: 14
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 39447000 # 15 month
+         - controller: # Investor 7's Month 16 neurons
+           stake_e8s: 40000000000000 # Month 16 Vesting
+           memo: 15
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 42076800 # 16 month
+         - controller: # Investor 7's Month 17 neurons
+           stake_e8s: 40000000000000 # Month 17 Vesting
+           memo: 16
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 44706600 # 17 month
+         - controller: # Investor 7's Month 18 neurons
+           stake_e8s: 40000000000000 # Month 18 Vesting
+           memo: 17
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 47336400 # 18 month
+         - controller: # Investor 7's Month 19 neurons
+           stake_e8s: 40000000000000 # Month 19 Vesting
+           memo: 18
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 49966200 # 19 month
+         - controller: # Investor 7's Month 20 neurons
+           stake_e8s: 40000000000000 # Month 20 Vesting
+           memo: 19
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 52596000 # 20 month
+         - controller: # Investor 7's Month 21 neurons
+           stake_e8s: 40000000000000 # Month 21 Vesting
+           memo: 20
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 55225800 # 21 month
+         - controller: # Investor 7's Month 22 neurons
+           stake_e8s: 40000000000000 # Month 22 Vesting
+           memo: 21
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 57855600 # 22 month
+         - controller: # Investor 7's Month 23 neurons
+           stake_e8s: 40000000000000 # Month 23 Vesting
+           memo: 22
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 60485400 # 23 month
+         - controller: # Investor 7's Month 24 neurons
+           stake_e8s: 40000000000000 # Month 24 Vesting
+           memo: 23
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 63115200 # 24 month
+           
+         - controller: # Investor 8's Month 1 neurons
+           stake_e8s: 13888800000000 # Month 1 Vesting
+           memo: 0
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 2629800 # 1 month
+         - controller: # Investor 8's Month 2 neurons
+           stake_e8s: 13888800000000 # Month 2 Vesting
+           memo: 1
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 5259600 # 2 month
+         - controller: # Investor 8's Month 3 neurons
+           stake_e8s: 13888800000000 # Month 3 Vesting
+           memo: 2
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 7889400 # 3 month
+         - controller: # Investor 8's Month 4 neurons
+           stake_e8s: 13888800000000 # Month 4 Vesting
+           memo: 3
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 10519200 # 4 month
+         - controller: # Investor 8's Month 5 neurons
+           stake_e8s: 13888800000000 # Month 5 Vesting
+           memo: 4
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 13149000 # 5 month
+         - controller: # Investor 8's Month 6 neurons
+           stake_e8s: 13888800000000 # Month 6 Vesting
+           memo: 5
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 15778800 # 6 month
+         - controller: # Investor 8's Month 7 neurons
+           stake_e8s: 13888800000000 # Month 7 Vesting
+           memo: 6
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 18408600 # 7 month
+         - controller: # Investor 8's Month 8 neurons
+           stake_e8s: 13888800000000 # Month 8 Vesting
+           memo: 7
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 21038400 # 8 month
+         - controller: # Investor 8's Month 9 neurons
+           stake_e8s: 13888800000000 # Month 9 Vesting
+           memo: 8
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 23668200 # 9 month
+         - controller: # Investor 8's Month 10 neurons
+           stake_e8s: 13888800000000 # Month 10 Vesting
+           memo: 9
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 26298000 # 10 month
+         - controller: # Investor 8's Month 11 neurons
+           stake_e8s: 13888800000000 # Month 11 Vesting
+           memo: 10
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 28927800 # 11 month
+         - controller: # Investor 8's Month 12 neurons
+           stake_e8s: 13888800000000 # Month 12 Vesting
+           memo: 11
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 31557600 # 12 month
+         - controller: # Investor 8's Month 13 neurons
+           stake_e8s: 13888800000000 # Month 13 Vesting
+           memo: 12
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 34187400 # 13 month
+         - controller: # Investor 8's Month 14 neurons
+           stake_e8s: 13888800000000 # Month 14 Vesting
+           memo: 13
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 36817200 # 14 month
+         - controller: # Investor 8's Month 15 neurons
+           stake_e8s: 13888800000000 # Month 15 Vesting
+           memo: 14
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 39447000 # 15 month
+         - controller: # Investor 8's Month 16 neurons
+           stake_e8s: 13888800000000 # Month 16 Vesting
+           memo: 15
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 42076800 # 16 month
+         - controller: # Investor 8's Month 17 neurons
+           stake_e8s: 13888800000000 # Month 17 Vesting
+           memo: 16
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 44706600 # 17 month
+         - controller: # Investor 8's Month 18 neurons
+           stake_e8s: 13888800000000 # Month 18 Vesting
+           memo: 17
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 47336400 # 18 month
+         - controller: # Investor 8's Month 19 neurons
+           stake_e8s: 13888800000000 # Month 19 Vesting
+           memo: 18
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 49966200 # 19 month
+         - controller: # Investor 8's Month 20 neurons
+           stake_e8s: 13888800000000 # Month 20 Vesting
+           memo: 19
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 52596000 # 20 month
+         - controller: # Investor 8's Month 21 neurons
+           stake_e8s: 13888800000000 # Month 21 Vesting
+           memo: 20
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 55225800 # 21 month
+         - controller: # Investor 8's Month 22 neurons
+           stake_e8s: 13888800000000 # Month 22 Vesting
+           memo: 21
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 57855600 # 22 month
+         - controller: # Investor 8's Month 23 neurons
+           stake_e8s: 13888800000000 # Month 23 Vesting
+           memo: 22
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 60485400 # 23 month
+         - controller: # Investor 8's Month 24 neurons
+           stake_e8s: 13890900000000 # Month 24 Vesting
+           memo: 23
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 63115200 # 24 month
+           
+         - controller: # Investor 9's Month 1 neurons
+           stake_e8s: 1215200000000 # Month 1 Vesting
+           memo: 0
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 2629800 # 1 month
+         - controller: # Investor 9's Month 2 neurons
+           stake_e8s: 1215200000000 # Month 2 Vesting
+           memo: 1
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 5259600 # 2 month
+         - controller: # Investor 9's Month 3 neurons
+           stake_e8s: 1215200000000 # Month 3 Vesting
+           memo: 2
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 7889400 # 3 month
+         - controller: # Investor 9's Month 4 neurons
+           stake_e8s: 1215200000000 # Month 4 Vesting
+           memo: 3
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 10519200 # 4 month
+         - controller: # Investor 9's Month 5 neurons
+           stake_e8s: 1215200000000 # Month 5 Vesting
+           memo: 4
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 13149000 # 5 month
+         - controller: # Investor 9's Month 6 neurons
+           stake_e8s: 1215200000000 # Month 6 Vesting
+           memo: 5
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 15778800 # 6 month
+         - controller: # Investor 9's Month 7 neurons
+           stake_e8s: 1215200000000 # Month 7 Vesting
+           memo: 6
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 18408600 # 7 month
+         - controller: # Investor 9's Month 8 neurons
+           stake_e8s: 1215200000000 # Month 8 Vesting
+           memo: 7
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 21038400 # 8 month
+         - controller: # Investor 9's Month 9 neurons
+           stake_e8s: 1215200000000 # Month 9 Vesting
+           memo: 8
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 23668200 # 9 month
+         - controller: # Investor 9's Month 10 neurons
+           stake_e8s: 1215200000000 # Month 10 Vesting
+           memo: 9
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 26298000 # 10 month
+         - controller: # Investor 9's Month 11 neurons
+           stake_e8s: 1215200000000 # Month 11 Vesting
+           memo: 10
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 28927800 # 11 month
+         - controller: # Investor 9's Month 12 neurons
+           stake_e8s: 1215200000000 # Month 12 Vesting
+           memo: 11
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 31557600 # 12 month
+         - controller: # Investor 9's Month 13 neurons
+           stake_e8s: 1215200000000 # Month 13 Vesting
+           memo: 12
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 34187400 # 13 month
+         - controller: # Investor 9's Month 14 neurons
+           stake_e8s: 1215200000000 # Month 14 Vesting
+           memo: 13
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 36817200 # 14 month
+         - controller: # Investor 9's Month 15 neurons
+           stake_e8s: 1215200000000 # Month 15 Vesting
+           memo: 14
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 39447000 # 15 month
+         - controller: # Investor 9's Month 16 neurons
+           stake_e8s: 1215200000000 # Month 16 Vesting
+           memo: 15
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 42076800 # 16 month
+         - controller: # Investor 9's Month 17 neurons
+           stake_e8s: 1215200000000 # Month 17 Vesting
+           memo: 16
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 44706600 # 17 month
+         - controller: # Investor 9's Month 18 neurons
+           stake_e8s: 1215200000000 # Month 18 Vesting
+           memo: 17
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 47336400 # 18 month
+         - controller: # Investor 9's Month 19 neurons
+           stake_e8s: 1215200000000 # Month 19 Vesting
+           memo: 18
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 49966200 # 19 month
+         - controller: # Investor 9's Month 20 neurons
+           stake_e8s: 1215200000000 # Month 20 Vesting
+           memo: 19
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 52596000 # 20 month
+         - controller: # Investor 9's Month 21 neurons
+           stake_e8s: 1215200000000 # Month 21 Vesting
+           memo: 20
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 55225800 # 21 month
+         - controller: # Investor 9's Month 22 neurons
+           stake_e8s: 1215200000000 # Month 22 Vesting
+           memo: 21
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 57855600 # 22 month
+         - controller: # Investor 9's Month 23 neurons
+           stake_e8s: 1215200000000 # Month 23 Vesting
+           memo: 22
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 60485400 # 23 month
+         - controller: # Investor 9's Month 24 neurons
+           stake_e8s: 1217100000000 # Month 24 Vesting
+           memo: 23
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 63115200 # 24 month
+           
+         - controller: # Investor 10's Month 1 neurons
+           stake_e8s: 33333300000000 # Month 1 Vesting
+           memo: 0
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 2629800 # 1 month
+         - controller: # Investor 10's Month 2 neurons
+           stake_e8s: 33333300000000 # Month 2 Vesting
+           memo: 1
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 5259600 # 2 month
+         - controller: # Investor 10's Month 3 neurons
+           stake_e8s: 33333300000000 # Month 3 Vesting
+           memo: 2
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 7889400 # 3 month
+         - controller: # Investor 10's Month 4 neurons
+           stake_e8s: 33333300000000 # Month 4 Vesting
+           memo: 3
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 10519200 # 4 month
+         - controller: # Investor 10's Month 5 neurons
+           stake_e8s: 33333300000000 # Month 5 Vesting
+           memo: 4
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 13149000 # 5 month
+         - controller: # Investor 10's Month 6 neurons
+           stake_e8s: 33333300000000 # Month 6 Vesting
+           memo: 5
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 15778800 # 6 month
+         - controller: # Investor 10's Month 7 neurons
+           stake_e8s: 33333300000000 # Month 7 Vesting
+           memo: 6
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 18408600 # 7 month
+         - controller: # Investor 10's Month 8 neurons
+           stake_e8s: 33333300000000 # Month 8 Vesting
+           memo: 7
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 21038400 # 8 month
+         - controller: # Investor 10's Month 9 neurons
+           stake_e8s: 33333300000000 # Month 9 Vesting
+           memo: 8
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 23668200 # 9 month
+         - controller: # Investor 10's Month 10 neurons
+           stake_e8s: 33333300000000 # Month 10 Vesting
+           memo: 9
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 26298000 # 10 month
+         - controller: # Investor 10's Month 11 neurons
+           stake_e8s: 33333300000000 # Month 11 Vesting
+           memo: 10
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 28927800 # 11 month
+         - controller: # Investor 10's Month 12 neurons
+           stake_e8s: 33333300000000 # Month 12 Vesting
+           memo: 11
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 31557600 # 12 month
+         - controller: # Investor 10's Month 13 neurons
+           stake_e8s: 33333300000000 # Month 13 Vesting
+           memo: 12
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 34187400 # 13 month
+         - controller: # Investor 10's Month 14 neurons
+           stake_e8s: 33333300000000 # Month 14 Vesting
+           memo: 13
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 36817200 # 14 month
+         - controller: # Investor 10's Month 15 neurons
+           stake_e8s: 33333300000000 # Month 15 Vesting
+           memo: 14
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 39447000 # 15 month
+         - controller: # Investor 10's Month 16 neurons
+           stake_e8s: 33333300000000 # Month 16 Vesting
+           memo: 15
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 42076800 # 16 month
+         - controller: # Investor 10's Month 17 neurons
+           stake_e8s: 33333300000000 # Month 17 Vesting
+           memo: 16
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 44706600 # 17 month
+         - controller: # Investor 10's Month 18 neurons
+           stake_e8s: 33333300000000 # Month 18 Vesting
+           memo: 17
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 47336400 # 18 month
+         - controller: # Investor 10's Month 19 neurons
+           stake_e8s: 33333300000000 # Month 19 Vesting
+           memo: 18
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 49966200 # 19 month
+         - controller: # Investor 10's Month 20 neurons
+           stake_e8s: 33333300000000 # Month 20 Vesting
+           memo: 19
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 52596000 # 20 month
+         - controller: # Investor 10's Month 21 neurons
+           stake_e8s: 33333300000000 # Month 21 Vesting
+           memo: 20
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 55225800 # 21 month
+         - controller: # Investor 10's Month 22 neurons
+           stake_e8s: 33333300000000 # Month 22 Vesting
+           memo: 21
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 57855600 # 22 month
+         - controller: # Investor 10's Month 23 neurons
+           stake_e8s: 33333300000000 # Month 23 Vesting
+           memo: 22
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 60485400 # 23 month
+         - controller: # Investor 10's Month 24 neurons
+           stake_e8s: 33334100000000 # Month 24 Vesting
+           memo: 23
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 63115200 # 24 month
+           
+         - controller: # Investor 11's Month 1 neurons
+           stake_e8s: 55555500000000 # Month 1 Vesting
+           memo: 0
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 2629800 # 1 month
+         - controller: # Investor 11's Month 2 neurons
+           stake_e8s: 55555500000000 # Month 2 Vesting
+           memo: 1
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 5259600 # 2 month
+         - controller: # Investor 11's Month 3 neurons
+           stake_e8s: 55555500000000 # Month 3 Vesting
+           memo: 2
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 7889400 # 3 month
+         - controller: # Investor 11's Month 4 neurons
+           stake_e8s: 55555500000000 # Month 4 Vesting
+           memo: 3
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 10519200 # 4 month
+         - controller: # Investor 11's Month 5 neurons
+           stake_e8s: 55555500000000 # Month 5 Vesting
+           memo: 4
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 13149000 # 5 month
+         - controller: # Investor 11's Month 6 neurons
+           stake_e8s: 55555500000000 # Month 6 Vesting
+           memo: 5
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 15778800 # 6 month
+         - controller: # Investor 11's Month 7 neurons
+           stake_e8s: 55555500000000 # Month 7 Vesting
+           memo: 6
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 18408600 # 7 month
+         - controller: # Investor 11's Month 8 neurons
+           stake_e8s: 55555500000000 # Month 8 Vesting
+           memo: 7
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 21038400 # 8 month
+         - controller: # Investor 11's Month 9 neurons
+           stake_e8s: 55555500000000 # Month 9 Vesting
+           memo: 8
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 23668200 # 9 month
+         - controller: # Investor 11's Month 10 neurons
+           stake_e8s: 55555500000000 # Month 10 Vesting
+           memo: 9
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 26298000 # 10 month
+         - controller: # Investor 11's Month 11 neurons
+           stake_e8s: 55555500000000 # Month 11 Vesting
+           memo: 10
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 28927800 # 11 month
+         - controller: # Investor 11's Month 12 neurons
+           stake_e8s: 55555500000000 # Month 12 Vesting
+           memo: 11
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 31557600 # 12 month
+         - controller: # Investor 11's Month 13 neurons
+           stake_e8s: 55555500000000 # Month 13 Vesting
+           memo: 12
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 34187400 # 13 month
+         - controller: # Investor 11's Month 14 neurons
+           stake_e8s: 55555500000000 # Month 14 Vesting
+           memo: 13
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 36817200 # 14 month
+         - controller: # Investor 11's Month 15 neurons
+           stake_e8s: 55555500000000 # Month 15 Vesting
+           memo: 14
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 39447000 # 15 month
+         - controller: # Investor 11's Month 16 neurons
+           stake_e8s: 55555500000000 # Month 16 Vesting
+           memo: 15
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 42076800 # 16 month
+         - controller: # Investor 11's Month 17 neurons
+           stake_e8s: 55555500000000 # Month 17 Vesting
+           memo: 16
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 44706600 # 17 month
+         - controller: # Investor 11's Month 18 neurons
+           stake_e8s: 55555500000000 # Month 18 Vesting
+           memo: 17
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 47336400 # 18 month
+         - controller: # Investor 11's Month 19 neurons
+           stake_e8s: 55555500000000 # Month 19 Vesting
+           memo: 18
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 49966200 # 19 month
+         - controller: # Investor 11's Month 20 neurons
+           stake_e8s: 55555500000000 # Month 20 Vesting
+           memo: 19
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 52596000 # 20 month
+         - controller: # Investor 11's Month 21 neurons
+           stake_e8s: 55555500000000 # Month 21 Vesting
+           memo: 20
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 55225800 # 21 month
+         - controller: # Investor 11's Month 22 neurons
+           stake_e8s: 55555500000000 # Month 22 Vesting
+           memo: 21
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 57855600 # 22 month
+         - controller: # Investor 11's Month 23 neurons
+           stake_e8s: 55555500000000 # Month 23 Vesting
+           memo: 22
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 60485400 # 23 month
+         - controller: # Investor 11's Month 24 neurons
+           stake_e8s: 55556800000000 # Month 24 Vesting
+           memo: 23
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 63115200 # 24 month
+           
+         - controller: # Investor 12's Month 1 neurons
+           stake_e8s: 16666600000000 # Month 1 Vesting
+           memo: 0
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 2629800 # 1 month
+         - controller: # Investor 12's Month 2 neurons
+           stake_e8s: 16666600000000 # Month 2 Vesting
+           memo: 1
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 5259600 # 2 month
+         - controller: # Investor 12's Month 3 neurons
+           stake_e8s: 16666600000000 # Month 3 Vesting
+           memo: 2
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 7889400 # 3 month
+         - controller: # Investor 12's Month 4 neurons
+           stake_e8s: 16666600000000 # Month 4 Vesting
+           memo: 3
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 10519200 # 4 month
+         - controller: # Investor 12's Month 5 neurons
+           stake_e8s: 16666600000000 # Month 5 Vesting
+           memo: 4
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 13149000 # 5 month
+         - controller: # Investor 12's Month 6 neurons
+           stake_e8s: 16666600000000 # Month 6 Vesting
+           memo: 5
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 15778800 # 6 month
+         - controller: # Investor 12's Month 7 neurons
+           stake_e8s: 16666600000000 # Month 7 Vesting
+           memo: 6
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 18408600 # 7 month
+         - controller: # Investor 12's Month 8 neurons
+           stake_e8s: 16666600000000 # Month 8 Vesting
+           memo: 7
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 21038400 # 8 month
+         - controller: # Investor 12's Month 9 neurons
+           stake_e8s: 16666600000000 # Month 9 Vesting
+           memo: 8
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 23668200 # 9 month
+         - controller: # Investor 12's Month 10 neurons
+           stake_e8s: 16666600000000 # Month 10 Vesting
+           memo: 9
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 26298000 # 10 month
+         - controller: # Investor 12's Month 11 neurons
+           stake_e8s: 16666600000000 # Month 11 Vesting
+           memo: 10
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 28927800 # 11 month
+         - controller: # Investor 12's Month 12 neurons
+           stake_e8s: 16666600000000 # Month 12 Vesting
+           memo: 11
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 31557600 # 12 month
+         - controller: # Investor 12's Month 13 neurons
+           stake_e8s: 16666600000000 # Month 13 Vesting
+           memo: 12
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 34187400 # 13 month
+         - controller: # Investor 12's Month 14 neurons
+           stake_e8s: 16666600000000 # Month 14 Vesting
+           memo: 13
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 36817200 # 14 month
+         - controller: # Investor 12's Month 15 neurons
+           stake_e8s: 16666600000000 # Month 15 Vesting
+           memo: 14
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 39447000 # 15 month
+         - controller: # Investor 12's Month 16 neurons
+           stake_e8s: 16666600000000 # Month 16 Vesting
+           memo: 15
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 42076800 # 16 month
+         - controller: # Investor 12's Month 17 neurons
+           stake_e8s: 16666600000000 # Month 17 Vesting
+           memo: 16
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 44706600 # 17 month
+         - controller: # Investor 12's Month 18 neurons
+           stake_e8s: 16666600000000 # Month 18 Vesting
+           memo: 17
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 47336400 # 18 month
+         - controller: # Investor 12's Month 19 neurons
+           stake_e8s: 16666600000000 # Month 19 Vesting
+           memo: 18
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 49966200 # 19 month
+         - controller: # Investor 12's Month 20 neurons
+           stake_e8s: 16666600000000 # Month 20 Vesting
+           memo: 19
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 52596000 # 20 month
+         - controller: # Investor 12's Month 21 neurons
+           stake_e8s: 16666600000000 # Month 21 Vesting
+           memo: 20
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 55225800 # 21 month
+         - controller: # Investor 12's Month 22 neurons
+           stake_e8s: 16666600000000 # Month 22 Vesting
+           memo: 21
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 57855600 # 22 month
+         - controller: # Investor 12's Month 23 neurons
+           stake_e8s: 16666600000000 # Month 23 Vesting
+           memo: 22
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 60485400 # 23 month
+         - controller: # Investor 12's Month 24 neurons
+           stake_e8s: 16668300000000 # Month 24 Vesting
+           memo: 23
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 63115200 # 24 month
+
+         - controller: # Foundation's Month 0 neurons
+           stake_e8s: 2250000000000000 # Month 0 Vesting
+           memo: 0
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 0 # 0 month
+         - controller: # Foundation's Month 3 neurons
+           stake_e8s: 2250000000000000 # Month 3 Vesting
+           memo: 1
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 7889400 # 3 month
+         - controller: # Foundation's Month 6 neurons
+           stake_e8s: 2250000000000000 # Month 6 Vesting
+           memo: 2
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 15778800 # 6 month
+         - controller: # Foundation's Month 9 neurons
+           stake_e8s: 2250000000000000 # Month 9 Vesting
+           memo: 3
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 23668200 # 9 month
+         - controller: # Foundation's Month 12 neurons
+           stake_e8s: 2250000000000000 # Month 12 Vesting
+           memo: 4
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 31557600 # 12 month
+         - controller: # Foundation's Month 15 neurons
+           stake_e8s: 2250000000000000 # Month 15 Vesting
+           memo: 5
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 39447000 # 15 month
+         - controller: # Foundation's Month 18 neurons
+           stake_e8s: 2250000000000000 # Month 18 Vesting
+           memo: 6
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 47336400 # 18 month
+         - controller: # Foundation's Month 21 neurons
+           stake_e8s: 2250000000000000 # Month 21 Vesting
+           memo: 7
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 55225800 # 21 month
+         - controller: # Foundation's Month 24 neurons
+           stake_e8s: 2250000000000000 # Month 24 Vesting
+           memo: 8
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 63115200 # 24 month
+         - controller: # Foundation's Month 27 neurons
+           stake_e8s: 2250000000000000 # Month 27 Vesting
+           memo: 9
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 71004600 # 27 month
+         - controller: # Foundation's Month 30 neurons
+           stake_e8s: 2250000000000000 # Month 30 Vesting
+           memo: 10
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 78894000 # 30 month
+         - controller: # Foundation's Month 33 neurons
+           stake_e8s: 2250000000000000 # Month 33 Vesting
+           memo: 11
+           dissolve_delay_seconds: 7889400 # 3 months
+           vesting_period_seconds: 86783400 # 33 month
+
      treasury_distribution:
-       total_e8s: 5200000000000000 # 52%
+       total_e8s: 21000000000000000 # 21%
      swap_distribution:
-       total_e8s: 2500000000000000 # 25%
-       initial_swap_amount_e8s: 2500000000000000 # 25%
+       total_e8s: 22250000000000000 # 22.25%
+       initial_swap_amount_e8s: 22250000000000000 # 22.25%
      airdrop_distribution:
        airdrop_neurons: []
