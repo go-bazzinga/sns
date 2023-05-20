@@ -1,6 +1,4 @@
 ---
-# To be discussed with Saikat - Line 56, 155, 206, 238
-#
 # It holds that 100000000 e8s = 1 SNS-token.
 #
 #
@@ -53,7 +51,7 @@ neuron_minimum_dissolve_delay_to_vote_seconds: 7889400
 # to the running sns binary, so an absolute path to the logo file is recommended.
 # Must have less than 341334 characters, roughly 256Kb.
 #
-# Current Configuration = This needs to be set; Need Saikat's input on the same
+# Current Configuration
 logo: ./apple-touch-icon.png
 #
 # Url to the dapp controlled by the SNS project.
@@ -152,7 +150,7 @@ max_age_bonus_multiplier: 1.25
 # principal IDs. In most use cases, this is set to the original set of controller(s) of the dapp.
 # This field has no default, a value must be provided by the user.
 #
-# Current Configuration = Need Saikat's Input for this
+# Current Configuration
 fallback_controller_principal_ids: ["tu45y-p4p3d-b4gg4-gmyy3-rgweo-whsrq-fephi-vshrn-cipca-xdkri-pae"]
 #
 # The initial voting period in seconds of a newly created proposal.
