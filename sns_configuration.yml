@@ -236,11 +236,11 @@ initial_token_distribution:
      developer_distribution:
        developer_neurons:
        #
-       #  - controller: tu45y-p4p3d-b4gg4-gmyy3-rgweo-whsrq-fephi-vshrn-cipca-xdkri-pae # DEV team neuron for making proposals
-       #    stake_e8s: 20000000000 # 200 CHAT which allows 20 in-flight proposals
-       #    memo: 0
-       #    dissolve_delay_seconds: 31536000 # 1 year
-       #    vesting_period_seconds: 0
+         - controller: tu45y-p4p3d-b4gg4-gmyy3-rgweo-whsrq-fephi-vshrn-cipca-xdkri-pae # DEV team neuron for making proposals. These tokens are to be allocated from the treasury
+           stake_e8s: 20000000000 # 200 CHAT which allows 20 in-flight proposals
+           memo: 0
+           dissolve_delay_seconds: 31536000 # 1 year
+           vesting_period_seconds: 0
        #  - controller: npqv2-jqaaa-aaaar-qaaha-cai # DEV team beacon neuron for communtity to follow. It will follow the 3 personal dev beacon neurons.
        #    stake_e8s: 400000000 # 4 CHAT which is the mimimum stake
        #    memo: 0
