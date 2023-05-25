@@ -16,7 +16,7 @@ transaction_fee_e8s: 100000
 #
 # Example: InternetComputerProtocol
 #
-token_name: HOT
+token_name: HotOrNot
 #
 # The symbol of the token issued by the SNS Ledger.
 # This field has no default, a value must be provided by the user.
