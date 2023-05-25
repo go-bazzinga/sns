@@ -32,7 +32,7 @@ token_symbol: HOT
 # The cost of making a proposal that is not adopted in e8s.
 # Default value = 100000000
 #
-# Current Configuration = 10 SNS-Tokens
+# Current Configuration = 100 SNS-Tokens
 proposal_reject_cost_e8s: 10000000000
 #
 # The minimum amount of SNS Token e8s an SNS Ledger account must have to stake a neuron.
