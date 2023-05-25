@@ -1473,17 +1473,17 @@ initial_token_distribution:
           vesting_period_seconds: 0 # 0 month
         - controller: rni3c-wzrfi-6d7pv-6edtq-dbzg7-x6abh-boe7n-wix7q-dtmib-bvwpi-uae # Investor 4's neurons
           stake_e8s: 113799600000000 # Reserved for Allocation to Funded Tier 2 NFT Holders
-          memo: 1
+          memo: 0
           dissolve_delay_seconds: 7889400 # 3 months
           vesting_period_seconds: 0 # 0 month
         - controller: pwmwb-cjbac-uzjo6-6yep5-6iexs-snyzt-ymbrm-6jhto-jrr5l-dllo7-vae # Investor 5's neurons
           stake_e8s: 111024000000000 # Reserved for Allocation to Funded Tier 3 NFT Holders
-          memo: 2
+          memo: 0
           dissolve_delay_seconds: 7889400 # 3 months
           vesting_period_seconds: 0 # 0 month
         - controller: 7hkwe-3ocpf-3zbsz-u4tkg-t6unc-rbukb-nftgt-sql7x-x5vc6-knrd5-iae # Investor 6's neurons
           stake_e8s: 33000000000000 # Reserved for Airdrop to Funded Tier NFT Holders post SNS Sale
-          memo: 2
+          memo: 0
           dissolve_delay_seconds: 7889400 # 3 months
           vesting_period_seconds: 0 # 0 month
 
@@ -2341,62 +2341,62 @@ initial_token_distribution:
           vesting_period_seconds: 0 # no vesting
         - controller: pjesh-47myo-mqaw6-grkd6-upwzs-mmnwv-bvm2h-3arhy-hekkf-eeqs2-2qe # Foundation's Month 0 neurons
           stake_e8s: 1687483200000000 # Month 0 Vesting
-          memo: 0
+          memo: 1
           dissolve_delay_seconds: 7889400 # 3 months
           vesting_period_seconds: 0 # 0 month
         - controller: pjesh-47myo-mqaw6-grkd6-upwzs-mmnwv-bvm2h-3arhy-hekkf-eeqs2-2qe # Foundation's Month 3 neurons
           stake_e8s: 1687483200000000 # Month 3 Vesting
-          memo: 1
+          memo: 2
           dissolve_delay_seconds: 7889400 # 3 months
           vesting_period_seconds: 7889400 # 3 month
         - controller: pjesh-47myo-mqaw6-grkd6-upwzs-mmnwv-bvm2h-3arhy-hekkf-eeqs2-2qe # Foundation's Month 6 neurons
           stake_e8s: 1687483200000000 # Month 6 Vesting
-          memo: 2
+          memo: 3
           dissolve_delay_seconds: 7889400 # 3 months
           vesting_period_seconds: 15778800 # 6 month
         - controller: pjesh-47myo-mqaw6-grkd6-upwzs-mmnwv-bvm2h-3arhy-hekkf-eeqs2-2qe # Foundation's Month 9 neurons
           stake_e8s: 1687483200000000 # Month 9 Vesting
-          memo: 3
+          memo: 4
           dissolve_delay_seconds: 7889400 # 3 months
           vesting_period_seconds: 23668200 # 9 month
         - controller: pjesh-47myo-mqaw6-grkd6-upwzs-mmnwv-bvm2h-3arhy-hekkf-eeqs2-2qe # Foundation's Month 12 neurons
           stake_e8s: 1687483200000000 # Month 12 Vesting
-          memo: 4
+          memo: 5
           dissolve_delay_seconds: 7889400 # 3 months
           vesting_period_seconds: 31557600 # 12 month
         - controller: pjesh-47myo-mqaw6-grkd6-upwzs-mmnwv-bvm2h-3arhy-hekkf-eeqs2-2qe # Foundation's Month 15 neurons
           stake_e8s: 1687483200000000 # Month 15 Vesting
-          memo: 5
+          memo: 6
           dissolve_delay_seconds: 7889400 # 3 months
           vesting_period_seconds: 39447000 # 15 month
         - controller: pjesh-47myo-mqaw6-grkd6-upwzs-mmnwv-bvm2h-3arhy-hekkf-eeqs2-2qe # Foundation's Month 18 neurons
           stake_e8s: 1687483200000000 # Month 18 Vesting
-          memo: 6
+          memo: 7
           dissolve_delay_seconds: 0 # 3 months
           vesting_period_seconds: 47336400 # 18 month
         - controller: pjesh-47myo-mqaw6-grkd6-upwzs-mmnwv-bvm2h-3arhy-hekkf-eeqs2-2qe # Foundation's Month 21 neurons
           stake_e8s: 1687483200000000 # Month 21 Vesting
-          memo: 7
+          memo: 8
           dissolve_delay_seconds: 0 # 3 months
           vesting_period_seconds: 55225800 # 21 month
         - controller: pjesh-47myo-mqaw6-grkd6-upwzs-mmnwv-bvm2h-3arhy-hekkf-eeqs2-2qe # Foundation's Month 24 neurons
           stake_e8s: 1687483200000000 # Month 24 Vesting
-          memo: 8
+          memo: 9
           dissolve_delay_seconds: 0 # 3 months
           vesting_period_seconds: 63115200 # 24 month
         - controller: pjesh-47myo-mqaw6-grkd6-upwzs-mmnwv-bvm2h-3arhy-hekkf-eeqs2-2qe # Foundation's Month 27 neurons
           stake_e8s: 1687483200000000 # Month 27 Vesting
-          memo: 9
+          memo: 10
           dissolve_delay_seconds: 0 # 3 months
           vesting_period_seconds: 71004600 # 27 month
         - controller: pjesh-47myo-mqaw6-grkd6-upwzs-mmnwv-bvm2h-3arhy-hekkf-eeqs2-2qe # Foundation's Month 30 neurons
           stake_e8s: 1687483200000000 # Month 30 Vesting
-          memo: 10
+          memo: 11
           dissolve_delay_seconds: 0 # 3 months
           vesting_period_seconds: 78894000 # 30 month
         - controller: pjesh-47myo-mqaw6-grkd6-upwzs-mmnwv-bvm2h-3arhy-hekkf-eeqs2-2qe # Foundation's Month 33 neurons
           stake_e8s: 1687483800000000 # Month 33 Vesting
-          memo: 11
+          memo: 12
           dissolve_delay_seconds: 0 # 3 months
           vesting_period_seconds: 86783400 # 33 month
 
