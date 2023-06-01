@@ -151,7 +151,7 @@ max_age_bonus_multiplier: 1.25
 # This field has no default, a value must be provided by the user.
 #
 # Current Configuration
-fallback_controller_principal_ids: ["3sqli-knhcl-cgw74-iksg6-2s4qi-qo2ss-n4e5m-iss3z-qprwu-xely7-wae"]
+fallback_controller_principal_ids: ["aaaaa-aa"]
 #
 # The initial voting period in seconds of a newly created proposal.
 # (A proposal's voting period may be increased during a proposal's lifecycle due
@@ -233,7 +233,7 @@ initial_token_distribution:
   FractionalDeveloperVotingPower:
     developer_distribution:
       developer_neurons:
-        - controller: 3sqli-knhcl-cgw74-iksg6-2s4qi-qo2ss-n4e5m-iss3z-qprwu-xely7-wae # DEV team neuron for making proposals.
+        - controller: aaaaa-aa # DEV team neuron for making proposals.
           stake_e8s: 200000000000 # 2,000 HOT which allows 20 in-flight proposals
           memo: 0
           dissolve_delay_seconds: 126230400 # 4 years
@@ -2335,7 +2335,7 @@ initial_token_distribution:
           vesting_period_seconds: 63115200 # 24 month
 
     treasury_distribution:
-      total_e8s:  41249799500000000 # 41.25%
+      total_e8s: 41249799500000000 # 41.25%
     swap_distribution:
       total_e8s: 33000000000000000 # 33%
       initial_swap_amount_e8s: 33000000000000000 # 33%
