@@ -5,7 +5,7 @@ ic-admin   \
    --max-icp-e8s 200000000000000  \
    --min-participant-icp-e8s 100000000  \
    --max-participant-icp-e8s 15000000000000  \
-   --swap-due-timestamp-seconds "${DEADLINE}"  \
+   --swap-due-timestamp-seconds "1296000"  \
    --sns-token-e8s 33000000000000000  \
    --target-swap-canister-id "${SNS_SWAP_ID}"  \
    --community-fund-investment-e8s 50000000000000  \
