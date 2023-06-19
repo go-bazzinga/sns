@@ -151,7 +151,8 @@ max_age_bonus_multiplier: 1.25
 # This field has no default, a value must be provided by the user.
 #
 # Current Configuration
-fallback_controller_principal_ids: ["aaaaa-aa"]
+fallback_controller_principal_ids:
+  ["7gaq2-4kttl-vtbt4-oo47w-igteo-cpk2k-57h3p-yioqe-wkawi-wz45g-jae"]
 #
 # The initial voting period in seconds of a newly created proposal.
 # (A proposal's voting period may be increased during a proposal's lifecycle due
@@ -233,18 +234,21 @@ initial_token_distribution:
   FractionalDeveloperVotingPower:
     developer_distribution:
       developer_neurons:
-        - controller: aaaaa-aa # DEV team neuron for making proposals.
+        - controller: 7gaq2-4kttl-vtbt4-oo47w-igteo-cpk2k-57h3p-yioqe-wkawi-wz45g-jae # DEV team neuron for making proposals.
           stake_e8s: 200000000000 # 2,000 HOT which allows 20 in-flight proposals
           memo: 0
           dissolve_delay_seconds: 126230400 # 4 years
           vesting_period_seconds: 0
 
-        - controller: aaaaa-aa # DEV team beacon neuron for communtity to follow. It will follow the 3 personal dev beacon neurons of the founders.
+        - controller: wwyo5-vrahh-jwa74-3m6kj-jqbia-jbebm-7vtyd-uvqem-wk3zw-djpci-vqe # DEV team beacon neuron for communtity to follow. It will follow the 3 personal dev beacon neurons of the founders.
           stake_e8s: 500000000 # 5 HOT which is the minimum stake
           memo: 0
           dissolve_delay_seconds: 126230400 # 4 years
           vesting_period_seconds: 0
 
+        # ! Rishi new principal: ryi4j-3wkkz-ite3a-dccov-fyx3y-v72i4-4xkua-ej74n-ldxro-y6efg-uae
+        # ! Saikat: 4hfon-dejd2-fbqmv-nzcjv-snevk-gr364-7muql-wseui-rwc5r-ezvk3-2qe
+        # ! Utkarsh: ua7gn-bcked-xbv6g-pp7fj-q3bal-mberj-jg4tz-lyivx-3ciqh-cm2tt-7qe
         - controller: i7quy-25wp7-hvxj2-bffav-zaxqc-564im-zcreg-i2itr-6kypu-7bbmy-uqe # Rishi Chadha's Personal Beacon neuron
           stake_e8s: 500000000 # 5 HOT tokens which is the minimum stake
           memo: 0

@@ -1,5 +1,7 @@
+sns deploy --network "ic" --init-config-file "./sns/sns_init.yaml" --save-to "sns_canister_ids.json" 
+
 ic-admin   \
-   --nns-url "${NETWORK_URL}" propose-to-open-sns-token-swap  \
+   --nns-url "https://nns.ic0.app" propose-to-open-sns-token-swap  \
    --min-participants 1  \
    --min-icp-e8s 100000000000000  \
    --max-icp-e8s 200000000000000  \
