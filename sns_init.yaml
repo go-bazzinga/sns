@@ -986,122 +986,122 @@ initial_token_distribution:
 
         - controller: sr3xw-uaoqw-zuwmi-56mmd-y6oqi-ssjeu-ottqw-4zm47-edbim-djnqs-4qe # Advisor 1's Month 1 neurons
           stake_e8s: 18055500000000 # Month 1 Vesting
-          memo: 0
+          memo: 24
           dissolve_delay_seconds: 7889400 # 3 months
           vesting_period_seconds: 2629800 # 1 month
         - controller: sr3xw-uaoqw-zuwmi-56mmd-y6oqi-ssjeu-ottqw-4zm47-edbim-djnqs-4qe # Advisor 1's Month 2 neurons
           stake_e8s: 18055500000000 # Month 2 Vesting
-          memo: 1
+          memo: 25
           dissolve_delay_seconds: 7889400 # 3 months
           vesting_period_seconds: 5259600 # 2 month
         - controller: sr3xw-uaoqw-zuwmi-56mmd-y6oqi-ssjeu-ottqw-4zm47-edbim-djnqs-4qe # Advisor 1's Month 3 neurons
           stake_e8s: 18055500000000 # Month 3 Vesting
-          memo: 2
+          memo: 26
           dissolve_delay_seconds: 7889400 # 3 months
           vesting_period_seconds: 7889400 # 3 month
         - controller: sr3xw-uaoqw-zuwmi-56mmd-y6oqi-ssjeu-ottqw-4zm47-edbim-djnqs-4qe # Advisor 1's Month 4 neurons
           stake_e8s: 18055500000000 # Month 4 Vesting
-          memo: 3
+          memo: 27
           dissolve_delay_seconds: 7889400 # 3 months
           vesting_period_seconds: 10519200 # 4 month
         - controller: sr3xw-uaoqw-zuwmi-56mmd-y6oqi-ssjeu-ottqw-4zm47-edbim-djnqs-4qe # Advisor 1's Month 5 neurons
           stake_e8s: 18055500000000 # Month 5 Vesting
-          memo: 4
+          memo: 28
           dissolve_delay_seconds: 7889400 # 3 months
           vesting_period_seconds: 13149000 # 5 month
         - controller: sr3xw-uaoqw-zuwmi-56mmd-y6oqi-ssjeu-ottqw-4zm47-edbim-djnqs-4qe # Advisor 1's Month 6 neurons
           stake_e8s: 18055500000000 # Month 6 Vesting
-          memo: 5
+          memo: 29
           dissolve_delay_seconds: 7889400 # 3 months
           vesting_period_seconds: 15778800 # 6 month
         - controller: sr3xw-uaoqw-zuwmi-56mmd-y6oqi-ssjeu-ottqw-4zm47-edbim-djnqs-4qe # Advisor 1's Month 7 neurons
           stake_e8s: 18055500000000 # Month 7 Vesting
-          memo: 6
+          memo: 30
           dissolve_delay_seconds: 7889400 # 3 months
           vesting_period_seconds: 18408600 # 7 month
         - controller: sr3xw-uaoqw-zuwmi-56mmd-y6oqi-ssjeu-ottqw-4zm47-edbim-djnqs-4qe # Advisor 1's Month 8 neurons
           stake_e8s: 18055500000000 # Month 8 Vesting
-          memo: 7
+          memo: 31
           dissolve_delay_seconds: 7889400 # 3 months
           vesting_period_seconds: 21038400 # 8 month
         - controller: sr3xw-uaoqw-zuwmi-56mmd-y6oqi-ssjeu-ottqw-4zm47-edbim-djnqs-4qe # Advisor 1's Month 9 neurons
           stake_e8s: 18055500000000 # Month 9 Vesting
-          memo: 8
+          memo: 32
           dissolve_delay_seconds: 7889400 # 3 months
           vesting_period_seconds: 23668200 # 9 month
         - controller: sr3xw-uaoqw-zuwmi-56mmd-y6oqi-ssjeu-ottqw-4zm47-edbim-djnqs-4qe # Advisor 1's Month 10 neurons
           stake_e8s: 18055500000000 # Month 10 Vesting
-          memo: 9
+          memo: 33
           dissolve_delay_seconds: 7889400 # 3 months
           vesting_period_seconds: 26298000 # 10 month
         - controller: sr3xw-uaoqw-zuwmi-56mmd-y6oqi-ssjeu-ottqw-4zm47-edbim-djnqs-4qe # Advisor 1's Month 11 neurons
           stake_e8s: 18055500000000 # Month 11 Vesting
-          memo: 10
+          memo: 34
           dissolve_delay_seconds: 7889400 # 3 months
           vesting_period_seconds: 28927800 # 11 month
         - controller: sr3xw-uaoqw-zuwmi-56mmd-y6oqi-ssjeu-ottqw-4zm47-edbim-djnqs-4qe # Advisor 1's Month 12 neurons
           stake_e8s: 18055500000000 # Month 12 Vesting
-          memo: 11
+          memo: 35
           dissolve_delay_seconds: 7889400 # 3 months
           vesting_period_seconds: 31557600 # 12 month
         - controller: sr3xw-uaoqw-zuwmi-56mmd-y6oqi-ssjeu-ottqw-4zm47-edbim-djnqs-4qe # Advisor 1's Month 13 neurons
           stake_e8s: 18055500000000 # Month 13 Vesting
-          memo: 12
+          memo: 36
           dissolve_delay_seconds: 7889400 # 3 months
           vesting_period_seconds: 34187400 # 13 month
         - controller: sr3xw-uaoqw-zuwmi-56mmd-y6oqi-ssjeu-ottqw-4zm47-edbim-djnqs-4qe # Advisor 1's Month 14 neurons
           stake_e8s: 18055500000000 # Month 14 Vesting
-          memo: 13
+          memo: 37
           dissolve_delay_seconds: 7889400 # 3 months
           vesting_period_seconds: 36817200 # 14 month
         - controller: sr3xw-uaoqw-zuwmi-56mmd-y6oqi-ssjeu-ottqw-4zm47-edbim-djnqs-4qe # Advisor 1's Month 15 neurons
           stake_e8s: 18055500000000 # Month 15 Vesting
-          memo: 14
+          memo: 38
           dissolve_delay_seconds: 7889400 # 3 months
           vesting_period_seconds: 39447000 # 15 month
         - controller: sr3xw-uaoqw-zuwmi-56mmd-y6oqi-ssjeu-ottqw-4zm47-edbim-djnqs-4qe # Advisor 1's Month 16 neurons
           stake_e8s: 18055500000000 # Month 16 Vesting
-          memo: 15
+          memo: 39
           dissolve_delay_seconds: 7889400 # 3 months
           vesting_period_seconds: 42076800 # 16 month
         - controller: sr3xw-uaoqw-zuwmi-56mmd-y6oqi-ssjeu-ottqw-4zm47-edbim-djnqs-4qe # Advisor 1's Month 17 neurons
           stake_e8s: 18055500000000 # Month 17 Vesting
-          memo: 16
+          memo: 40
           dissolve_delay_seconds: 7889400 # 3 months
           vesting_period_seconds: 44706600 # 17 month
         - controller: sr3xw-uaoqw-zuwmi-56mmd-y6oqi-ssjeu-ottqw-4zm47-edbim-djnqs-4qe # Advisor 1's Month 18 neurons
           stake_e8s: 18055500000000 # Month 18 Vesting
-          memo: 17
+          memo: 41
           dissolve_delay_seconds: 7889400 # 3 months
           vesting_period_seconds: 47336400 # 18 month
         - controller: sr3xw-uaoqw-zuwmi-56mmd-y6oqi-ssjeu-ottqw-4zm47-edbim-djnqs-4qe # Advisor 1's Month 19 neurons
           stake_e8s: 18055500000000 # Month 19 Vesting
-          memo: 18
+          memo: 42
           dissolve_delay_seconds: 7889400 # 3 months
           vesting_period_seconds: 49966200 # 19 month
         - controller: sr3xw-uaoqw-zuwmi-56mmd-y6oqi-ssjeu-ottqw-4zm47-edbim-djnqs-4qe # Advisor 1's Month 20 neurons
           stake_e8s: 18055500000000 # Month 20 Vesting
-          memo: 19
+          memo: 43
           dissolve_delay_seconds: 7889400 # 3 months
           vesting_period_seconds: 52596000 # 20 month
         - controller: sr3xw-uaoqw-zuwmi-56mmd-y6oqi-ssjeu-ottqw-4zm47-edbim-djnqs-4qe # Advisor 1's Month 21 neurons
           stake_e8s: 18055500000000 # Month 21 Vesting
-          memo: 20
+          memo: 44
           dissolve_delay_seconds: 7889400 # 3 months
           vesting_period_seconds: 55225800 # 21 month
         - controller: sr3xw-uaoqw-zuwmi-56mmd-y6oqi-ssjeu-ottqw-4zm47-edbim-djnqs-4qe # Advisor 1's Month 22 neurons
           stake_e8s: 18055500000000 # Month 22 Vesting
-          memo: 21
+          memo: 45
           dissolve_delay_seconds: 7889400 # 3 months
           vesting_period_seconds: 57855600 # 22 month
         - controller: sr3xw-uaoqw-zuwmi-56mmd-y6oqi-ssjeu-ottqw-4zm47-edbim-djnqs-4qe # Advisor 1's Month 23 neurons
           stake_e8s: 18055500000000 # Month 23 Vesting
-          memo: 22
+          memo: 46
           dissolve_delay_seconds: 7889400 # 3 months
           vesting_period_seconds: 60485400 # 23 month
         - controller: sr3xw-uaoqw-zuwmi-56mmd-y6oqi-ssjeu-ottqw-4zm47-edbim-djnqs-4qe # Advisor 1's Month 24 neurons
           stake_e8s: 18056800000000 # Month 24 Vesting
-          memo: 23
+          memo: 47
           dissolve_delay_seconds: 7889400 # 3 months
           vesting_period_seconds: 63115200 # 24 month
 
