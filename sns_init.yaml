@@ -246,742 +246,739 @@ initial_token_distribution:
           dissolve_delay_seconds: 126230400 # 4 years
           vesting_period_seconds: 0
 
-        # ! Rishi new principal: ryi4j-3wkkz-ite3a-dccov-fyx3y-v72i4-4xkua-ej74n-ldxro-y6efg-uae
-        # ! Saikat: 4hfon-dejd2-fbqmv-nzcjv-snevk-gr364-7muql-wseui-rwc5r-ezvk3-2qe
-        # ! Utkarsh: ua7gn-bcked-xbv6g-pp7fj-q3bal-mberj-jg4tz-lyivx-3ciqh-cm2tt-7qe
-        - controller: i7quy-25wp7-hvxj2-bffav-zaxqc-564im-zcreg-i2itr-6kypu-7bbmy-uqe # Rishi Chadha's Personal Beacon neuron
+        - controller: ryi4j-3wkkz-ite3a-dccov-fyx3y-v72i4-4xkua-ej74n-ldxro-y6efg-uae # Rishi Chadha's Personal Beacon neuron
           stake_e8s: 500000000 # 5 HOT tokens which is the minimum stake
           memo: 0
           dissolve_delay_seconds: 126230400 # 48 months
           vesting_period_seconds: 0 # no vesting
-        - controller: i7quy-25wp7-hvxj2-bffav-zaxqc-564im-zcreg-i2itr-6kypu-7bbmy-uqe # Rishi Chadha's Month 1 neurons
+        - controller: ryi4j-3wkkz-ite3a-dccov-fyx3y-v72i4-4xkua-ej74n-ldxro-y6efg-uae # Rishi Chadha's Month 1 neurons
           stake_e8s: 104166700000000 # Month 1 Vesting
           memo: 1
           dissolve_delay_seconds: 7889400 # 3 months
           vesting_period_seconds: 2629800 # 1 month
-        - controller: i7quy-25wp7-hvxj2-bffav-zaxqc-564im-zcreg-i2itr-6kypu-7bbmy-uqe # Rishi Chadha's Month 2 neurons
+        - controller: ryi4j-3wkkz-ite3a-dccov-fyx3y-v72i4-4xkua-ej74n-ldxro-y6efg-uae # Rishi Chadha's Month 2 neurons
           stake_e8s: 104166700000000 # Month 2 Vesting
           memo: 2
           dissolve_delay_seconds: 7889400 # 3 months
           vesting_period_seconds: 5259600 # 2 month
-        - controller: i7quy-25wp7-hvxj2-bffav-zaxqc-564im-zcreg-i2itr-6kypu-7bbmy-uqe # Rishi Chadha's Month 3 neurons
+        - controller: ryi4j-3wkkz-ite3a-dccov-fyx3y-v72i4-4xkua-ej74n-ldxro-y6efg-uae # Rishi Chadha's Month 3 neurons
           stake_e8s: 104166700000000 # Month 3 Vesting
           memo: 3
           dissolve_delay_seconds: 7889400 # 3 months
           vesting_period_seconds: 7889400 # 3 month
-        - controller: i7quy-25wp7-hvxj2-bffav-zaxqc-564im-zcreg-i2itr-6kypu-7bbmy-uqe # Rishi Chadha's Month 4 neurons
+        - controller: ryi4j-3wkkz-ite3a-dccov-fyx3y-v72i4-4xkua-ej74n-ldxro-y6efg-uae # Rishi Chadha's Month 4 neurons
           stake_e8s: 104166700000000 # Month 4 Vesting
           memo: 4
           dissolve_delay_seconds: 7889400 # 3 months
           vesting_period_seconds: 10519200 # 4 month
-        - controller: i7quy-25wp7-hvxj2-bffav-zaxqc-564im-zcreg-i2itr-6kypu-7bbmy-uqe # Rishi Chadha's Month 5 neurons
+        - controller: ryi4j-3wkkz-ite3a-dccov-fyx3y-v72i4-4xkua-ej74n-ldxro-y6efg-uae # Rishi Chadha's Month 5 neurons
           stake_e8s: 104166700000000 # Month 5 Vesting
           memo: 5
           dissolve_delay_seconds: 7889400 # 3 months
           vesting_period_seconds: 13149000 # 5 month
-        - controller: i7quy-25wp7-hvxj2-bffav-zaxqc-564im-zcreg-i2itr-6kypu-7bbmy-uqe # Rishi Chadha's Month 6 neurons
+        - controller: ryi4j-3wkkz-ite3a-dccov-fyx3y-v72i4-4xkua-ej74n-ldxro-y6efg-uae # Rishi Chadha's Month 6 neurons
           stake_e8s: 104166700000000 # Month 6 Vesting
           memo: 6
           dissolve_delay_seconds: 7889400 # 3 months
           vesting_period_seconds: 15778800 # 6 month
-        - controller: i7quy-25wp7-hvxj2-bffav-zaxqc-564im-zcreg-i2itr-6kypu-7bbmy-uqe # Rishi Chadha's Month 7 neurons
+        - controller: ryi4j-3wkkz-ite3a-dccov-fyx3y-v72i4-4xkua-ej74n-ldxro-y6efg-uae # Rishi Chadha's Month 7 neurons
           stake_e8s: 104166700000000 # Month 7 Vesting
           memo: 7
           dissolve_delay_seconds: 7889400 # 3 months
           vesting_period_seconds: 18408600 # 7 month
-        - controller: i7quy-25wp7-hvxj2-bffav-zaxqc-564im-zcreg-i2itr-6kypu-7bbmy-uqe # Rishi Chadha's Month 8 neurons
+        - controller: ryi4j-3wkkz-ite3a-dccov-fyx3y-v72i4-4xkua-ej74n-ldxro-y6efg-uae # Rishi Chadha's Month 8 neurons
           stake_e8s: 104166700000000 # Month 8 Vesting
           memo: 8
           dissolve_delay_seconds: 7889400 # 3 months
           vesting_period_seconds: 21038400 # 8 month
-        - controller: i7quy-25wp7-hvxj2-bffav-zaxqc-564im-zcreg-i2itr-6kypu-7bbmy-uqe # Rishi Chadha's Month 9 neurons
+        - controller: ryi4j-3wkkz-ite3a-dccov-fyx3y-v72i4-4xkua-ej74n-ldxro-y6efg-uae # Rishi Chadha's Month 9 neurons
           stake_e8s: 104166700000000 # Month 9 Vesting
           memo: 9
           dissolve_delay_seconds: 7889400 # 3 months
           vesting_period_seconds: 23668200 # 9 month
-        - controller: i7quy-25wp7-hvxj2-bffav-zaxqc-564im-zcreg-i2itr-6kypu-7bbmy-uqe # Rishi Chadha's Month 10 neurons
+        - controller: ryi4j-3wkkz-ite3a-dccov-fyx3y-v72i4-4xkua-ej74n-ldxro-y6efg-uae # Rishi Chadha's Month 10 neurons
           stake_e8s: 104166700000000 # Month 10 Vesting
           memo: 10
           dissolve_delay_seconds: 7889400 # 3 months
           vesting_period_seconds: 26298000 # 10 month
-        - controller: i7quy-25wp7-hvxj2-bffav-zaxqc-564im-zcreg-i2itr-6kypu-7bbmy-uqe # Rishi Chadha's Month 11 neurons
+        - controller: ryi4j-3wkkz-ite3a-dccov-fyx3y-v72i4-4xkua-ej74n-ldxro-y6efg-uae # Rishi Chadha's Month 11 neurons
           stake_e8s: 104166700000000 # Month 11 Vesting
           memo: 11
           dissolve_delay_seconds: 7889400 # 3 months
           vesting_period_seconds: 28927800 # 11 month
-        - controller: i7quy-25wp7-hvxj2-bffav-zaxqc-564im-zcreg-i2itr-6kypu-7bbmy-uqe # Rishi Chadha's Month 12 neurons
+        - controller: ryi4j-3wkkz-ite3a-dccov-fyx3y-v72i4-4xkua-ej74n-ldxro-y6efg-uae # Rishi Chadha's Month 12 neurons
           stake_e8s: 104166700000000 # Month 12 Vesting
           memo: 12
           dissolve_delay_seconds: 7889400 # 3 months
           vesting_period_seconds: 31557600 # 12 month
-        - controller: i7quy-25wp7-hvxj2-bffav-zaxqc-564im-zcreg-i2itr-6kypu-7bbmy-uqe # Rishi Chadha's Month 13 neurons
+        - controller: ryi4j-3wkkz-ite3a-dccov-fyx3y-v72i4-4xkua-ej74n-ldxro-y6efg-uae # Rishi Chadha's Month 13 neurons
           stake_e8s: 104166700000000 # Month 13 Vesting
           memo: 13
           dissolve_delay_seconds: 7889400 # 3 months
           vesting_period_seconds: 34187400 # 13 month
-        - controller: i7quy-25wp7-hvxj2-bffav-zaxqc-564im-zcreg-i2itr-6kypu-7bbmy-uqe # Rishi Chadha's Month 14 neurons
+        - controller: ryi4j-3wkkz-ite3a-dccov-fyx3y-v72i4-4xkua-ej74n-ldxro-y6efg-uae # Rishi Chadha's Month 14 neurons
           stake_e8s: 104166700000000 # Month 14 Vesting
           memo: 14
           dissolve_delay_seconds: 7889400 # 3 months
           vesting_period_seconds: 36817200 # 14 month
-        - controller: i7quy-25wp7-hvxj2-bffav-zaxqc-564im-zcreg-i2itr-6kypu-7bbmy-uqe # Rishi Chadha's Month 15 neurons
+        - controller: ryi4j-3wkkz-ite3a-dccov-fyx3y-v72i4-4xkua-ej74n-ldxro-y6efg-uae # Rishi Chadha's Month 15 neurons
           stake_e8s: 104166700000000 # Month 15 Vesting
           memo: 15
           dissolve_delay_seconds: 7889400 # 3 months
           vesting_period_seconds: 39447000 # 15 month
-        - controller: i7quy-25wp7-hvxj2-bffav-zaxqc-564im-zcreg-i2itr-6kypu-7bbmy-uqe # Rishi Chadha's Month 16 neurons
+        - controller: ryi4j-3wkkz-ite3a-dccov-fyx3y-v72i4-4xkua-ej74n-ldxro-y6efg-uae # Rishi Chadha's Month 16 neurons
           stake_e8s: 104166700000000 # Month 16 Vesting
           memo: 16
           dissolve_delay_seconds: 7889400 # 3 months
           vesting_period_seconds: 42076800 # 16 month
-        - controller: i7quy-25wp7-hvxj2-bffav-zaxqc-564im-zcreg-i2itr-6kypu-7bbmy-uqe # Rishi Chadha's Month 17 neurons
+        - controller: ryi4j-3wkkz-ite3a-dccov-fyx3y-v72i4-4xkua-ej74n-ldxro-y6efg-uae # Rishi Chadha's Month 17 neurons
           stake_e8s: 104166700000000 # Month 17 Vesting
           memo: 17
           dissolve_delay_seconds: 7889400 # 3 months
           vesting_period_seconds: 44706600 # 17 month
-        - controller: i7quy-25wp7-hvxj2-bffav-zaxqc-564im-zcreg-i2itr-6kypu-7bbmy-uqe # Rishi Chadha's Month 18 neurons
+        - controller: ryi4j-3wkkz-ite3a-dccov-fyx3y-v72i4-4xkua-ej74n-ldxro-y6efg-uae # Rishi Chadha's Month 18 neurons
           stake_e8s: 104166700000000 # Month 18 Vesting
           memo: 18
           dissolve_delay_seconds: 7889400 # 3 months
           vesting_period_seconds: 47336400 # 18 month
-        - controller: i7quy-25wp7-hvxj2-bffav-zaxqc-564im-zcreg-i2itr-6kypu-7bbmy-uqe # Rishi Chadha's Month 19 neurons
+        - controller: ryi4j-3wkkz-ite3a-dccov-fyx3y-v72i4-4xkua-ej74n-ldxro-y6efg-uae # Rishi Chadha's Month 19 neurons
           stake_e8s: 104166700000000 # Month 19 Vesting
           memo: 19
           dissolve_delay_seconds: 7889400 # 3 months
           vesting_period_seconds: 49966200 # 19 month
-        - controller: i7quy-25wp7-hvxj2-bffav-zaxqc-564im-zcreg-i2itr-6kypu-7bbmy-uqe # Rishi Chadha's Month 20 neurons
+        - controller: ryi4j-3wkkz-ite3a-dccov-fyx3y-v72i4-4xkua-ej74n-ldxro-y6efg-uae # Rishi Chadha's Month 20 neurons
           stake_e8s: 104166700000000 # Month 20 Vesting
           memo: 20
           dissolve_delay_seconds: 7889400 # 3 months
           vesting_period_seconds: 52596000 # 20 month
-        - controller: i7quy-25wp7-hvxj2-bffav-zaxqc-564im-zcreg-i2itr-6kypu-7bbmy-uqe # Rishi Chadha's Month 21 neurons
+        - controller: ryi4j-3wkkz-ite3a-dccov-fyx3y-v72i4-4xkua-ej74n-ldxro-y6efg-uae # Rishi Chadha's Month 21 neurons
           stake_e8s: 104166700000000 # Month 21 Vesting
           memo: 21
           dissolve_delay_seconds: 7889400 # 3 months
           vesting_period_seconds: 55225800 # 21 month
-        - controller: i7quy-25wp7-hvxj2-bffav-zaxqc-564im-zcreg-i2itr-6kypu-7bbmy-uqe # Rishi Chadha's Month 22 neurons
+        - controller: ryi4j-3wkkz-ite3a-dccov-fyx3y-v72i4-4xkua-ej74n-ldxro-y6efg-uae # Rishi Chadha's Month 22 neurons
           stake_e8s: 104166700000000 # Month 22 Vesting
           memo: 22
           dissolve_delay_seconds: 7889400 # 3 months
           vesting_period_seconds: 57855600 # 22 month
-        - controller: i7quy-25wp7-hvxj2-bffav-zaxqc-564im-zcreg-i2itr-6kypu-7bbmy-uqe # Rishi Chadha's Month 23 neurons
+        - controller: ryi4j-3wkkz-ite3a-dccov-fyx3y-v72i4-4xkua-ej74n-ldxro-y6efg-uae # Rishi Chadha's Month 23 neurons
           stake_e8s: 104166700000000 # Month 23 Vesting
           memo: 23
           dissolve_delay_seconds: 7889400 # 3 months
           vesting_period_seconds: 60485400 # 23 month
-        - controller: i7quy-25wp7-hvxj2-bffav-zaxqc-564im-zcreg-i2itr-6kypu-7bbmy-uqe # Rishi Chadha's Month 24 neurons
+        - controller: ryi4j-3wkkz-ite3a-dccov-fyx3y-v72i4-4xkua-ej74n-ldxro-y6efg-uae # Rishi Chadha's Month 24 neurons
           stake_e8s: 104166700000000 # Month 24 Vesting
           memo: 24
           dissolve_delay_seconds: 7889400 # 3 months
           vesting_period_seconds: 63115200 # 24 month
-        - controller: i7quy-25wp7-hvxj2-bffav-zaxqc-564im-zcreg-i2itr-6kypu-7bbmy-uqe # Rishi Chadha's Month 25 neurons
+        - controller: ryi4j-3wkkz-ite3a-dccov-fyx3y-v72i4-4xkua-ej74n-ldxro-y6efg-uae # Rishi Chadha's Month 25 neurons
           stake_e8s: 104166700000000 # Month 25 Vesting
           memo: 25
           dissolve_delay_seconds: 7889400 # 3 months
           vesting_period_seconds: 65745000 # 25 month
-        - controller: i7quy-25wp7-hvxj2-bffav-zaxqc-564im-zcreg-i2itr-6kypu-7bbmy-uqe # Rishi Chadha's Month 26 neurons
+        - controller: ryi4j-3wkkz-ite3a-dccov-fyx3y-v72i4-4xkua-ej74n-ldxro-y6efg-uae # Rishi Chadha's Month 26 neurons
           stake_e8s: 104166700000000 # Month 26 Vesting
           memo: 26
           dissolve_delay_seconds: 7889400 # 3 months
           vesting_period_seconds: 68374800 # 26 month
-        - controller: i7quy-25wp7-hvxj2-bffav-zaxqc-564im-zcreg-i2itr-6kypu-7bbmy-uqe # Rishi Chadha's Month 27 neurons
+        - controller: ryi4j-3wkkz-ite3a-dccov-fyx3y-v72i4-4xkua-ej74n-ldxro-y6efg-uae # Rishi Chadha's Month 27 neurons
           stake_e8s: 104166700000000 # Month 27 Vesting
           memo: 27
           dissolve_delay_seconds: 7889400 # 3 months
           vesting_period_seconds: 71004600 # 27 month
-        - controller: i7quy-25wp7-hvxj2-bffav-zaxqc-564im-zcreg-i2itr-6kypu-7bbmy-uqe # Rishi Chadha's Month 28 neurons
+        - controller: ryi4j-3wkkz-ite3a-dccov-fyx3y-v72i4-4xkua-ej74n-ldxro-y6efg-uae # Rishi Chadha's Month 28 neurons
           stake_e8s: 104166700000000 # Month 28 Vesting
           memo: 28
           dissolve_delay_seconds: 7889400 # 3 months
           vesting_period_seconds: 73634400 # 28 month
-        - controller: i7quy-25wp7-hvxj2-bffav-zaxqc-564im-zcreg-i2itr-6kypu-7bbmy-uqe # Rishi Chadha's Month 29 neurons
+        - controller: ryi4j-3wkkz-ite3a-dccov-fyx3y-v72i4-4xkua-ej74n-ldxro-y6efg-uae # Rishi Chadha's Month 29 neurons
           stake_e8s: 104166700000000 # Month 29 Vesting
           memo: 29
           dissolve_delay_seconds: 7889400 # 3 months
           vesting_period_seconds: 76264200 # 29 month
-        - controller: i7quy-25wp7-hvxj2-bffav-zaxqc-564im-zcreg-i2itr-6kypu-7bbmy-uqe # Rishi Chadha's Month 30 neurons
+        - controller: ryi4j-3wkkz-ite3a-dccov-fyx3y-v72i4-4xkua-ej74n-ldxro-y6efg-uae # Rishi Chadha's Month 30 neurons
           stake_e8s: 104166700000000 # Month 30 Vesting
           memo: 30
           dissolve_delay_seconds: 7889400 # 3 months
           vesting_period_seconds: 78894000 # 30 month
-        - controller: i7quy-25wp7-hvxj2-bffav-zaxqc-564im-zcreg-i2itr-6kypu-7bbmy-uqe # Rishi Chadha's Month 31 neurons
+        - controller: ryi4j-3wkkz-ite3a-dccov-fyx3y-v72i4-4xkua-ej74n-ldxro-y6efg-uae # Rishi Chadha's Month 31 neurons
           stake_e8s: 104166700000000 # Month 31 Vesting
           memo: 31
           dissolve_delay_seconds: 7889400 # 3 months
           vesting_period_seconds: 81523800 # 31 month
-        - controller: i7quy-25wp7-hvxj2-bffav-zaxqc-564im-zcreg-i2itr-6kypu-7bbmy-uqe # Rishi Chadha's Month 32 neurons
+        - controller: ryi4j-3wkkz-ite3a-dccov-fyx3y-v72i4-4xkua-ej74n-ldxro-y6efg-uae # Rishi Chadha's Month 32 neurons
           stake_e8s: 104166700000000 # Month 32 Vesting
           memo: 32
           dissolve_delay_seconds: 7889400 # 3 months
           vesting_period_seconds: 84153600 # 32 month
-        - controller: i7quy-25wp7-hvxj2-bffav-zaxqc-564im-zcreg-i2itr-6kypu-7bbmy-uqe # Rishi Chadha's Month 33 neurons
+        - controller: ryi4j-3wkkz-ite3a-dccov-fyx3y-v72i4-4xkua-ej74n-ldxro-y6efg-uae # Rishi Chadha's Month 33 neurons
           stake_e8s: 104166700000000 # Month 33 Vesting
           memo: 33
           dissolve_delay_seconds: 7889400 # 3 months
           vesting_period_seconds: 86783400 # 33 month
-        - controller: i7quy-25wp7-hvxj2-bffav-zaxqc-564im-zcreg-i2itr-6kypu-7bbmy-uqe # Rishi Chadha's Month 34 neurons
+        - controller: ryi4j-3wkkz-ite3a-dccov-fyx3y-v72i4-4xkua-ej74n-ldxro-y6efg-uae # Rishi Chadha's Month 34 neurons
           stake_e8s: 104166700000000 # Month 34 Vesting
           memo: 34
           dissolve_delay_seconds: 7889400 # 3 months
           vesting_period_seconds: 89413200 # 34 month
-        - controller: i7quy-25wp7-hvxj2-bffav-zaxqc-564im-zcreg-i2itr-6kypu-7bbmy-uqe # Rishi Chadha's Month 35 neurons
+        - controller: ryi4j-3wkkz-ite3a-dccov-fyx3y-v72i4-4xkua-ej74n-ldxro-y6efg-uae # Rishi Chadha's Month 35 neurons
           stake_e8s: 104166700000000 # Month 35 Vesting
           memo: 35
           dissolve_delay_seconds: 7889400 # 3 months
           vesting_period_seconds: 92043000 # 35 month
-        - controller: i7quy-25wp7-hvxj2-bffav-zaxqc-564im-zcreg-i2itr-6kypu-7bbmy-uqe # Rishi Chadha's Month 36 neurons
+        - controller: ryi4j-3wkkz-ite3a-dccov-fyx3y-v72i4-4xkua-ej74n-ldxro-y6efg-uae # Rishi Chadha's Month 36 neurons
           stake_e8s: 104166700000000 # Month 36 Vesting
           memo: 36
           dissolve_delay_seconds: 7889400 # 3 months
           vesting_period_seconds: 94672800 # 36 month
-        - controller: i7quy-25wp7-hvxj2-bffav-zaxqc-564im-zcreg-i2itr-6kypu-7bbmy-uqe # Rishi Chadha's Month 37 neurons
+        - controller: ryi4j-3wkkz-ite3a-dccov-fyx3y-v72i4-4xkua-ej74n-ldxro-y6efg-uae # Rishi Chadha's Month 37 neurons
           stake_e8s: 104166700000000 # Month 37 Vesting
           memo: 37
           dissolve_delay_seconds: 7889400 # 3 months
           vesting_period_seconds: 97302600 # 37 month
-        - controller: i7quy-25wp7-hvxj2-bffav-zaxqc-564im-zcreg-i2itr-6kypu-7bbmy-uqe # Rishi Chadha's Month 38 neurons
+        - controller: ryi4j-3wkkz-ite3a-dccov-fyx3y-v72i4-4xkua-ej74n-ldxro-y6efg-uae # Rishi Chadha's Month 38 neurons
           stake_e8s: 104166700000000 # Month 38 Vesting
           memo: 38
           dissolve_delay_seconds: 7889400 # 3 months
           vesting_period_seconds: 99932400 # 38 month
-        - controller: i7quy-25wp7-hvxj2-bffav-zaxqc-564im-zcreg-i2itr-6kypu-7bbmy-uqe # Rishi Chadha's Month 39 neurons
+        - controller: ryi4j-3wkkz-ite3a-dccov-fyx3y-v72i4-4xkua-ej74n-ldxro-y6efg-uae # Rishi Chadha's Month 39 neurons
           stake_e8s: 104166700000000 # Month 39 Vesting
           memo: 39
           dissolve_delay_seconds: 7889400 # 3 months
           vesting_period_seconds: 102562200 # 39 month
-        - controller: i7quy-25wp7-hvxj2-bffav-zaxqc-564im-zcreg-i2itr-6kypu-7bbmy-uqe # Rishi Chadha's Month 40 neurons
+        - controller: ryi4j-3wkkz-ite3a-dccov-fyx3y-v72i4-4xkua-ej74n-ldxro-y6efg-uae # Rishi Chadha's Month 40 neurons
           stake_e8s: 104166700000000 # Month 40 Vesting
           memo: 40
           dissolve_delay_seconds: 7889400 # 3 months
           vesting_period_seconds: 105192000 # 40 month
-        - controller: i7quy-25wp7-hvxj2-bffav-zaxqc-564im-zcreg-i2itr-6kypu-7bbmy-uqe # Rishi Chadha's Month 41 neurons
+        - controller: ryi4j-3wkkz-ite3a-dccov-fyx3y-v72i4-4xkua-ej74n-ldxro-y6efg-uae # Rishi Chadha's Month 41 neurons
           stake_e8s: 104166700000000 # Month 41 Vesting
           memo: 41
           dissolve_delay_seconds: 7889400 # 3 months
           vesting_period_seconds: 107821800 # 41 month
-        - controller: i7quy-25wp7-hvxj2-bffav-zaxqc-564im-zcreg-i2itr-6kypu-7bbmy-uqe # Rishi Chadha's Month 42 neurons
+        - controller: ryi4j-3wkkz-ite3a-dccov-fyx3y-v72i4-4xkua-ej74n-ldxro-y6efg-uae # Rishi Chadha's Month 42 neurons
           stake_e8s: 104166700000000 # Month 42 Vesting
           memo: 42
           dissolve_delay_seconds: 7889400 # 3 months
           vesting_period_seconds: 110451600 # 42 month
-        - controller: i7quy-25wp7-hvxj2-bffav-zaxqc-564im-zcreg-i2itr-6kypu-7bbmy-uqe # Rishi Chadha's Month 43 neurons
+        - controller: ryi4j-3wkkz-ite3a-dccov-fyx3y-v72i4-4xkua-ej74n-ldxro-y6efg-uae # Rishi Chadha's Month 43 neurons
           stake_e8s: 104166700000000 # Month 43 Vesting
           memo: 43
           dissolve_delay_seconds: 7889400 # 3 months
           vesting_period_seconds: 113081400 # 43 month
-        - controller: i7quy-25wp7-hvxj2-bffav-zaxqc-564im-zcreg-i2itr-6kypu-7bbmy-uqe # Rishi Chadha's Month 44 neurons
+        - controller: ryi4j-3wkkz-ite3a-dccov-fyx3y-v72i4-4xkua-ej74n-ldxro-y6efg-uae # Rishi Chadha's Month 44 neurons
           stake_e8s: 104166700000000 # Month 44 Vesting
           memo: 44
           dissolve_delay_seconds: 7889400 # 3 months
           vesting_period_seconds: 115711200 # 44 month
-        - controller: i7quy-25wp7-hvxj2-bffav-zaxqc-564im-zcreg-i2itr-6kypu-7bbmy-uqe # Rishi Chadha's Month 45 neurons
+        - controller: ryi4j-3wkkz-ite3a-dccov-fyx3y-v72i4-4xkua-ej74n-ldxro-y6efg-uae # Rishi Chadha's Month 45 neurons
           stake_e8s: 104166700000000 # Month 45 Vesting
           memo: 45
           dissolve_delay_seconds: 7889400 # 3 months
           vesting_period_seconds: 118341000 # 45 month
-        - controller: i7quy-25wp7-hvxj2-bffav-zaxqc-564im-zcreg-i2itr-6kypu-7bbmy-uqe # Rishi Chadha's Month 46 neurons
+        - controller: ryi4j-3wkkz-ite3a-dccov-fyx3y-v72i4-4xkua-ej74n-ldxro-y6efg-uae # Rishi Chadha's Month 46 neurons
           stake_e8s: 104166700000000 # Month 46 Vesting
           memo: 46
           dissolve_delay_seconds: 7889400 # 3 months
           vesting_period_seconds: 120970800 # 46 month
-        - controller: i7quy-25wp7-hvxj2-bffav-zaxqc-564im-zcreg-i2itr-6kypu-7bbmy-uqe # Rishi Chadha's Month 47 neurons
+        - controller: ryi4j-3wkkz-ite3a-dccov-fyx3y-v72i4-4xkua-ej74n-ldxro-y6efg-uae # Rishi Chadha's Month 47 neurons
           stake_e8s: 104166700000000 # Month 47 Vesting
           memo: 47
           dissolve_delay_seconds: 7889400 # 3 months
           vesting_period_seconds: 123600600 # 47 month
-        - controller: i7quy-25wp7-hvxj2-bffav-zaxqc-564im-zcreg-i2itr-6kypu-7bbmy-uqe # Rishi Chadha's Month 48 neurons
+        - controller: ryi4j-3wkkz-ite3a-dccov-fyx3y-v72i4-4xkua-ej74n-ldxro-y6efg-uae # Rishi Chadha's Month 48 neurons
           stake_e8s: 104164600000000 # Month 48 Vesting
           memo: 48
           dissolve_delay_seconds: 7889400 # 3 months
           vesting_period_seconds: 126230400 # 48 month
 
-        - controller: rrotp-xthb5-biuaf-6ordz-vy42x-5fq2r-xvywc-ahih4-z4cum-zsfeq-rqe # Saikat Das's Personal Beacon neuron
+        - controller: 4hfon-dejd2-fbqmv-nzcjv-snevk-gr364-7muql-wseui-rwc5r-ezvk3-2qe # Saikat Das's Personal Beacon neuron
           stake_e8s: 500000000 # 5 HOT tokens which is the minimum stake
           memo: 0
           dissolve_delay_seconds: 126230400 # 48 months
           vesting_period_seconds: 0 # no vesting
-        - controller: rrotp-xthb5-biuaf-6ordz-vy42x-5fq2r-xvywc-ahih4-z4cum-zsfeq-rqe # Saikat Das's Month 1 neurons
+        - controller: 4hfon-dejd2-fbqmv-nzcjv-snevk-gr364-7muql-wseui-rwc5r-ezvk3-2qe # Saikat Das's Month 1 neurons
           stake_e8s: 104166700000000 # Month 1 Vesting
           memo: 1
           dissolve_delay_seconds: 7889400 # 3 months
           vesting_period_seconds: 2629800 # 1 month
-        - controller: rrotp-xthb5-biuaf-6ordz-vy42x-5fq2r-xvywc-ahih4-z4cum-zsfeq-rqe # Saikat Das's Month 2 neurons
+        - controller: 4hfon-dejd2-fbqmv-nzcjv-snevk-gr364-7muql-wseui-rwc5r-ezvk3-2qe # Saikat Das's Month 2 neurons
           stake_e8s: 104166700000000 # Month 2 Vesting
           memo: 2
           dissolve_delay_seconds: 7889400 # 3 months
           vesting_period_seconds: 5259600 # 2 month
-        - controller: rrotp-xthb5-biuaf-6ordz-vy42x-5fq2r-xvywc-ahih4-z4cum-zsfeq-rqe # Saikat Das's Month 3 neurons
+        - controller: 4hfon-dejd2-fbqmv-nzcjv-snevk-gr364-7muql-wseui-rwc5r-ezvk3-2qe # Saikat Das's Month 3 neurons
           stake_e8s: 104166700000000 # Month 3 Vesting
           memo: 3
           dissolve_delay_seconds: 7889400 # 3 months
           vesting_period_seconds: 7889400 # 3 month
-        - controller: rrotp-xthb5-biuaf-6ordz-vy42x-5fq2r-xvywc-ahih4-z4cum-zsfeq-rqe # Saikat Das's Month 4 neurons
+        - controller: 4hfon-dejd2-fbqmv-nzcjv-snevk-gr364-7muql-wseui-rwc5r-ezvk3-2qe # Saikat Das's Month 4 neurons
           stake_e8s: 104166700000000 # Month 4 Vesting
           memo: 4
           dissolve_delay_seconds: 7889400 # 3 months
           vesting_period_seconds: 10519200 # 4 month
-        - controller: rrotp-xthb5-biuaf-6ordz-vy42x-5fq2r-xvywc-ahih4-z4cum-zsfeq-rqe # Saikat Das's Month 5 neurons
+        - controller: 4hfon-dejd2-fbqmv-nzcjv-snevk-gr364-7muql-wseui-rwc5r-ezvk3-2qe # Saikat Das's Month 5 neurons
           stake_e8s: 104166700000000 # Month 5 Vesting
           memo: 5
           dissolve_delay_seconds: 7889400 # 3 months
           vesting_period_seconds: 13149000 # 5 month
-        - controller: rrotp-xthb5-biuaf-6ordz-vy42x-5fq2r-xvywc-ahih4-z4cum-zsfeq-rqe # Saikat Das's Month 6 neurons
+        - controller: 4hfon-dejd2-fbqmv-nzcjv-snevk-gr364-7muql-wseui-rwc5r-ezvk3-2qe # Saikat Das's Month 6 neurons
           stake_e8s: 104166700000000 # Month 6 Vesting
           memo: 6
           dissolve_delay_seconds: 7889400 # 3 months
           vesting_period_seconds: 15778800 # 6 month
-        - controller: rrotp-xthb5-biuaf-6ordz-vy42x-5fq2r-xvywc-ahih4-z4cum-zsfeq-rqe # Saikat Das's Month 7 neurons
+        - controller: 4hfon-dejd2-fbqmv-nzcjv-snevk-gr364-7muql-wseui-rwc5r-ezvk3-2qe # Saikat Das's Month 7 neurons
           stake_e8s: 104166700000000 # Month 7 Vesting
           memo: 7
           dissolve_delay_seconds: 7889400 # 3 months
           vesting_period_seconds: 18408600 # 7 month
-        - controller: rrotp-xthb5-biuaf-6ordz-vy42x-5fq2r-xvywc-ahih4-z4cum-zsfeq-rqe # Saikat Das's Month 8 neurons
+        - controller: 4hfon-dejd2-fbqmv-nzcjv-snevk-gr364-7muql-wseui-rwc5r-ezvk3-2qe # Saikat Das's Month 8 neurons
           stake_e8s: 104166700000000 # Month 8 Vesting
           memo: 8
           dissolve_delay_seconds: 7889400 # 3 months
           vesting_period_seconds: 21038400 # 8 month
-        - controller: rrotp-xthb5-biuaf-6ordz-vy42x-5fq2r-xvywc-ahih4-z4cum-zsfeq-rqe # Saikat Das's Month 9 neurons
+        - controller: 4hfon-dejd2-fbqmv-nzcjv-snevk-gr364-7muql-wseui-rwc5r-ezvk3-2qe # Saikat Das's Month 9 neurons
           stake_e8s: 104166700000000 # Month 9 Vesting
           memo: 9
           dissolve_delay_seconds: 7889400 # 3 months
           vesting_period_seconds: 23668200 # 9 month
-        - controller: rrotp-xthb5-biuaf-6ordz-vy42x-5fq2r-xvywc-ahih4-z4cum-zsfeq-rqe # Saikat Das's Month 10 neurons
+        - controller: 4hfon-dejd2-fbqmv-nzcjv-snevk-gr364-7muql-wseui-rwc5r-ezvk3-2qe # Saikat Das's Month 10 neurons
           stake_e8s: 104166700000000 # Month 10 Vesting
           memo: 10
           dissolve_delay_seconds: 7889400 # 3 months
           vesting_period_seconds: 26298000 # 10 month
-        - controller: rrotp-xthb5-biuaf-6ordz-vy42x-5fq2r-xvywc-ahih4-z4cum-zsfeq-rqe # Saikat Das's Month 11 neurons
+        - controller: 4hfon-dejd2-fbqmv-nzcjv-snevk-gr364-7muql-wseui-rwc5r-ezvk3-2qe # Saikat Das's Month 11 neurons
           stake_e8s: 104166700000000 # Month 11 Vesting
           memo: 11
           dissolve_delay_seconds: 7889400 # 3 months
           vesting_period_seconds: 28927800 # 11 month
-        - controller: rrotp-xthb5-biuaf-6ordz-vy42x-5fq2r-xvywc-ahih4-z4cum-zsfeq-rqe # Saikat Das's Month 12 neurons
+        - controller: 4hfon-dejd2-fbqmv-nzcjv-snevk-gr364-7muql-wseui-rwc5r-ezvk3-2qe # Saikat Das's Month 12 neurons
           stake_e8s: 104166700000000 # Month 12 Vesting
           memo: 12
           dissolve_delay_seconds: 7889400 # 3 months
           vesting_period_seconds: 31557600 # 12 month
-        - controller: rrotp-xthb5-biuaf-6ordz-vy42x-5fq2r-xvywc-ahih4-z4cum-zsfeq-rqe # Saikat Das's Month 13 neurons
+        - controller: 4hfon-dejd2-fbqmv-nzcjv-snevk-gr364-7muql-wseui-rwc5r-ezvk3-2qe # Saikat Das's Month 13 neurons
           stake_e8s: 104166700000000 # Month 13 Vesting
           memo: 13
           dissolve_delay_seconds: 7889400 # 3 months
           vesting_period_seconds: 34187400 # 13 month
-        - controller: rrotp-xthb5-biuaf-6ordz-vy42x-5fq2r-xvywc-ahih4-z4cum-zsfeq-rqe # Saikat Das's Month 14 neurons
+        - controller: 4hfon-dejd2-fbqmv-nzcjv-snevk-gr364-7muql-wseui-rwc5r-ezvk3-2qe # Saikat Das's Month 14 neurons
           stake_e8s: 104166700000000 # Month 14 Vesting
           memo: 14
           dissolve_delay_seconds: 7889400 # 3 months
           vesting_period_seconds: 36817200 # 14 month
-        - controller: rrotp-xthb5-biuaf-6ordz-vy42x-5fq2r-xvywc-ahih4-z4cum-zsfeq-rqe # Saikat Das's Month 15 neurons
+        - controller: 4hfon-dejd2-fbqmv-nzcjv-snevk-gr364-7muql-wseui-rwc5r-ezvk3-2qe # Saikat Das's Month 15 neurons
           stake_e8s: 104166700000000 # Month 15 Vesting
           memo: 15
           dissolve_delay_seconds: 7889400 # 3 months
           vesting_period_seconds: 39447000 # 15 month
-        - controller: rrotp-xthb5-biuaf-6ordz-vy42x-5fq2r-xvywc-ahih4-z4cum-zsfeq-rqe # Saikat Das's Month 16 neurons
+        - controller: 4hfon-dejd2-fbqmv-nzcjv-snevk-gr364-7muql-wseui-rwc5r-ezvk3-2qe # Saikat Das's Month 16 neurons
           stake_e8s: 104166700000000 # Month 16 Vesting
           memo: 16
           dissolve_delay_seconds: 7889400 # 3 months
           vesting_period_seconds: 42076800 # 16 month
-        - controller: rrotp-xthb5-biuaf-6ordz-vy42x-5fq2r-xvywc-ahih4-z4cum-zsfeq-rqe # Saikat Das's Month 17 neurons
+        - controller: 4hfon-dejd2-fbqmv-nzcjv-snevk-gr364-7muql-wseui-rwc5r-ezvk3-2qe # Saikat Das's Month 17 neurons
           stake_e8s: 104166700000000 # Month 17 Vesting
           memo: 17
           dissolve_delay_seconds: 7889400 # 3 months
           vesting_period_seconds: 44706600 # 17 month
-        - controller: rrotp-xthb5-biuaf-6ordz-vy42x-5fq2r-xvywc-ahih4-z4cum-zsfeq-rqe # Saikat Das's Month 18 neurons
+        - controller: 4hfon-dejd2-fbqmv-nzcjv-snevk-gr364-7muql-wseui-rwc5r-ezvk3-2qe # Saikat Das's Month 18 neurons
           stake_e8s: 104166700000000 # Month 18 Vesting
           memo: 18
           dissolve_delay_seconds: 7889400 # 3 months
           vesting_period_seconds: 47336400 # 18 month
-        - controller: rrotp-xthb5-biuaf-6ordz-vy42x-5fq2r-xvywc-ahih4-z4cum-zsfeq-rqe # Saikat Das's Month 19 neurons
+        - controller: 4hfon-dejd2-fbqmv-nzcjv-snevk-gr364-7muql-wseui-rwc5r-ezvk3-2qe # Saikat Das's Month 19 neurons
           stake_e8s: 104166700000000 # Month 19 Vesting
           memo: 19
           dissolve_delay_seconds: 7889400 # 3 months
           vesting_period_seconds: 49966200 # 19 month
-        - controller: rrotp-xthb5-biuaf-6ordz-vy42x-5fq2r-xvywc-ahih4-z4cum-zsfeq-rqe # Saikat Das's Month 20 neurons
+        - controller: 4hfon-dejd2-fbqmv-nzcjv-snevk-gr364-7muql-wseui-rwc5r-ezvk3-2qe # Saikat Das's Month 20 neurons
           stake_e8s: 104166700000000 # Month 20 Vesting
           memo: 20
           dissolve_delay_seconds: 7889400 # 3 months
           vesting_period_seconds: 52596000 # 20 month
-        - controller: rrotp-xthb5-biuaf-6ordz-vy42x-5fq2r-xvywc-ahih4-z4cum-zsfeq-rqe # Saikat Das's Month 21 neurons
+        - controller: 4hfon-dejd2-fbqmv-nzcjv-snevk-gr364-7muql-wseui-rwc5r-ezvk3-2qe # Saikat Das's Month 21 neurons
           stake_e8s: 104166700000000 # Month 21 Vesting
           memo: 21
           dissolve_delay_seconds: 7889400 # 3 months
           vesting_period_seconds: 55225800 # 21 month
-        - controller: rrotp-xthb5-biuaf-6ordz-vy42x-5fq2r-xvywc-ahih4-z4cum-zsfeq-rqe # Saikat Das's Month 22 neurons
+        - controller: 4hfon-dejd2-fbqmv-nzcjv-snevk-gr364-7muql-wseui-rwc5r-ezvk3-2qe # Saikat Das's Month 22 neurons
           stake_e8s: 104166700000000 # Month 22 Vesting
           memo: 22
           dissolve_delay_seconds: 7889400 # 3 months
           vesting_period_seconds: 57855600 # 22 month
-        - controller: rrotp-xthb5-biuaf-6ordz-vy42x-5fq2r-xvywc-ahih4-z4cum-zsfeq-rqe # Saikat Das's Month 23 neurons
+        - controller: 4hfon-dejd2-fbqmv-nzcjv-snevk-gr364-7muql-wseui-rwc5r-ezvk3-2qe # Saikat Das's Month 23 neurons
           stake_e8s: 104166700000000 # Month 23 Vesting
           memo: 23
           dissolve_delay_seconds: 7889400 # 3 months
           vesting_period_seconds: 60485400 # 23 month
-        - controller: rrotp-xthb5-biuaf-6ordz-vy42x-5fq2r-xvywc-ahih4-z4cum-zsfeq-rqe # Saikat Das's Month 24 neurons
+        - controller: 4hfon-dejd2-fbqmv-nzcjv-snevk-gr364-7muql-wseui-rwc5r-ezvk3-2qe # Saikat Das's Month 24 neurons
           stake_e8s: 104166700000000 # Month 24 Vesting
           memo: 24
           dissolve_delay_seconds: 7889400 # 3 months
           vesting_period_seconds: 63115200 # 24 month
-        - controller: rrotp-xthb5-biuaf-6ordz-vy42x-5fq2r-xvywc-ahih4-z4cum-zsfeq-rqe # Saikat Das's Month 25 neurons
+        - controller: 4hfon-dejd2-fbqmv-nzcjv-snevk-gr364-7muql-wseui-rwc5r-ezvk3-2qe # Saikat Das's Month 25 neurons
           stake_e8s: 104166700000000 # Month 25 Vesting
           memo: 25
           dissolve_delay_seconds: 7889400 # 3 months
           vesting_period_seconds: 65745000 # 25 month
-        - controller: rrotp-xthb5-biuaf-6ordz-vy42x-5fq2r-xvywc-ahih4-z4cum-zsfeq-rqe # Saikat Das's Month 26 neurons
+        - controller: 4hfon-dejd2-fbqmv-nzcjv-snevk-gr364-7muql-wseui-rwc5r-ezvk3-2qe # Saikat Das's Month 26 neurons
           stake_e8s: 104166700000000 # Month 26 Vesting
           memo: 26
           dissolve_delay_seconds: 7889400 # 3 months
           vesting_period_seconds: 68374800 # 26 month
-        - controller: rrotp-xthb5-biuaf-6ordz-vy42x-5fq2r-xvywc-ahih4-z4cum-zsfeq-rqe # Saikat Das's Month 27 neurons
+        - controller: 4hfon-dejd2-fbqmv-nzcjv-snevk-gr364-7muql-wseui-rwc5r-ezvk3-2qe # Saikat Das's Month 27 neurons
           stake_e8s: 104166700000000 # Month 27 Vesting
           memo: 27
           dissolve_delay_seconds: 7889400 # 3 months
           vesting_period_seconds: 71004600 # 27 month
-        - controller: rrotp-xthb5-biuaf-6ordz-vy42x-5fq2r-xvywc-ahih4-z4cum-zsfeq-rqe # Saikat Das's Month 28 neurons
+        - controller: 4hfon-dejd2-fbqmv-nzcjv-snevk-gr364-7muql-wseui-rwc5r-ezvk3-2qe # Saikat Das's Month 28 neurons
           stake_e8s: 104166700000000 # Month 28 Vesting
           memo: 28
           dissolve_delay_seconds: 7889400 # 3 months
           vesting_period_seconds: 73634400 # 28 month
-        - controller: rrotp-xthb5-biuaf-6ordz-vy42x-5fq2r-xvywc-ahih4-z4cum-zsfeq-rqe # Saikat Das's Month 29 neurons
+        - controller: 4hfon-dejd2-fbqmv-nzcjv-snevk-gr364-7muql-wseui-rwc5r-ezvk3-2qe # Saikat Das's Month 29 neurons
           stake_e8s: 104166700000000 # Month 29 Vesting
           memo: 29
           dissolve_delay_seconds: 7889400 # 3 months
           vesting_period_seconds: 76264200 # 29 month
-        - controller: rrotp-xthb5-biuaf-6ordz-vy42x-5fq2r-xvywc-ahih4-z4cum-zsfeq-rqe # Saikat Das's Month 30 neurons
+        - controller: 4hfon-dejd2-fbqmv-nzcjv-snevk-gr364-7muql-wseui-rwc5r-ezvk3-2qe # Saikat Das's Month 30 neurons
           stake_e8s: 104166700000000 # Month 30 Vesting
           memo: 30
           dissolve_delay_seconds: 7889400 # 3 months
           vesting_period_seconds: 78894000 # 30 month
-        - controller: rrotp-xthb5-biuaf-6ordz-vy42x-5fq2r-xvywc-ahih4-z4cum-zsfeq-rqe # Saikat Das's Month 31 neurons
+        - controller: 4hfon-dejd2-fbqmv-nzcjv-snevk-gr364-7muql-wseui-rwc5r-ezvk3-2qe # Saikat Das's Month 31 neurons
           stake_e8s: 104166700000000 # Month 31 Vesting
           memo: 31
           dissolve_delay_seconds: 7889400 # 3 months
           vesting_period_seconds: 81523800 # 31 month
-        - controller: rrotp-xthb5-biuaf-6ordz-vy42x-5fq2r-xvywc-ahih4-z4cum-zsfeq-rqe # Saikat Das's Month 32 neurons
+        - controller: 4hfon-dejd2-fbqmv-nzcjv-snevk-gr364-7muql-wseui-rwc5r-ezvk3-2qe # Saikat Das's Month 32 neurons
           stake_e8s: 104166700000000 # Month 32 Vesting
           memo: 32
           dissolve_delay_seconds: 7889400 # 3 months
           vesting_period_seconds: 84153600 # 32 month
-        - controller: rrotp-xthb5-biuaf-6ordz-vy42x-5fq2r-xvywc-ahih4-z4cum-zsfeq-rqe # Saikat Das's Month 33 neurons
+        - controller: 4hfon-dejd2-fbqmv-nzcjv-snevk-gr364-7muql-wseui-rwc5r-ezvk3-2qe # Saikat Das's Month 33 neurons
           stake_e8s: 104166700000000 # Month 33 Vesting
           memo: 33
           dissolve_delay_seconds: 7889400 # 3 months
           vesting_period_seconds: 86783400 # 33 month
-        - controller: rrotp-xthb5-biuaf-6ordz-vy42x-5fq2r-xvywc-ahih4-z4cum-zsfeq-rqe # Saikat Das's Month 34 neurons
+        - controller: 4hfon-dejd2-fbqmv-nzcjv-snevk-gr364-7muql-wseui-rwc5r-ezvk3-2qe # Saikat Das's Month 34 neurons
           stake_e8s: 104166700000000 # Month 34 Vesting
           memo: 34
           dissolve_delay_seconds: 7889400 # 3 months
           vesting_period_seconds: 89413200 # 34 month
-        - controller: rrotp-xthb5-biuaf-6ordz-vy42x-5fq2r-xvywc-ahih4-z4cum-zsfeq-rqe # Saikat Das's Month 35 neurons
+        - controller: 4hfon-dejd2-fbqmv-nzcjv-snevk-gr364-7muql-wseui-rwc5r-ezvk3-2qe # Saikat Das's Month 35 neurons
           stake_e8s: 104166700000000 # Month 35 Vesting
           memo: 35
           dissolve_delay_seconds: 7889400 # 3 months
           vesting_period_seconds: 92043000 # 35 month
-        - controller: rrotp-xthb5-biuaf-6ordz-vy42x-5fq2r-xvywc-ahih4-z4cum-zsfeq-rqe # Saikat Das's Month 36 neurons
+        - controller: 4hfon-dejd2-fbqmv-nzcjv-snevk-gr364-7muql-wseui-rwc5r-ezvk3-2qe # Saikat Das's Month 36 neurons
           stake_e8s: 104166700000000 # Month 36 Vesting
           memo: 36
           dissolve_delay_seconds: 7889400 # 3 months
           vesting_period_seconds: 94672800 # 36 month
-        - controller: rrotp-xthb5-biuaf-6ordz-vy42x-5fq2r-xvywc-ahih4-z4cum-zsfeq-rqe # Saikat Das's Month 37 neurons
+        - controller: 4hfon-dejd2-fbqmv-nzcjv-snevk-gr364-7muql-wseui-rwc5r-ezvk3-2qe # Saikat Das's Month 37 neurons
           stake_e8s: 104166700000000 # Month 37 Vesting
           memo: 37
           dissolve_delay_seconds: 7889400 # 3 months
           vesting_period_seconds: 97302600 # 37 month
-        - controller: rrotp-xthb5-biuaf-6ordz-vy42x-5fq2r-xvywc-ahih4-z4cum-zsfeq-rqe # Saikat Das's Month 38 neurons
+        - controller: 4hfon-dejd2-fbqmv-nzcjv-snevk-gr364-7muql-wseui-rwc5r-ezvk3-2qe # Saikat Das's Month 38 neurons
           stake_e8s: 104166700000000 # Month 38 Vesting
           memo: 38
           dissolve_delay_seconds: 7889400 # 3 months
           vesting_period_seconds: 99932400 # 38 month
-        - controller: rrotp-xthb5-biuaf-6ordz-vy42x-5fq2r-xvywc-ahih4-z4cum-zsfeq-rqe # Saikat Das's Month 39 neurons
+        - controller: 4hfon-dejd2-fbqmv-nzcjv-snevk-gr364-7muql-wseui-rwc5r-ezvk3-2qe # Saikat Das's Month 39 neurons
           stake_e8s: 104166700000000 # Month 39 Vesting
           memo: 39
           dissolve_delay_seconds: 7889400 # 3 months
           vesting_period_seconds: 102562200 # 39 month
-        - controller: rrotp-xthb5-biuaf-6ordz-vy42x-5fq2r-xvywc-ahih4-z4cum-zsfeq-rqe # Saikat Das's Month 40 neurons
+        - controller: 4hfon-dejd2-fbqmv-nzcjv-snevk-gr364-7muql-wseui-rwc5r-ezvk3-2qe # Saikat Das's Month 40 neurons
           stake_e8s: 104166700000000 # Month 40 Vesting
           memo: 40
           dissolve_delay_seconds: 7889400 # 3 months
           vesting_period_seconds: 105192000 # 40 month
-        - controller: rrotp-xthb5-biuaf-6ordz-vy42x-5fq2r-xvywc-ahih4-z4cum-zsfeq-rqe # Saikat Das's Month 41 neurons
+        - controller: 4hfon-dejd2-fbqmv-nzcjv-snevk-gr364-7muql-wseui-rwc5r-ezvk3-2qe # Saikat Das's Month 41 neurons
           stake_e8s: 104166700000000 # Month 41 Vesting
           memo: 41
           dissolve_delay_seconds: 7889400 # 3 months
           vesting_period_seconds: 107821800 # 41 month
-        - controller: rrotp-xthb5-biuaf-6ordz-vy42x-5fq2r-xvywc-ahih4-z4cum-zsfeq-rqe # Saikat Das's Month 42 neurons
+        - controller: 4hfon-dejd2-fbqmv-nzcjv-snevk-gr364-7muql-wseui-rwc5r-ezvk3-2qe # Saikat Das's Month 42 neurons
           stake_e8s: 104166700000000 # Month 42 Vesting
           memo: 42
           dissolve_delay_seconds: 7889400 # 3 months
           vesting_period_seconds: 110451600 # 42 month
-        - controller: rrotp-xthb5-biuaf-6ordz-vy42x-5fq2r-xvywc-ahih4-z4cum-zsfeq-rqe # Saikat Das's Month 43 neurons
+        - controller: 4hfon-dejd2-fbqmv-nzcjv-snevk-gr364-7muql-wseui-rwc5r-ezvk3-2qe # Saikat Das's Month 43 neurons
           stake_e8s: 104166700000000 # Month 43 Vesting
           memo: 43
           dissolve_delay_seconds: 7889400 # 3 months
           vesting_period_seconds: 113081400 # 43 month
-        - controller: rrotp-xthb5-biuaf-6ordz-vy42x-5fq2r-xvywc-ahih4-z4cum-zsfeq-rqe # Saikat Das's Month 44 neurons
+        - controller: 4hfon-dejd2-fbqmv-nzcjv-snevk-gr364-7muql-wseui-rwc5r-ezvk3-2qe # Saikat Das's Month 44 neurons
           stake_e8s: 104166700000000 # Month 44 Vesting
           memo: 44
           dissolve_delay_seconds: 7889400 # 3 months
           vesting_period_seconds: 115711200 # 44 month
-        - controller: rrotp-xthb5-biuaf-6ordz-vy42x-5fq2r-xvywc-ahih4-z4cum-zsfeq-rqe # Saikat Das's Month 45 neurons
+        - controller: 4hfon-dejd2-fbqmv-nzcjv-snevk-gr364-7muql-wseui-rwc5r-ezvk3-2qe # Saikat Das's Month 45 neurons
           stake_e8s: 104166700000000 # Month 45 Vesting
           memo: 45
           dissolve_delay_seconds: 7889400 # 3 months
           vesting_period_seconds: 118341000 # 45 month
-        - controller: rrotp-xthb5-biuaf-6ordz-vy42x-5fq2r-xvywc-ahih4-z4cum-zsfeq-rqe # Saikat Das's Month 46 neurons
+        - controller: 4hfon-dejd2-fbqmv-nzcjv-snevk-gr364-7muql-wseui-rwc5r-ezvk3-2qe # Saikat Das's Month 46 neurons
           stake_e8s: 104166700000000 # Month 46 Vesting
           memo: 46
           dissolve_delay_seconds: 7889400 # 3 months
           vesting_period_seconds: 120970800 # 46 month
-        - controller: rrotp-xthb5-biuaf-6ordz-vy42x-5fq2r-xvywc-ahih4-z4cum-zsfeq-rqe # Saikat Das's Month 47 neurons
+        - controller: 4hfon-dejd2-fbqmv-nzcjv-snevk-gr364-7muql-wseui-rwc5r-ezvk3-2qe # Saikat Das's Month 47 neurons
           stake_e8s: 104166700000000 # Month 47 Vesting
           memo: 47
           dissolve_delay_seconds: 7889400 # 3 months
           vesting_period_seconds: 123600600 # 47 month
-        - controller: rrotp-xthb5-biuaf-6ordz-vy42x-5fq2r-xvywc-ahih4-z4cum-zsfeq-rqe # Saikat Das's Month 48 neurons
+        - controller: 4hfon-dejd2-fbqmv-nzcjv-snevk-gr364-7muql-wseui-rwc5r-ezvk3-2qe # Saikat Das's Month 48 neurons
           stake_e8s: 104164600000000 # Month 48 Vesting
           memo: 48
           dissolve_delay_seconds: 7889400 # 3 months
           vesting_period_seconds: 126230400 # 48 month
 
-        - controller: mwcde-wabhb-goun4-4q7w2-xa4ov-x32eq-cyxje-qp36p-hqoqc-eit76-dae # Utkarsh Goyal's Personal Beacon neuron
+        - controller: ua7gn-bcked-xbv6g-pp7fj-q3bal-mberj-jg4tz-lyivx-3ciqh-cm2tt-7qe # Utkarsh Goyal's Personal Beacon neuron
           stake_e8s: 500000000 # 5 HOT tokens which is the minimum stake
           memo: 0
           dissolve_delay_seconds: 126230400 # 48 months
           vesting_period_seconds: 0 # no vesting
-        - controller: mwcde-wabhb-goun4-4q7w2-xa4ov-x32eq-cyxje-qp36p-hqoqc-eit76-dae # Utkarsh Goyal's Month 1 neurons
+        - controller: ua7gn-bcked-xbv6g-pp7fj-q3bal-mberj-jg4tz-lyivx-3ciqh-cm2tt-7qe # Utkarsh Goyal's Month 1 neurons
           stake_e8s: 104166700000000 # Month 1 Vesting
           memo: 1
           dissolve_delay_seconds: 7889400 # 3 months
           vesting_period_seconds: 2629800 # 1 month
-        - controller: mwcde-wabhb-goun4-4q7w2-xa4ov-x32eq-cyxje-qp36p-hqoqc-eit76-dae # Utkarsh Goyal's Month 2 neurons
+        - controller: ua7gn-bcked-xbv6g-pp7fj-q3bal-mberj-jg4tz-lyivx-3ciqh-cm2tt-7qe # Utkarsh Goyal's Month 2 neurons
           stake_e8s: 104166700000000 # Month 2 Vesting
           memo: 2
           dissolve_delay_seconds: 7889400 # 3 months
           vesting_period_seconds: 5259600 # 2 month
-        - controller: mwcde-wabhb-goun4-4q7w2-xa4ov-x32eq-cyxje-qp36p-hqoqc-eit76-dae # Utkarsh Goyal's Month 3 neurons
+        - controller: ua7gn-bcked-xbv6g-pp7fj-q3bal-mberj-jg4tz-lyivx-3ciqh-cm2tt-7qe # Utkarsh Goyal's Month 3 neurons
           stake_e8s: 104166700000000 # Month 3 Vesting
           memo: 3
           dissolve_delay_seconds: 7889400 # 3 months
           vesting_period_seconds: 7889400 # 3 month
-        - controller: mwcde-wabhb-goun4-4q7w2-xa4ov-x32eq-cyxje-qp36p-hqoqc-eit76-dae # Utkarsh Goyal's Month 4 neurons
+        - controller: ua7gn-bcked-xbv6g-pp7fj-q3bal-mberj-jg4tz-lyivx-3ciqh-cm2tt-7qe # Utkarsh Goyal's Month 4 neurons
           stake_e8s: 104166700000000 # Month 4 Vesting
           memo: 4
           dissolve_delay_seconds: 7889400 # 3 months
           vesting_period_seconds: 10519200 # 4 month
-        - controller: mwcde-wabhb-goun4-4q7w2-xa4ov-x32eq-cyxje-qp36p-hqoqc-eit76-dae # Utkarsh Goyal's Month 5 neurons
+        - controller: ua7gn-bcked-xbv6g-pp7fj-q3bal-mberj-jg4tz-lyivx-3ciqh-cm2tt-7qe # Utkarsh Goyal's Month 5 neurons
           stake_e8s: 104166700000000 # Month 5 Vesting
           memo: 5
           dissolve_delay_seconds: 7889400 # 3 months
           vesting_period_seconds: 13149000 # 5 month
-        - controller: mwcde-wabhb-goun4-4q7w2-xa4ov-x32eq-cyxje-qp36p-hqoqc-eit76-dae # Utkarsh Goyal's Month 6 neurons
+        - controller: ua7gn-bcked-xbv6g-pp7fj-q3bal-mberj-jg4tz-lyivx-3ciqh-cm2tt-7qe # Utkarsh Goyal's Month 6 neurons
           stake_e8s: 104166700000000 # Month 6 Vesting
           memo: 6
           dissolve_delay_seconds: 7889400 # 3 months
           vesting_period_seconds: 15778800 # 6 month
-        - controller: mwcde-wabhb-goun4-4q7w2-xa4ov-x32eq-cyxje-qp36p-hqoqc-eit76-dae # Utkarsh Goyal's Month 7 neurons
+        - controller: ua7gn-bcked-xbv6g-pp7fj-q3bal-mberj-jg4tz-lyivx-3ciqh-cm2tt-7qe # Utkarsh Goyal's Month 7 neurons
           stake_e8s: 104166700000000 # Month 7 Vesting
           memo: 7
           dissolve_delay_seconds: 7889400 # 3 months
           vesting_period_seconds: 18408600 # 7 month
-        - controller: mwcde-wabhb-goun4-4q7w2-xa4ov-x32eq-cyxje-qp36p-hqoqc-eit76-dae # Utkarsh Goyal's Month 8 neurons
+        - controller: ua7gn-bcked-xbv6g-pp7fj-q3bal-mberj-jg4tz-lyivx-3ciqh-cm2tt-7qe # Utkarsh Goyal's Month 8 neurons
           stake_e8s: 104166700000000 # Month 8 Vesting
           memo: 8
           dissolve_delay_seconds: 7889400 # 3 months
           vesting_period_seconds: 21038400 # 8 month
-        - controller: mwcde-wabhb-goun4-4q7w2-xa4ov-x32eq-cyxje-qp36p-hqoqc-eit76-dae # Utkarsh Goyal's Month 9 neurons
+        - controller: ua7gn-bcked-xbv6g-pp7fj-q3bal-mberj-jg4tz-lyivx-3ciqh-cm2tt-7qe # Utkarsh Goyal's Month 9 neurons
           stake_e8s: 104166700000000 # Month 9 Vesting
           memo: 9
           dissolve_delay_seconds: 7889400 # 3 months
           vesting_period_seconds: 23668200 # 9 month
-        - controller: mwcde-wabhb-goun4-4q7w2-xa4ov-x32eq-cyxje-qp36p-hqoqc-eit76-dae # Utkarsh Goyal's Month 10 neurons
+        - controller: ua7gn-bcked-xbv6g-pp7fj-q3bal-mberj-jg4tz-lyivx-3ciqh-cm2tt-7qe # Utkarsh Goyal's Month 10 neurons
           stake_e8s: 104166700000000 # Month 10 Vesting
           memo: 10
           dissolve_delay_seconds: 7889400 # 3 months
           vesting_period_seconds: 26298000 # 10 month
-        - controller: mwcde-wabhb-goun4-4q7w2-xa4ov-x32eq-cyxje-qp36p-hqoqc-eit76-dae # Utkarsh Goyal's Month 11 neurons
+        - controller: ua7gn-bcked-xbv6g-pp7fj-q3bal-mberj-jg4tz-lyivx-3ciqh-cm2tt-7qe # Utkarsh Goyal's Month 11 neurons
           stake_e8s: 104166700000000 # Month 11 Vesting
           memo: 11
           dissolve_delay_seconds: 7889400 # 3 months
           vesting_period_seconds: 28927800 # 11 month
-        - controller: mwcde-wabhb-goun4-4q7w2-xa4ov-x32eq-cyxje-qp36p-hqoqc-eit76-dae # Utkarsh Goyal's Month 12 neurons
+        - controller: ua7gn-bcked-xbv6g-pp7fj-q3bal-mberj-jg4tz-lyivx-3ciqh-cm2tt-7qe # Utkarsh Goyal's Month 12 neurons
           stake_e8s: 104166700000000 # Month 12 Vesting
           memo: 12
           dissolve_delay_seconds: 7889400 # 3 months
           vesting_period_seconds: 31557600 # 12 month
-        - controller: mwcde-wabhb-goun4-4q7w2-xa4ov-x32eq-cyxje-qp36p-hqoqc-eit76-dae # Utkarsh Goyal's Month 13 neurons
+        - controller: ua7gn-bcked-xbv6g-pp7fj-q3bal-mberj-jg4tz-lyivx-3ciqh-cm2tt-7qe # Utkarsh Goyal's Month 13 neurons
           stake_e8s: 104166700000000 # Month 13 Vesting
           memo: 13
           dissolve_delay_seconds: 7889400 # 3 months
           vesting_period_seconds: 34187400 # 13 month
-        - controller: mwcde-wabhb-goun4-4q7w2-xa4ov-x32eq-cyxje-qp36p-hqoqc-eit76-dae # Utkarsh Goyal's Month 14 neurons
+        - controller: ua7gn-bcked-xbv6g-pp7fj-q3bal-mberj-jg4tz-lyivx-3ciqh-cm2tt-7qe # Utkarsh Goyal's Month 14 neurons
           stake_e8s: 104166700000000 # Month 14 Vesting
           memo: 14
           dissolve_delay_seconds: 7889400 # 3 months
           vesting_period_seconds: 36817200 # 14 month
-        - controller: mwcde-wabhb-goun4-4q7w2-xa4ov-x32eq-cyxje-qp36p-hqoqc-eit76-dae # Utkarsh Goyal's Month 15 neurons
+        - controller: ua7gn-bcked-xbv6g-pp7fj-q3bal-mberj-jg4tz-lyivx-3ciqh-cm2tt-7qe # Utkarsh Goyal's Month 15 neurons
           stake_e8s: 104166700000000 # Month 15 Vesting
           memo: 15
           dissolve_delay_seconds: 7889400 # 3 months
           vesting_period_seconds: 39447000 # 15 month
-        - controller: mwcde-wabhb-goun4-4q7w2-xa4ov-x32eq-cyxje-qp36p-hqoqc-eit76-dae # Utkarsh Goyal's Month 16 neurons
+        - controller: ua7gn-bcked-xbv6g-pp7fj-q3bal-mberj-jg4tz-lyivx-3ciqh-cm2tt-7qe # Utkarsh Goyal's Month 16 neurons
           stake_e8s: 104166700000000 # Month 16 Vesting
           memo: 16
           dissolve_delay_seconds: 7889400 # 3 months
           vesting_period_seconds: 42076800 # 16 month
-        - controller: mwcde-wabhb-goun4-4q7w2-xa4ov-x32eq-cyxje-qp36p-hqoqc-eit76-dae # Utkarsh Goyal's Month 17 neurons
+        - controller: ua7gn-bcked-xbv6g-pp7fj-q3bal-mberj-jg4tz-lyivx-3ciqh-cm2tt-7qe # Utkarsh Goyal's Month 17 neurons
           stake_e8s: 104166700000000 # Month 17 Vesting
           memo: 17
           dissolve_delay_seconds: 7889400 # 3 months
           vesting_period_seconds: 44706600 # 17 month
-        - controller: mwcde-wabhb-goun4-4q7w2-xa4ov-x32eq-cyxje-qp36p-hqoqc-eit76-dae # Utkarsh Goyal's Month 18 neurons
+        - controller: ua7gn-bcked-xbv6g-pp7fj-q3bal-mberj-jg4tz-lyivx-3ciqh-cm2tt-7qe # Utkarsh Goyal's Month 18 neurons
           stake_e8s: 104166700000000 # Month 18 Vesting
           memo: 18
           dissolve_delay_seconds: 7889400 # 3 months
           vesting_period_seconds: 47336400 # 18 month
-        - controller: mwcde-wabhb-goun4-4q7w2-xa4ov-x32eq-cyxje-qp36p-hqoqc-eit76-dae # Utkarsh Goyal's Month 19 neurons
+        - controller: ua7gn-bcked-xbv6g-pp7fj-q3bal-mberj-jg4tz-lyivx-3ciqh-cm2tt-7qe # Utkarsh Goyal's Month 19 neurons
           stake_e8s: 104166700000000 # Month 19 Vesting
           memo: 19
           dissolve_delay_seconds: 7889400 # 3 months
           vesting_period_seconds: 49966200 # 19 month
-        - controller: mwcde-wabhb-goun4-4q7w2-xa4ov-x32eq-cyxje-qp36p-hqoqc-eit76-dae # Utkarsh Goyal's Month 20 neurons
+        - controller: ua7gn-bcked-xbv6g-pp7fj-q3bal-mberj-jg4tz-lyivx-3ciqh-cm2tt-7qe # Utkarsh Goyal's Month 20 neurons
           stake_e8s: 104166700000000 # Month 20 Vesting
           memo: 20
           dissolve_delay_seconds: 7889400 # 3 months
           vesting_period_seconds: 52596000 # 20 month
-        - controller: mwcde-wabhb-goun4-4q7w2-xa4ov-x32eq-cyxje-qp36p-hqoqc-eit76-dae # Utkarsh Goyal's Month 21 neurons
+        - controller: ua7gn-bcked-xbv6g-pp7fj-q3bal-mberj-jg4tz-lyivx-3ciqh-cm2tt-7qe # Utkarsh Goyal's Month 21 neurons
           stake_e8s: 104166700000000 # Month 21 Vesting
           memo: 21
           dissolve_delay_seconds: 7889400 # 3 months
           vesting_period_seconds: 55225800 # 21 month
-        - controller: mwcde-wabhb-goun4-4q7w2-xa4ov-x32eq-cyxje-qp36p-hqoqc-eit76-dae # Utkarsh Goyal's Month 22 neurons
+        - controller: ua7gn-bcked-xbv6g-pp7fj-q3bal-mberj-jg4tz-lyivx-3ciqh-cm2tt-7qe # Utkarsh Goyal's Month 22 neurons
           stake_e8s: 104166700000000 # Month 22 Vesting
           memo: 22
           dissolve_delay_seconds: 7889400 # 3 months
           vesting_period_seconds: 57855600 # 22 month
-        - controller: mwcde-wabhb-goun4-4q7w2-xa4ov-x32eq-cyxje-qp36p-hqoqc-eit76-dae # Utkarsh Goyal's Month 23 neurons
+        - controller: ua7gn-bcked-xbv6g-pp7fj-q3bal-mberj-jg4tz-lyivx-3ciqh-cm2tt-7qe # Utkarsh Goyal's Month 23 neurons
           stake_e8s: 104166700000000 # Month 23 Vesting
           memo: 23
           dissolve_delay_seconds: 7889400 # 3 months
           vesting_period_seconds: 60485400 # 23 month
-        - controller: mwcde-wabhb-goun4-4q7w2-xa4ov-x32eq-cyxje-qp36p-hqoqc-eit76-dae # Utkarsh Goyal's Month 24 neurons
+        - controller: ua7gn-bcked-xbv6g-pp7fj-q3bal-mberj-jg4tz-lyivx-3ciqh-cm2tt-7qe # Utkarsh Goyal's Month 24 neurons
           stake_e8s: 104166700000000 # Month 24 Vesting
           memo: 24
           dissolve_delay_seconds: 7889400 # 3 months
           vesting_period_seconds: 63115200 # 24 month
-        - controller: mwcde-wabhb-goun4-4q7w2-xa4ov-x32eq-cyxje-qp36p-hqoqc-eit76-dae # Utkarsh Goyal's Month 25 neurons
+        - controller: ua7gn-bcked-xbv6g-pp7fj-q3bal-mberj-jg4tz-lyivx-3ciqh-cm2tt-7qe # Utkarsh Goyal's Month 25 neurons
           stake_e8s: 104166700000000 # Month 25 Vesting
           memo: 25
           dissolve_delay_seconds: 7889400 # 3 months
           vesting_period_seconds: 65745000 # 25 month
-        - controller: mwcde-wabhb-goun4-4q7w2-xa4ov-x32eq-cyxje-qp36p-hqoqc-eit76-dae # Utkarsh Goyal's Month 26 neurons
+        - controller: ua7gn-bcked-xbv6g-pp7fj-q3bal-mberj-jg4tz-lyivx-3ciqh-cm2tt-7qe # Utkarsh Goyal's Month 26 neurons
           stake_e8s: 104166700000000 # Month 26 Vesting
           memo: 26
           dissolve_delay_seconds: 7889400 # 3 months
           vesting_period_seconds: 68374800 # 26 month
-        - controller: mwcde-wabhb-goun4-4q7w2-xa4ov-x32eq-cyxje-qp36p-hqoqc-eit76-dae # Utkarsh Goyal's Month 27 neurons
+        - controller: ua7gn-bcked-xbv6g-pp7fj-q3bal-mberj-jg4tz-lyivx-3ciqh-cm2tt-7qe # Utkarsh Goyal's Month 27 neurons
           stake_e8s: 104166700000000 # Month 27 Vesting
           memo: 27
           dissolve_delay_seconds: 7889400 # 3 months
           vesting_period_seconds: 71004600 # 27 month
-        - controller: mwcde-wabhb-goun4-4q7w2-xa4ov-x32eq-cyxje-qp36p-hqoqc-eit76-dae # Utkarsh Goyal's Month 28 neurons
+        - controller: ua7gn-bcked-xbv6g-pp7fj-q3bal-mberj-jg4tz-lyivx-3ciqh-cm2tt-7qe # Utkarsh Goyal's Month 28 neurons
           stake_e8s: 104166700000000 # Month 28 Vesting
           memo: 28
           dissolve_delay_seconds: 7889400 # 3 months
           vesting_period_seconds: 73634400 # 28 month
-        - controller: mwcde-wabhb-goun4-4q7w2-xa4ov-x32eq-cyxje-qp36p-hqoqc-eit76-dae # Utkarsh Goyal's Month 29 neurons
+        - controller: ua7gn-bcked-xbv6g-pp7fj-q3bal-mberj-jg4tz-lyivx-3ciqh-cm2tt-7qe # Utkarsh Goyal's Month 29 neurons
           stake_e8s: 104166700000000 # Month 29 Vesting
           memo: 29
           dissolve_delay_seconds: 7889400 # 3 months
           vesting_period_seconds: 76264200 # 29 month
-        - controller: mwcde-wabhb-goun4-4q7w2-xa4ov-x32eq-cyxje-qp36p-hqoqc-eit76-dae # Utkarsh Goyal's Month 30 neurons
+        - controller: ua7gn-bcked-xbv6g-pp7fj-q3bal-mberj-jg4tz-lyivx-3ciqh-cm2tt-7qe # Utkarsh Goyal's Month 30 neurons
           stake_e8s: 104166700000000 # Month 30 Vesting
           memo: 30
           dissolve_delay_seconds: 7889400 # 3 months
           vesting_period_seconds: 78894000 # 30 month
-        - controller: mwcde-wabhb-goun4-4q7w2-xa4ov-x32eq-cyxje-qp36p-hqoqc-eit76-dae # Utkarsh Goyal's Month 31 neurons
+        - controller: ua7gn-bcked-xbv6g-pp7fj-q3bal-mberj-jg4tz-lyivx-3ciqh-cm2tt-7qe # Utkarsh Goyal's Month 31 neurons
           stake_e8s: 104166700000000 # Month 31 Vesting
           memo: 31
           dissolve_delay_seconds: 7889400 # 3 months
           vesting_period_seconds: 81523800 # 31 month
-        - controller: mwcde-wabhb-goun4-4q7w2-xa4ov-x32eq-cyxje-qp36p-hqoqc-eit76-dae # Utkarsh Goyal's Month 32 neurons
+        - controller: ua7gn-bcked-xbv6g-pp7fj-q3bal-mberj-jg4tz-lyivx-3ciqh-cm2tt-7qe # Utkarsh Goyal's Month 32 neurons
           stake_e8s: 104166700000000 # Month 32 Vesting
           memo: 32
           dissolve_delay_seconds: 7889400 # 3 months
           vesting_period_seconds: 84153600 # 32 month
-        - controller: mwcde-wabhb-goun4-4q7w2-xa4ov-x32eq-cyxje-qp36p-hqoqc-eit76-dae # Utkarsh Goyal's Month 33 neurons
+        - controller: ua7gn-bcked-xbv6g-pp7fj-q3bal-mberj-jg4tz-lyivx-3ciqh-cm2tt-7qe # Utkarsh Goyal's Month 33 neurons
           stake_e8s: 104166700000000 # Month 33 Vesting
           memo: 33
           dissolve_delay_seconds: 7889400 # 3 months
           vesting_period_seconds: 86783400 # 33 month
-        - controller: mwcde-wabhb-goun4-4q7w2-xa4ov-x32eq-cyxje-qp36p-hqoqc-eit76-dae # Utkarsh Goyal's Month 34 neurons
+        - controller: ua7gn-bcked-xbv6g-pp7fj-q3bal-mberj-jg4tz-lyivx-3ciqh-cm2tt-7qe # Utkarsh Goyal's Month 34 neurons
           stake_e8s: 104166700000000 # Month 34 Vesting
           memo: 34
           dissolve_delay_seconds: 7889400 # 3 months
           vesting_period_seconds: 89413200 # 34 month
-        - controller: mwcde-wabhb-goun4-4q7w2-xa4ov-x32eq-cyxje-qp36p-hqoqc-eit76-dae # Utkarsh Goyal's Month 35 neurons
+        - controller: ua7gn-bcked-xbv6g-pp7fj-q3bal-mberj-jg4tz-lyivx-3ciqh-cm2tt-7qe # Utkarsh Goyal's Month 35 neurons
           stake_e8s: 104166700000000 # Month 35 Vesting
           memo: 35
           dissolve_delay_seconds: 7889400 # 3 months
           vesting_period_seconds: 92043000 # 35 month
-        - controller: mwcde-wabhb-goun4-4q7w2-xa4ov-x32eq-cyxje-qp36p-hqoqc-eit76-dae # Utkarsh Goyal's Month 36 neurons
+        - controller: ua7gn-bcked-xbv6g-pp7fj-q3bal-mberj-jg4tz-lyivx-3ciqh-cm2tt-7qe # Utkarsh Goyal's Month 36 neurons
           stake_e8s: 104166700000000 # Month 36 Vesting
           memo: 36
           dissolve_delay_seconds: 7889400 # 3 months
           vesting_period_seconds: 94672800 # 36 month
-        - controller: mwcde-wabhb-goun4-4q7w2-xa4ov-x32eq-cyxje-qp36p-hqoqc-eit76-dae # Utkarsh Goyal's Month 37 neurons
+        - controller: ua7gn-bcked-xbv6g-pp7fj-q3bal-mberj-jg4tz-lyivx-3ciqh-cm2tt-7qe # Utkarsh Goyal's Month 37 neurons
           stake_e8s: 104166700000000 # Month 37 Vesting
           memo: 37
           dissolve_delay_seconds: 7889400 # 3 months
           vesting_period_seconds: 97302600 # 37 month
-        - controller: mwcde-wabhb-goun4-4q7w2-xa4ov-x32eq-cyxje-qp36p-hqoqc-eit76-dae # Utkarsh Goyal's Month 38 neurons
+        - controller: ua7gn-bcked-xbv6g-pp7fj-q3bal-mberj-jg4tz-lyivx-3ciqh-cm2tt-7qe # Utkarsh Goyal's Month 38 neurons
           stake_e8s: 104166700000000 # Month 38 Vesting
           memo: 38
           dissolve_delay_seconds: 7889400 # 3 months
           vesting_period_seconds: 99932400 # 38 month
-        - controller: mwcde-wabhb-goun4-4q7w2-xa4ov-x32eq-cyxje-qp36p-hqoqc-eit76-dae # Utkarsh Goyal's Month 39 neurons
+        - controller: ua7gn-bcked-xbv6g-pp7fj-q3bal-mberj-jg4tz-lyivx-3ciqh-cm2tt-7qe # Utkarsh Goyal's Month 39 neurons
           stake_e8s: 104166700000000 # Month 39 Vesting
           memo: 39
           dissolve_delay_seconds: 7889400 # 3 months
           vesting_period_seconds: 102562200 # 39 month
-        - controller: mwcde-wabhb-goun4-4q7w2-xa4ov-x32eq-cyxje-qp36p-hqoqc-eit76-dae # Utkarsh Goyal's Month 40 neurons
+        - controller: ua7gn-bcked-xbv6g-pp7fj-q3bal-mberj-jg4tz-lyivx-3ciqh-cm2tt-7qe # Utkarsh Goyal's Month 40 neurons
           stake_e8s: 104166700000000 # Month 40 Vesting
           memo: 40
           dissolve_delay_seconds: 7889400 # 3 months
           vesting_period_seconds: 105192000 # 40 month
-        - controller: mwcde-wabhb-goun4-4q7w2-xa4ov-x32eq-cyxje-qp36p-hqoqc-eit76-dae # Utkarsh Goyal's Month 41 neurons
+        - controller: ua7gn-bcked-xbv6g-pp7fj-q3bal-mberj-jg4tz-lyivx-3ciqh-cm2tt-7qe # Utkarsh Goyal's Month 41 neurons
           stake_e8s: 104166700000000 # Month 41 Vesting
           memo: 41
           dissolve_delay_seconds: 7889400 # 3 months
           vesting_period_seconds: 107821800 # 41 month
-        - controller: mwcde-wabhb-goun4-4q7w2-xa4ov-x32eq-cyxje-qp36p-hqoqc-eit76-dae # Utkarsh Goyal's Month 42 neurons
+        - controller: ua7gn-bcked-xbv6g-pp7fj-q3bal-mberj-jg4tz-lyivx-3ciqh-cm2tt-7qe # Utkarsh Goyal's Month 42 neurons
           stake_e8s: 104166700000000 # Month 42 Vesting
           memo: 42
           dissolve_delay_seconds: 7889400 # 3 months
           vesting_period_seconds: 110451600 # 42 month
-        - controller: mwcde-wabhb-goun4-4q7w2-xa4ov-x32eq-cyxje-qp36p-hqoqc-eit76-dae # Utkarsh Goyal's Month 43 neurons
+        - controller: ua7gn-bcked-xbv6g-pp7fj-q3bal-mberj-jg4tz-lyivx-3ciqh-cm2tt-7qe # Utkarsh Goyal's Month 43 neurons
           stake_e8s: 104166700000000 # Month 43 Vesting
           memo: 43
           dissolve_delay_seconds: 7889400 # 3 months
           vesting_period_seconds: 113081400 # 43 month
-        - controller: mwcde-wabhb-goun4-4q7w2-xa4ov-x32eq-cyxje-qp36p-hqoqc-eit76-dae # Utkarsh Goyal's Month 44 neurons
+        - controller: ua7gn-bcked-xbv6g-pp7fj-q3bal-mberj-jg4tz-lyivx-3ciqh-cm2tt-7qe # Utkarsh Goyal's Month 44 neurons
           stake_e8s: 104166700000000 # Month 44 Vesting
           memo: 44
           dissolve_delay_seconds: 7889400 # 3 months
           vesting_period_seconds: 115711200 # 44 month
-        - controller: mwcde-wabhb-goun4-4q7w2-xa4ov-x32eq-cyxje-qp36p-hqoqc-eit76-dae # Utkarsh Goyal's Month 45 neurons
+        - controller: ua7gn-bcked-xbv6g-pp7fj-q3bal-mberj-jg4tz-lyivx-3ciqh-cm2tt-7qe # Utkarsh Goyal's Month 45 neurons
           stake_e8s: 104166700000000 # Month 45 Vesting
           memo: 45
           dissolve_delay_seconds: 7889400 # 3 months
           vesting_period_seconds: 118341000 # 45 month
-        - controller: mwcde-wabhb-goun4-4q7w2-xa4ov-x32eq-cyxje-qp36p-hqoqc-eit76-dae # Utkarsh Goyal's Month 46 neurons
+        - controller: ua7gn-bcked-xbv6g-pp7fj-q3bal-mberj-jg4tz-lyivx-3ciqh-cm2tt-7qe # Utkarsh Goyal's Month 46 neurons
           stake_e8s: 104166700000000 # Month 46 Vesting
           memo: 46
           dissolve_delay_seconds: 7889400 # 3 months
           vesting_period_seconds: 120970800 # 46 month
-        - controller: mwcde-wabhb-goun4-4q7w2-xa4ov-x32eq-cyxje-qp36p-hqoqc-eit76-dae # Utkarsh Goyal's Month 47 neurons
+        - controller: ua7gn-bcked-xbv6g-pp7fj-q3bal-mberj-jg4tz-lyivx-3ciqh-cm2tt-7qe # Utkarsh Goyal's Month 47 neurons
           stake_e8s: 104166700000000 # Month 47 Vesting
           memo: 47
           dissolve_delay_seconds: 7889400 # 3 months
           vesting_period_seconds: 123600600 # 47 month
-        - controller: mwcde-wabhb-goun4-4q7w2-xa4ov-x32eq-cyxje-qp36p-hqoqc-eit76-dae # Utkarsh Goyal's Month 48 neurons
+        - controller: ua7gn-bcked-xbv6g-pp7fj-q3bal-mberj-jg4tz-lyivx-3ciqh-cm2tt-7qe # Utkarsh Goyal's Month 48 neurons
           stake_e8s: 104164600000000 # Month 48 Vesting
           memo: 48
           dissolve_delay_seconds: 7889400 # 3 months
