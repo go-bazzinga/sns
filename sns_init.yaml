@@ -52,7 +52,7 @@ neuron_minimum_dissolve_delay_to_vote_seconds: 7889400
 # Must have less than 341334 characters, roughly 256Kb.
 #
 # Current Configuration
-logo: ./icon/logo-symbol-square-512.png
+logo: ./sns/icon/logo-symbol-square-512.png
 #
 # Url to the dapp controlled by the SNS project.
 # Must be a string of max length = 512.

@@ -10,7 +10,7 @@ ic-admin   \
    --swap-due-timestamp-seconds "1296000"  \
    --sns-token-e8s 33000000000000000  \
    --target-swap-canister-id "${SNS_SWAP_ID}"  \
-   --community-fund-investment-e8s 50000000000000  \
+   --community-fund-investment-e8s 501_000_00_000_000  \
    --neuron-basket-count 5  \
    --neuron-basket-dissolve-delay-interval-seconds 15778800  \
    --proposal-title "Decentralize this SNS"  \
