@@ -1,17 +1,7 @@
 {
-  "sns_governance": {
-    "ic": "6wcax-haaaa-aaaaq-aaava-cai"
-  },
-  "sns_index": {
-    "ic": "6dfr2-giaaa-aaaaq-aaawq-cai"
-  },
-  "sns_ledger": {
-    "ic": "6rdgd-kyaaa-aaaaq-aaavq-cai"
-  },
-  "sns_root": {
-    "ic": "67bll-riaaa-aaaaq-aaauq-cai"
-  },
-  "sns_swap": {
-    "ic": "6eexo-lqaaa-aaaaq-aaawa-cai"
-  }
+  "governance_canister_id": "6wcax-haaaa-aaaaq-aaava-cai",
+  "index_canister_id": "6dfr2-giaaa-aaaaq-aaawq-cai",
+  "ledger_canister_id": "6rdgd-kyaaa-aaaaq-aaavq-cai",
+  "root_canister_id": "67bll-riaaa-aaaaq-aaauq-cai",
+  "swap_canister_id": "6eexo-lqaaa-aaaaq-aaawa-cai"
 }

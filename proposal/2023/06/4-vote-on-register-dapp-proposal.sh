@@ -13,7 +13,7 @@ for((i=0; i<"$(echo $JSON | jq length)"; i++))
 do
     export NEURON_ID="$(echo $JSON | jq -r ".[${i}].id[0].id" | python3 -c "import sys; ints=sys.stdin.readlines(); sys.stdout.write(bytearray(eval(''.join(ints))).hex())")"
     echo $NEURON_ID
-    ./sns-testing/bin/quill sns --canister-ids-file ./sns_canister_ids.json --pem-file "${PEM_FILE}" register-vote --proposal-id ${PROPOSAL} --vote ${VOTE} ${NEURON_ID} > ./sns/proposal/2023/06/register_dapp_vote.json
+    # ./sns-testing/bin/quill sns --canister-ids-file ./sns/sns_canister_ids.json --pem-file "${PEM_FILE}" register-vote --proposal-id ${PROPOSAL} --vote ${VOTE} ${NEURON_ID} > ./sns/proposal/2023/06/add_prepare_permission_vote.json
     
-    ./sns-testing/bin/quill --insecure-local-dev-mode send --yes ./sns/proposal/2023/06/register_dapp_vote.json
+    # ./sns-testing/bin/quill send --yes ./sns/proposal/2023/06/add_prepare_permission_vote.json
 done
