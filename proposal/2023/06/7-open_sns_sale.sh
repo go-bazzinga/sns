@@ -12,7 +12,7 @@ ic-admin   \
    --community-fund-investment-e8s 50100000000000  \
    --neuron-basket-count 5  \
    --neuron-basket-dissolve-delay-interval-seconds 15778800  \
-   --sale-delay-seconds 43200  \
+   --sale-delay-seconds 36000  \
    --proposal-title "Proposal to create an SNS-DAO for Hot or Not"  \
    --summary "## Summary
 
@@ -100,4 +100,6 @@ For more information please see a description of the architecture [here](https:/
 
 ## Verification
 
-All the details above can be verified, by examining the initialized HotorNot SNS canisters. [More detailed instructions are here](https://wiki.internetcomputer.org/wiki/How-to:_Verify_SNS_decentralization_swap_proposal)."
+All the details above can be verified, by examining the initialized HotorNot SNS canisters. [More detailed instructions are here](https://wiki.internetcomputer.org/wiki/How-to:_Verify_SNS_decentralization_swap_proposal).
+
+We, Rishi Chadha, Saikat Das and Utkarsh Goyal, on behalf of Hot or Not SARL (under constitution in Switzerland), are putting up this proposal for the Hot or Not SNS token swap which will become a DAO. The Hot or Not utility tokens will be issued by the company mentioned above."
