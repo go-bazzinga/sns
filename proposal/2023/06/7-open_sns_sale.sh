@@ -1,5 +1,6 @@
 ic-admin   \
    --nns-url "https://nns.ic0.app" propose-to-open-sns-token-swap  \
+   --proposer "15353467365037692422" \
    --min-participants 500  \
    --min-icp-e8s 100000000000000  \
    --max-icp-e8s 200000000000000  \
