@@ -1,5 +1,6 @@
 ic-admin   \
-   --nns-url "https://nns.ic0.app" propose-to-open-sns-token-swap  \
+   --nns-url "https://ic0.app" \
+   --secret-key-pem /home/saikat/.config/dfx/identity/hot_or_not_sns/identity.pem propose-to-open-sns-token-swap  \
    --proposer "15353467365037692422" \
    --min-participants 500  \
    --min-icp-e8s 100000000000000  \
@@ -22,7 +23,7 @@ This is the proposal for the NNS to create an SNS DAO to govern the [Hot or Not 
 
 Hot or Not is a decentralized social media platform governed by the people for the people.
 
-Hot or Not is a social media platform like TikTok where people can make and share short videos. But unlike TikTok, it also lets users predict which videos will become popular by choosing **Hot** or **Not**. The website declares winners every hour, and they get twice the token rewards. This platform combines three big industries: Web3, Social Media, and Prediction Markets.
+Hot or Not is a social media platform like TikTok where people can make and share short videos. But unlike TikTok, it lets users vote which videos will become popular by choosing **Hot** or **Not**. This platform combines three big industries: Web3, Social Media, and Gaming.
 
 It is open source and the code running on any canister smart contract [verifiably links back to a particular version](https://github.com/go-bazzinga/hot-or-not-dapp/blob/main/README.md) of the code. The repository for open-sourced codes can be accessed at the following links:
 
@@ -51,7 +52,7 @@ For more information on the initial token allocation please [read here](https://
 
 ## Governance
 
-- Each decentralization sale participant (including the Community Fund) will receive their tokens in a basket of 5 equal value CHAT neurons with dissolve delays of 0, 6, 12, 18, and 24 months respectively
+- Each decentralization sale participant (including the Community Fund) will receive their tokens in a basket of 5 equal value HOT neurons with dissolve delays of 0, 6, 12, 18, and 24 months respectively
 - The founding dev team will receive their tokens in a basket of 48 neurons. Each neuron will have a dissolve delay of 3 months. These neurons will be vested over a period of 48 months from the SNS Sale in equal proportions every month. The founders will not receive any tokens at the SNS sale event, with all the tokens having a vesting period at that time.
 - Each investor/advisor will receive tokens in the form of a basket of 24 equal-value neurons. Each neuron will have a dissolve delay of 3 months. These neurons will be vested over a period of 24 months from the SNS Sale in equal proportions every month.
 
@@ -92,7 +93,7 @@ Top-level canisters controlled by the HotorNot SNS root canister:
 - 1 Configuration canister (efsfj-sqaaa-aaaap-qatwa-cai)
 - 1 Data backup canister (jwktp-qyaaa-aaaag-abcfa-cai)
 - 1 Post Cache canister (y6yjf-jyaaa-aaaal-qbd6q-cai)
-- 1 User Index canister(rimrc-piaaa-aaaao-aaljq-cai)
+- 1 User Index canister (rimrc-piaaa-aaaao-aaljq-cai)
 
 Every logged in user on the platform receives a canister that stores their individual data. They are controlled by the user index canister. So, indirectly, they will all be controlled by the SNS as well.
 
